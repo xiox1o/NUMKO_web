@@ -1,8 +1,8 @@
-REPORTE DE ACTUALIZACIÓN · 2026-10-01 23:50
+REPORTE DE ACTUALIZACIÓN · 2026-10-01 23:57
 ======================================================================
 Filas en el Excel: 1030
 Perfumes publicados en la web: 990 (con 1029 versiones en total)
-Filas ocultas (MOSTRAR = NO): 5
+Filas ocultas (MOSTRAR = NO): 0
 Fotos disponibles en fotos/: 1038
 Perfumes con foto: 967
 Perfumes SIN foto: 23
@@ -12,7 +12,12 @@ Perfumes SIN foto: 23
  - fila 862 (CACHAREL ANAIS ANAIS): el tester no tiene descuento (precio tester 26500, retail tester 21000)
  - fila 962 (CALVIN KLEIN CK ONE): el tester no tiene descuento (precio tester 20000, retail tester 9500)
 
-## Filas repetidas: misma versión escrita dos veces (solo se publicó una) (3)
+## Filas repetidas: misma versión escrita dos veces (solo se publicó una) (8)
+ - MAISON ALHAMBRA YEAH PARFUM 100 ML: se publicó la fila 12 (precio 15000) y NO la fila 16 (precio 15500). Borra la que sobra o escribe NO en MOSTRAR.
+ - RASASI HAWAS ICE EDP 100 ML: se publicó la fila 128 (precio 33000) y NO la fila 135 (precio 38000). Borra la que sobra o escribe NO en MOSTRAR.
+ - ORIENTICA LE MOTIF WILD NEROLI EDP 85 ML: se publicó la fila 149 (precio 52000) y NO la fila 152 (precio 53000). Borra la que sobra o escribe NO en MOSTRAR.
+ - ORIENTICA CUIR EDP 90 ML: se publicó la fila 150 (precio 52000) y NO la fila 151 (precio 53000). Borra la que sobra o escribe NO en MOSTRAR.
+ - LATTAFA FAKHAR EDP 100 ML: se publicó la fila 190 (precio 19000) y NO la fila 206 (precio 22000). Borra la que sobra o escribe NO en MOSTRAR.
  - LATTAFA MAYAR NATURAL INTENSE EDP 100ML: se publicó la fila 421 (precio 22000) y NO la fila 440 (precio 24000). Borra la que sobra o escribe NO en MOSTRAR.
  - LATTAFA KHAMRAH EDP 100 ML: se publicó la fila 461 (precio 26000) y NO la fila 474 (precio 29000). Borra la que sobra o escribe NO en MOSTRAR.
  - AL HARAMAIN OPULENT SAFFRON EDP 100 ML: se publicó la fila 715 (precio 42000) y NO la fila 724 (precio 45000). Borra la que sobra o escribe NO en MOSTRAR.
@@ -83,7 +88,6 @@ Perfumes SIN foto: 23
  - JIVI STORY OF OUD CHAPTER 1ORIGIN 100ML PARFUMS.jpg
  - MOCHILA DIESSEL GRANDE.jpg
  - MOSCHINO SETT TOY 2 PEARL 30ML + PERFUMED BODY LOTION 50ML.jpg
- - MUGLER ALIEN EDP 90 ML.jpg
  - MUGLER ALIEN GODDES SUPRAFLORALE 90 ML EDP.jpg
  - MUGLER ANGEL MUJER 50 ML EDP.jpg
  - PARFUS DE MARLY DELINA EXCLUSIV PARFAUM 75ML.jpg
@@ -109,6 +113,7 @@ Perfumes SIN foto: 23
  - TESTER CACHAREL ANAIS ANAIS 100 ML EDT.jpg
  - TESTER CALVIN KLEIN CK IN2U HIM EDT 100ML.jpg
  - TESTER CALVIN KLEIN CK ONE EDT 100ML.jpg
+ - THIERRY MUGLER ALIEN GODDNES MUJER 90ML EDP.jpg
  - TOM FORD OMBRE LEATHER HOMBRE 100M EDP.jpg
  - VIKTOR AND ROLD FLOWERBOMB RUBY ORCHID MUJER 30ML EDP.jpg
  - VIKTOR AND ROLD GOOD FORTUNE MUJER 90ML EDP.jpg
@@ -121,10 +126,3 @@ Perfumes SIN foto: 23
  - LATAFFA YARA WOMAN 100ML EDP.jpg: LATTAFA__YARA / LATTAFA__YARA-WOMAN
  - LATTAFA MAYAR MUJER 100 ML EDP.jpg: LATTAFA__MAYAR__MUJER / LATTAFA__MAYAR__UNISEX
  - TOM FORD OMBRE LEATHER EDT 100ML.jpg: TOM-FORD__OMBRE-LEATHER__HOMBRE / TOM-FORD__OMBRE-LEATHER__UNISEX
-
-## Filas ocultas (MOSTRAR = NO) (5)
- - fila 16: MAISON ALHAMBRA YEAH PARFUM 100 ML (precio 15500)
- - fila 135: RASASI HAWAS ICE EDP 100 ML (precio 38000)
- - fila 151: ORIENTICA CUIR EDP 90 ML (precio 53000)
- - fila 152: ORIENTICA LE MOTIF WILD NEROLI EDP 85 ML (precio 53000)
- - fila 206: LATTAFA FAKHAR EDP 100 ML (precio 22000)
