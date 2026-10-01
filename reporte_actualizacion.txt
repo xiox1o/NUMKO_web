@@ -1,11 +1,11 @@
-REPORTE DE ACTUALIZACIÓN · 2026-10-01 23:24
+REPORTE DE ACTUALIZACIÓN · 2026-10-01 23:32
 ======================================================================
 Filas en el Excel: 1030
 Perfumes publicados en la web: 990 (con 1029 versiones en total)
 Filas ocultas (MOSTRAR = NO): 5
-Fotos disponibles en fotos/: 1035
-Perfumes con foto: 964
-Perfumes SIN foto: 26
+Fotos disponibles en fotos/: 1036
+Perfumes con foto: 965
+Perfumes SIN foto: 25
 
 
 ## AVISOS DE DATOS (revisar, no bloquean) (2)
@@ -36,7 +36,7 @@ Perfumes SIN foto: 26
  - CALVIN KLEIN: CK IN2U HER  /  CKIN2U
  - XERJOFF: ERBA PURA  /  ERBA PURA UNISEX
 
-## Perfumes SIN foto (escribe el nombre del archivo en la columna FOTO o agrega la foto a fotos/) (26)
+## Perfumes SIN foto (escribe el nombre del archivo en la columna FOTO o agrega la foto a fotos/) (25)
  - fila 27 LE CHAMEAU ARABIA THE BEAUTY (EDP 100 ML)
  - fila 306 MAISON ALHAMBRA LA VOIE (EDP 100ML)
  - fila 343 PARIS CORNER KHAIR CONFECTION SET (SET 100 ML)
@@ -62,7 +62,6 @@ Perfumes SIN foto: 26
  - fila 929 THIERRY MUGLER ALIEN GODDESS (EDP 90ML)
  - fila 930 VIKTOR AND ROLF FLOWERBOMB SET + LOTION + (SET 10ML)
  - fila 940 CAROLINA HERRERA GOOD GIRL NEW YORK (EDP 50ML)
- - fila 943 CAROLINA HERRERA CH WOMAN ROJO NUEVA PRES. (EDP 100 ML)
 
 ## Foto asignada por parecido de nombre (confirma que sea la correcta) (2)
  - fila 149 ORIENTICA LE MOTIF WILD NEROLI 85 ML  →  PERFUME LE MOTIF WILD NEROLI ORIENTICA HOMBRE EDP 85 ML.jpg
