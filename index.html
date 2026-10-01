@@ -909,14 +909,7 @@ function getFormatOptions(item) {
   }
   // una opción por cada versión: otro volumen, extrait, caja tester...
   const bottles = item.variantes.map(v => ({ id: v.id, name: v.nombre, subtitle: v.subtitulo, price: v.precio, retail: v.precioRetail, foto: v.foto }));
-  // los decants se calculan sobre la versión normal de mayor volumen
-  const normales = item.variantes.filter(v => !v.tester);
-  const base = (normales.length ? normales : item.variantes).reduce((a, b) => (volNum(b.volumen) > volNum(a.volumen) ? b : a));
-  const decants = [
-    { id: 'decant3', name: 'Decant 3 ML', subtitle: '~35 atomizaciones', price: 1900 },
-    { id: 'decant5', name: 'Decant 5 ML', subtitle: '~60 atomizaciones', price: Math.max(2900, Math.round(base.precio * 0.13 / 500) * 500) },
-    { id: 'decant10', name: 'Decant 10 ML', subtitle: '~120 atomizaciones', price: Math.max(4900, Math.round(base.precio * 0.22 / 500) * 500) }
-  ];
+  const decants = [];   // decants desactivados (no se venden como opción)
   return { bottles, decants };
 }
 
@@ -980,27 +973,7 @@ function openDetailDrawer(key) {
       </div>`;
   }).join('')}</div>`;
 
-  let decantsHtml = '';
-  if (decants.length > 0) {
-    decantsHtml = `<div class="mt-2 pt-2.5 border-t border-outline-variant/20 w-full">
-      <span class="text-[10px] font-bold uppercase tracking-wider text-on-surface-variant block mb-2">Decants Fraccionados (Muestras de Bolsillo):</span>
-      <div class="grid grid-cols-3 gap-2 w-full">${decants.map(d => `
-        <div class="flex flex-col justify-between p-2.5 rounded-2xl border text-on-surface transition-all duration-200 border-outline-variant/30 bg-surface-container-lowest shadow-xs min-h-[96px]" id="cardOpt_${d.id}">
-          <div class="flex flex-col">
-            <span class="text-[11px] font-bold leading-tight truncate text-on-surface">${d.name}</span>
-            <span class="text-[8px] text-on-surface-variant font-medium leading-tight mt-0.5 line-clamp-1">${d.subtitle}</span>
-            <span class="text-[12px] font-black text-primary mt-1">${formatCLP(d.price)}</span>
-          </div>
-          <div class="flex items-center justify-between bg-surface-container-high/80 rounded-full p-0.5 shadow-sm mt-2 w-full">
-            <input type="hidden" id="${d.id}_qtyInput" value="0">
-            <button type="button" aria-label="Disminuir ${d.name}" class="w-6 h-6 rounded-full bg-surface-container-lowest flex items-center justify-center text-on-surface active:scale-90 font-black shadow-sm transition-transform cursor-pointer text-xs hover:bg-white" onclick="adjustFormatQty('${d.id}', -1)">-</button>
-            <span class="text-[11px] font-extrabold text-on-surface px-1 text-center min-w-[16px]" id="${d.id}_qtyVal">0</span>
-            <button type="button" aria-label="Aumentar ${d.name}" class="w-6 h-6 rounded-full bg-surface-container-lowest flex items-center justify-center text-on-surface active:scale-90 font-black shadow-sm transition-transform cursor-pointer text-xs hover:bg-white" onclick="adjustFormatQty('${d.id}', 1)">+</button>
-          </div>
-        </div>`).join('')}
-      </div>
-    </div>`;
-  }
+  const decantsHtml = '';
   if (optContainer) optContainer.innerHTML = bottlesHtml + decantsHtml;
 
   const chipsEl = document.getElementById('detailNotesChips');
