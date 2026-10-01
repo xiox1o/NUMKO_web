@@ -79,7 +79,7 @@ const PRODUCTOS_DB = [
 "key":"FRAGRANCE-WORLD__PROUD-OF-YOU-OUD",
 "marca":"FRAGRANCE WORLD",
 "nombre":"PROUD OF YOU OUD",
-"nombreOriginal":"FRAGRANCE WORLD PROUDOF YOUR OUD",
+"nombreOriginal":"FRAGRANCE WORLD PROUD OF YOUR OUD",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
 "notas":[
