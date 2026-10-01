@@ -2,7 +2,7 @@
 // productos.js — ARCHIVO GENERADO AUTOMÁTICAMENTE. NO LO EDITES A MANO.
 // La fuente del catálogo es catalogo.xlsx. Para cambiar un perfume:
 //   1) edita catalogo.xlsx   2) ejecuta ACTUALIZAR_CATALOGO   3) recarga la página
-// Generado: 2026-10-01 01:29 · 990 perfumes · 1029 versiones
+// Generado: 2026-10-01 19:52 · 990 perfumes · 1029 versiones
 // Cada perfume se identifica por su 'key' = MARCA + NOMBRE (sin números de ID)
 // y trae sus 'variantes' (volumen, extrait, tester...) para elegir en el detalle.
 // ============================================================================
@@ -76,9 +76,9 @@ const PRODUCTOS_DB = [
 ]
 },
 {
-"key":"FRAGRANCE-WORLD__PROUDOF-YOUR-OUD",
+"key":"FRAGRANCE-WORLD__PROUD-OF-YOUR-OUD",
 "marca":"FRAGRANCE WORLD",
-"nombre":"PROUDOF YOUR OUD",
+"nombre":"PROUD OF YOUR OUD",
 "nombreOriginal":"FRAGRANCE WORLD PROUDOF YOUR OUD",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
@@ -25882,7 +25882,7 @@ const PRODUCTOS_DB = [
 "nombre":"YES I AM GLORIOUS",
 "nombreOriginal":"YES I AM GLORIOUS TESTER",
 "categoria":"MUJER",
-"coleccion":"nicho",
+"coleccion":"disenador",
 "notas":[
 "Grosella negra",
 "Abedul ahumado",
@@ -25910,7 +25910,7 @@ const PRODUCTOS_DB = [
 "nombre":"YES I AM FABULOUS",
 "nombreOriginal":"YES I AM FABULOUS TESTER",
 "categoria":"MUJER",
-"coleccion":"nicho",
+"coleccion":"disenador",
 "notas":[
 "Lichi exótico",
 "Rosa turca de Grasse",
