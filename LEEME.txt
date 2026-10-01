@@ -1,0 +1,41 @@
+NÜMKO · ESTRUCTURA SIMPLE
+=========================
+
+   catalogo.xlsx  ──►  productos.js  ──►  index.html
+   (lo editas tú)      (se genera solo)    (la página)
+
+PARA CAMBIAR EL CATÁLOGO
+  1. Abre catalogo.xlsx (hoja PRODUCTOS), edita, agrega o borra filas. Guarda y cierra.
+  2. Doble clic en ACTUALIZAR_CATALOGO.bat (Windows) o ACTUALIZAR_CATALOGO.command (Mac).
+  3. Recarga index.html.
+  (Sin Windows/Mac launcher:  python herramientas/actualizar_catalogo.py)
+
+NUNCA edites productos.js a mano: se sobrescribe cada vez.
+
+ARCHIVOS
+  catalogo.xlsx                   Fuente única del catálogo.
+  productos.js                    Generado. Es lo que lee la página.
+  index.html                      La página (ya no usa IDs numéricos).
+  fotos/                          Todas las fotos juntas (no se renombró ninguna).
+  herramientas/actualizar_catalogo.py   Convierte el Excel en productos.js y empareja fotos.
+  reporte_actualizacion.txt       Se regenera cada vez: perfumes sin foto, fotos sin perfume, avisos.
+
+IDENTIDAD DE CADA PERFUME: MARCA + NOMBRE (campo "key" en productos.js, p. ej. ARMAF__CLUB-DE-NUIT-MILESTONE).
+
+VERSIONES (EXTRAIT, TESTER, OTROS ML)
+  Cada fila del Excel es una versión. Las filas con la MISMA marca + nombre + categoría se juntan
+  en UNA sola tarjeta, y las versiones se eligen en el detalle del perfume.
+  Para que se junten, escribe MARCA y NOMBRE exactamente igual en todas sus filas
+  (cambia solo TIPO, VOLUMEN y los precios). Si el perfume es de otra categoría (HOMBRE/MUJER),
+  sale como perfume aparte.
+  Si dos filas son idénticas (mismo tipo y volumen), se publica la primera y el reporte te avisa.
+  El reporte también lista "nombres parecidos" y "mismo nombre con distinta categoría" para que
+  unifiques lo que sea el mismo perfume.
+
+Ya no hacen falta: "productos final.js", "marcas_para_coMPLETADO.xlsx", "revision_catalogo.xlsx",
+"correcciones_nombres.csv" ni "variantes_por_resolver.csv" (todo quedó integrado en catalogo.xlsx).
+
+ACTUALIZAR DESDE GITHUB (sin Python en tu computador)
+  Sube el catalogo.xlsx nuevo en GitHub (Add file > Upload files > Commit changes).
+  La Action (.github/workflows/actualizar.yml) genera productos.js y la página se publica sola.
+  Mira la pestaña Actions del repositorio: círculo verde = listo, cruz roja = hubo un error.
