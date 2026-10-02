@@ -1,4 +1,4 @@
-REPORTE DE ACTUALIZACIÓN · 2026-10-02 00:23
+REPORTE DE ACTUALIZACIÓN · 2026-10-02 00:30
 ======================================================================
 Filas en el Excel: 1030
 Perfumes publicados en la web: 990 (con 1026 versiones en total)
@@ -33,9 +33,8 @@ Perfumes SIN foto: 0
  - CAROLINA HERRERA 212 HEROES FOREVER YOUNG: HOMBRE (fila 820) / MUJER (fila 947)
  - TOM FORD OMBRE LEATHER: HOMBRE (fila 992) / UNISEX (fila 1018)
 
-## Nombres parecidos de la misma marca (si es el mismo perfume, escríbelos igual en el Excel para que se junten) (7)
+## Nombres parecidos de la misma marca (si es el mismo perfume, escríbelos igual en el Excel para que se junten) (6)
  - LATTAFA: FAKHAR  /  FAKHAR MAN
- - RASASI: HAWAS  /  HAWAS FOR HIM
  - LATTAFA: YARA  /  YARA WOMAN
  - CALVIN KLEIN: CK IN2U  /  CKIN2U
  - GIORGIO ARMANI: ACQUA DI GIO  /  ACQUA DI GIO MAN  /  ACQUA DI GIO MEN

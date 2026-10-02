@@ -2,7 +2,7 @@
 // productos.js — ARCHIVO GENERADO AUTOMÁTICAMENTE. NO LO EDITES A MANO.
 // La fuente del catálogo es catalogo.xlsx. Para cambiar un perfume:
 //   1) edita catalogo.xlsx   2) ejecuta ACTUALIZAR_CATALOGO   3) recarga la página
-// Generado: 2026-10-02 00:23 · 990 perfumes · 1026 versiones
+// Generado: 2026-10-02 00:30 · 990 perfumes · 1026 versiones
 // Cada perfume se identifica por su 'key' = MARCA + NOMBRE (sin números de ID)
 // y trae sus 'variantes' (volumen, extrait, tester...) para elegir en el detalle.
 // ============================================================================
@@ -3617,9 +3617,9 @@ const PRODUCTOS_DB = [
 ]
 },
 {
-"key":"RASASI__HAWAS",
+"key":"RASASI__SET-HAWAS",
 "marca":"RASASI",
-"nombre":"HAWAS",
+"nombre":"SET HAWAS",
 "nombreOriginal":"RASASI HAWAS",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
