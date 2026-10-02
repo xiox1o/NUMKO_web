@@ -1,16 +1,17 @@
-REPORTE DE ACTUALIZACIÓN · 2026-10-02 00:12
+REPORTE DE ACTUALIZACIÓN · 2026-10-02 00:23
 ======================================================================
 Filas en el Excel: 1030
-Perfumes publicados en la web: 990 (con 1029 versiones en total)
+Perfumes publicados en la web: 990 (con 1026 versiones en total)
 Filas ocultas (MOSTRAR = NO): 0
 Fotos disponibles en fotos/: 1039
 Perfumes con foto: 990
 Perfumes SIN foto: 0
 
 
-## AVISOS DE DATOS (revisar, no bloquean) (2)
- - fila 862 (CACHAREL ANAIS ANAIS): el tester no tiene descuento (precio tester 26500, retail tester 21000)
- - fila 962 (CALVIN KLEIN CK ONE): el tester no tiene descuento (precio tester 20000, retail tester 9500)
+## AVISOS DE DATOS (revisar, no bloquean) (3)
+ - fila 752 (CALVIN KLEIN CK IN2U): el tester no tiene descuento (precio tester 18000, retail tester None)
+ - fila 862 (CACHAREL ANAIS ANAIS): el tester no tiene descuento (precio tester 26500, retail tester None)
+ - fila 962 (CALVIN KLEIN CK ONE): el tester no tiene descuento (precio tester 20000, retail tester None)
 
 ## Filas repetidas: misma versión escrita dos veces (solo se publicó una) (8)
  - MAISON ALHAMBRA YEAH PARFUM 100 ML: se publicó la fila 12 (precio 15000) y NO la fila 16 (precio 15500). Borra la que sobra o escribe NO en MOSTRAR.

@@ -2,7 +2,7 @@
 // productos.js — ARCHIVO GENERADO AUTOMÁTICAMENTE. NO LO EDITES A MANO.
 // La fuente del catálogo es catalogo.xlsx. Para cambiar un perfume:
 //   1) edita catalogo.xlsx   2) ejecuta ACTUALIZAR_CATALOGO   3) recarga la página
-// Generado: 2026-10-02 00:12 · 990 perfumes · 1029 versiones
+// Generado: 2026-10-02 00:23 · 990 perfumes · 1026 versiones
 // Cada perfume se identifica por su 'key' = MARCA + NOMBRE (sin números de ID)
 // y trae sus 'variantes' (volumen, extrait, tester...) para elegir en el detalle.
 // ============================================================================
@@ -3642,7 +3642,7 @@ const PRODUCTOS_DB = [
 {
 "tipo":"EDP",
 "volumen":"100 ML",
-"presentacion":"Perfume solo",
+"presentacion":"Perfume solo + decant",
 "precio":33000,
 "precioRetail":49000,
 "foto":""
@@ -20135,15 +20135,6 @@ const PRODUCTOS_DB = [
 "precio":20000,
 "precioRetail":28000,
 "foto":""
-},
-{
-"tipo":"TESTER",
-"volumen":"100ML",
-"presentacion":"Tester",
-"precio":18000,
-"precioRetail":24500,
-"foto":"",
-"tester":true
 }
 ]
 },
@@ -22856,15 +22847,6 @@ const PRODUCTOS_DB = [
 "precio":17000,
 "precioRetail":24000,
 "foto":""
-},
-{
-"tipo":"TESTER",
-"volumen":"30 ML",
-"presentacion":"Tester",
-"precio":26500,
-"precioRetail":21000,
-"foto":"",
-"tester":true
 }
 ]
 },
@@ -25450,15 +25432,6 @@ const PRODUCTOS_DB = [
 "precio":8000,
 "precioRetail":11000,
 "foto":""
-},
-{
-"tipo":"TESTER",
-"volumen":"15ML",
-"presentacion":"Tester",
-"precio":20000,
-"precioRetail":9500,
-"foto":"",
-"tester":true
 }
 ]
 },
@@ -25882,7 +25855,7 @@ const PRODUCTOS_DB = [
 "nombre":"YES I AM GLORIOUS",
 "nombreOriginal":"YES I AM GLORIOUS TESTER",
 "categoria":"MUJER",
-"coleccion":"nicho",
+"coleccion":"disenador",
 "notas":[
 "Grosella negra",
 "Abedul ahumado",
@@ -25910,7 +25883,7 @@ const PRODUCTOS_DB = [
 "nombre":"YES I AM FABULOUS",
 "nombreOriginal":"YES I AM FABULOUS TESTER",
 "categoria":"MUJER",
-"coleccion":"nicho",
+"coleccion":"disenador",
 "notas":[
 "Lichi exótico",
 "Rosa turca de Grasse",
