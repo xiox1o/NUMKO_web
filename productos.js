@@ -2,7 +2,7 @@
 // productos.js — ARCHIVO GENERADO AUTOMÁTICAMENTE. NO LO EDITES A MANO.
 // La fuente del catálogo es catalogo.xlsx. Para cambiar un perfume:
 //   1) edita catalogo.xlsx   2) ejecuta ACTUALIZAR_CATALOGO   3) recarga la página
-// Generado: 2026-10-02 00:00 · 990 perfumes · 1029 versiones
+// Generado: 2026-10-02 00:02 · 990 perfumes · 1029 versiones
 // Cada perfume se identifica por su 'key' = MARCA + NOMBRE (sin números de ID)
 // y trae sus 'variantes' (volumen, extrait, tester...) para elegir en el detalle.
 // ============================================================================
@@ -780,7 +780,7 @@ const PRODUCTOS_DB = [
 "ámbar",
 "ámbar gris"
 ],
-"foto":"LE CHAMEAU ARABIA THE BEAUTY.webp",
+"foto":"LE CHAMEAU ARABIA THE BEAUTY 100ML EDP.jpg",
 "variantes":[
 {
 "tipo":"EDP",
