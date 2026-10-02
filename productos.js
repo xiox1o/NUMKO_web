@@ -2,7 +2,7 @@
 // productos.js — ARCHIVO GENERADO AUTOMÁTICAMENTE. NO LO EDITES A MANO.
 // La fuente del catálogo es catalogo.xlsx. Para cambiar un perfume:
 //   1) edita catalogo.xlsx   2) ejecuta ACTUALIZAR_CATALOGO   3) recarga la página
-// Generado: 2026-10-01 23:57 · 990 perfumes · 1029 versiones
+// Generado: 2026-10-02 00:00 · 990 perfumes · 1029 versiones
 // Cada perfume se identifica por su 'key' = MARCA + NOMBRE (sin números de ID)
 // y trae sus 'variantes' (volumen, extrait, tester...) para elegir en el detalle.
 // ============================================================================
@@ -9350,7 +9350,7 @@ const PRODUCTOS_DB = [
 "Pachulí terroso",
 "Ámbar gris"
 ],
-"foto":"",
+"foto":"PERFUME PARIS CORNER KHAIR CONFECTION MUJER EDP 100 ML  DESODORANTE 200 ML ESTUCHE.jpg",
 "variantes":[
 {
 "tipo":"SET",
@@ -10206,7 +10206,7 @@ const PRODUCTOS_DB = [
 "Pachulí terroso",
 "Ámbar gris"
 ],
-"foto":"",
+"foto":"PERFUME EMPER 9 TO 9 BY STALLION 53 UNISEX EDP 100 ML - 20 ML.jpg",
 "variantes":[
 {
 "tipo":"SET",
@@ -11277,7 +11277,7 @@ const PRODUCTOS_DB = [
 "Pachulí terroso",
 "Ámbar gris"
 ],
-"foto":"",
+"foto":"PERFUME EMPER INTENSO BY STALLION 53 UNISEX EDP 100 ML - 20 ML.jpg",
 "variantes":[
 {
 "tipo":"SET",
@@ -12220,7 +12220,7 @@ const PRODUCTOS_DB = [
 "Pachulí terroso",
 "Ámbar gris"
 ],
-"foto":"",
+"foto":"JIVI STORY OF OUD CHAPTER 1ORIGIN 100ML PARFUMS.jpg",
 "variantes":[
 {
 "tipo":"EDP",
@@ -12273,7 +12273,7 @@ const PRODUCTOS_DB = [
 "Vainilla suave",
 "Almizcle"
 ],
-"foto":"",
+"foto":"PERFUME JIVI STORY OF OUD CHAPTER COLLECTION UNISEX EDP 7 X 10 ML ESTUCHE.jpg",
 "variantes":[
 {
 "tipo":"SET",
@@ -16619,7 +16619,7 @@ const PRODUCTOS_DB = [
 "Sándalo cremoso",
 "Almizcle blanco"
 ],
-"foto":"",
+"foto":"PERFUME PARFUM.AE LIBERATUNISEX ED SOUL UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
 "tipo":"PARFUM",
@@ -19913,7 +19913,7 @@ const PRODUCTOS_DB = [
 "Pachulí terroso",
 "Ámbar gris"
 ],
-"foto":"",
+"foto":"SET BHARARA CHOCOLATE 100ML +10ML +BODY LOTION 200 + SHOWER ML200.jpg",
 "variantes":[
 {
 "tipo":"SET",
@@ -19967,7 +19967,7 @@ const PRODUCTOS_DB = [
 "Haba tonka",
 "Benjuí"
 ],
-"foto":"",
+"foto":"PERFUME FRENCH AVENUE GENESIS UNISEX EDP 12 X 30 ML ESTUCHE.jpg",
 "variantes":[
 {
 "tipo":"SET",
@@ -20898,7 +20898,7 @@ const PRODUCTOS_DB = [
 "Ambroxan",
 "Madera de cedro"
 ],
-"foto":"",
+"foto":"ISSEY MIYAKE 50ML +CREMA HIDRATANTE 50ML+GEL DE DIUCHA 50ML.jpg",
 "variantes":[
 {
 "tipo":"SET",
@@ -21250,7 +21250,7 @@ const PRODUCTOS_DB = [
 "Haba tonka caramelizada",
 "Miel de abejas"
 ],
-"foto":"",
+"foto":"DOLCE Y GABBANA LIGHT BLUE POU HOMME EDT 100ML.jpg",
 "variantes":[
 {
 "tipo":"EDT",
@@ -21893,7 +21893,7 @@ const PRODUCTOS_DB = [
 "Haba tonka caramelizada",
 "Miel de abejas"
 ],
-"foto":"",
+"foto":"CAROLINA HERRERA 212 VIPBLACK NYC NY RODEO EDP 80ML.jpg",
 "variantes":[
 {
 "tipo":"EDP",
@@ -22157,7 +22157,7 @@ const PRODUCTOS_DB = [
 "Jazmín sambac",
 "Vainilla"
 ],
-"foto":"",
+"foto":"GIORGIO ARMANI SET ARMANI ACQUA DIO GIO PARFUM EDT 100ML +15ML.jpg",
 "variantes":[
 {
 "tipo":"EDT",
@@ -22183,7 +22183,7 @@ const PRODUCTOS_DB = [
 "Ambroxan",
 "Madera de cedro"
 ],
-"foto":"",
+"foto":"JEAN PAUL GALTIER LE MALE TRAVE EDT 125 ML + 20ML.jpg",
 "variantes":[
 {
 "tipo":"SET",
@@ -22236,7 +22236,7 @@ const PRODUCTOS_DB = [
 "Jazmín sambac",
 "Vainilla"
 ],
-"foto":"",
+"foto":"JEAN PAUL GULTIER LE MALE SETT EDT 125 ML+40ML.jpg",
 "variantes":[
 {
 "tipo":"SET",
@@ -22420,7 +22420,7 @@ const PRODUCTOS_DB = [
 "Haba tonka caramelizada",
 "Miel de abejas"
 ],
-"foto":"",
+"foto":"GIORGIO ARMANI ACQUA DI RECARGABLE 150 ML EDP.jpg",
 "variantes":[
 {
 "tipo":"EDP",
@@ -23048,7 +23048,7 @@ const PRODUCTOS_DB = [
 "Ambroxan",
 "Madera de cedro"
 ],
-"foto":"",
+"foto":"SET DIESEL ZERO PLUS FEMININE 100ML + 30ML EDT.jpg",
 "variantes":[
 {
 "tipo":"EDT",
@@ -23127,7 +23127,7 @@ const PRODUCTOS_DB = [
 "Ambroxan",
 "Madera de cedro"
 ],
-"foto":"",
+"foto":"BRITNEY SPEARS MIDNIGHT FANTASY WOMAN100ML EDP.jpg",
 "variantes":[
 {
 "tipo":"EDP",
@@ -23719,7 +23719,7 @@ const PRODUCTOS_DB = [
 "Jazmín sambac",
 "Vainilla"
 ],
-"foto":"",
+"foto":"VIKTOR AND ROLD FLOWERBOMB RUBY ORCHID MUJER 30ML EDP.jpg",
 "variantes":[
 {
 "tipo":"EDP",
@@ -24045,7 +24045,7 @@ const PRODUCTOS_DB = [
 "Jazmín sambac",
 "Vainilla"
 ],
-"foto":"",
+"foto":"MOSCHINO SETT TOY 2 PEARL 30ML + PERFUMED BODY LOTION 50ML.jpg",
 "variantes":[
 {
 "tipo":"SET",
@@ -24518,7 +24518,7 @@ const PRODUCTOS_DB = [
 "Jazmín sambac",
 "Vainilla"
 ],
-"foto":"",
+"foto":"MUGLER ALIEN GODDES SUPRAFLORALE 90 ML EDP.jpg",
 "variantes":[
 {
 "tipo":"EDP",
@@ -24570,7 +24570,7 @@ const PRODUCTOS_DB = [
 "Haba tonka caramelizada",
 "Miel de abejas"
 ],
-"foto":"",
+"foto":"THIERRY MUGLER ALIEN GODDNES MUJER 90ML EDP.jpg",
 "variantes":[
 {
 "tipo":"EDP",
@@ -24597,7 +24597,7 @@ const PRODUCTOS_DB = [
 "Jazmín sambac",
 "Vainilla"
 ],
-"foto":"",
+"foto":"VIKTOR Y ROLF FLOWERBOMB SETT 1OOML EDP + BODY LOTION +10ML.jpg",
 "variantes":[
 {
 "tipo":"SET",
@@ -24866,7 +24866,7 @@ const PRODUCTOS_DB = [
 "Vainilla",
 "Praliné"
 ],
-"foto":"",
+"foto":"CAROLINA HERRERA GOOD GIRL NEY YORK EDP 50ML.jpg",
 "variantes":[
 {
 "tipo":"EDP",
