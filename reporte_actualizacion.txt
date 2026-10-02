@@ -1,9 +1,9 @@
-REPORTE DE ACTUALIZACIÓN · 2026-10-02 00:03
+REPORTE DE ACTUALIZACIÓN · 2026-10-02 00:08
 ======================================================================
 Filas en el Excel: 1030
 Perfumes publicados en la web: 990 (con 1029 versiones en total)
 Filas ocultas (MOSTRAR = NO): 0
-Fotos disponibles en fotos/: 1038
+Fotos disponibles en fotos/: 1039
 Perfumes con foto: 990
 Perfumes SIN foto: 0
 
@@ -45,7 +45,7 @@ Perfumes SIN foto: 0
  - fila 149 ORIENTICA LE MOTIF WILD NEROLI 85 ML  →  PERFUME LE MOTIF WILD NEROLI ORIENTICA HOMBRE EDP 85 ML.jpg
  - fila 150 ORIENTICA CUIR 90 ML  →  PERFUME CUIR DE ORIENTICA HOMBRE EDP 90 ML.jpg
 
-## Fotos que no coinciden con ningún perfume del catálogo (26)
+## Fotos que no coinciden con ningún perfume del catálogo (27)
  - BOLSO AZZARO.jpg
  - Clavin Klein Eternity For Men Edt 50ml.jpg
  - DAVIDOFF COOL WATER WOMEN SEA ROSE EDT 100ML TESTER.jpg
@@ -68,6 +68,7 @@ Perfumes SIN foto: 0
  - TESTER CACHAREL ANAIS ANAIS 100 ML EDT.jpg
  - TESTER CALVIN KLEIN CK IN2U HIM EDT 100ML.jpg
  - TESTER CALVIN KLEIN CK ONE EDT 100ML.jpg
+ - THIERRY MUGLER TALISMAN PARFUM 60 ML EDP.jpg
  - TOM FORD OMBRE LEATHER HOMBRE 100M EDP.jpg
  - VIKTOR AND ROLD GOOD FORTUNE MUJER 90ML EDP.jpg
  - XERJOFF TESTER ATP TORINO 24 EDP 50ML.jpg
