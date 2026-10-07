@@ -1158,4 +1158,223 @@ function openDetailDrawer(key) {
   }).join('')}</div>`;
 
   const decantsHtml = '';
-  if (optContainer) optContainer.innerHTML = bottlesHtml
+  if (optContainer) optContainer.innerHTML = bottlesHtml + decantsHtml;
+
+  const chipsEl = document.getElementById('detailNotesChips');
+  if (chipsEl) {
+    const noteList = (item.notes || '').split(',').map(s => s.trim()).filter(Boolean);
+    const notesWrapper = chipsEl.parentElement; // Selecciona el contenedor completo incluyendo el título
+    
+    if (noteList.length > 0) {
+      chipsEl.innerHTML = noteList.map(n => `<span class="px-2.5 py-1 rounded-full bg-surface-container-lowest border border-outline-variant/20 text-[10px] font-bold text-on-surface">${n}</span>`).join('');
+      if (notesWrapper) notesWrapper.style.display = 'flex';
+    } else {
+      chipsEl.innerHTML = '';
+      if (notesWrapper) notesWrapper.style.display = 'none';
+    }
+  }
+
+  const waMsg = encodeURIComponent(`Hola Nümko 👋\nTengo interés en "${item.cleanTitle}" de ${item.brand}. ¿Tienen stock disponible?`);
+  const detailWaBtn = document.getElementById('detailDirectWhatsApp');
+  if (detailWaBtn) detailWaBtn.href = `https://wa.me/${WHATSAPP_PHONE}?text=${waMsg}`;
+
+  modal.showModal();
+  const sheet = modal.querySelector('.modal-sheet');
+  if (sheet) { sheet.classList.add('translate-y-full'); requestAnimationFrame(() => sheet.classList.remove('translate-y-full')); }
+}
+
+function adjustFormatQty(id, delta) {
+  const input = document.getElementById(`${id}_qtyInput`);
+  const valEl = document.getElementById(`${id}_qtyVal`);
+  const card = document.getElementById(`cardOpt_${id}`);
+  if (!input || !valEl) return;
+  let v = (parseInt(input.value) || 0) + delta;
+  if (v < 0) v = 0;
+  input.value = v; valEl.textContent = v;
+  if (delta > 0) mostrarFotoVariante(id);
+  if (card) {
+    if (v > 0) { card.classList.add('border-primary', 'bg-primary-fixed/20'); card.classList.remove('border-outline-variant/30', 'bg-surface-container-lowest'); }
+    else { card.classList.remove('border-primary', 'bg-primary-fixed/20'); card.classList.add('border-outline-variant/30', 'bg-surface-container-lowest'); }
+  }
+}
+
+function applySelectedOptionsAndOpenQuote() {
+  if (!activeDetailProduct) return;
+  const p = activeDetailProduct;
+  const { bottles, decants } = getFormatOptions(p);
+  const allFormats = [...bottles, ...decants];
+  let addedAny = false;
+  allFormats.forEach(f => {
+    const input = document.getElementById(`${f.id}_qtyInput`);
+    const count = input ? (parseInt(input.value) || 0) : 0;
+    if (count > 0) {
+      addedAny = true;
+      const ex = cart.find(c => c.key === p.key && c.type === f.name);
+      if (ex) ex.qty += count;
+      else cart.push({ key: p.key, title: p.cleanTitle, brand: p.brand, price: f.price, retailPrice: f.retail || Math.round(f.price * 1.5), qty: count, type: f.name });
+    }
+  });
+  if (!addedAny && p.multi) {
+    // el aviso normal queda tapado por la ventana de detalle, así que se resalta la lista de versiones
+    const lista = document.getElementById('detailOptionsContainer');
+    if (lista) {
+      lista.classList.add('ring-2', 'ring-primary', 'rounded-2xl', 'p-1');
+      lista.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      setTimeout(() => lista.classList.remove('ring-2', 'ring-primary', 'rounded-2xl', 'p-1'), 1500);
+    }
+    return;
+  }
+  if (!addedAny) {
+    const defaultFormat = bottles[0];
+    const ex = cart.find(c => c.key === p.key && c.type === defaultFormat.name);
+    if (ex) ex.qty += 1;
+    else cart.push({ key: p.key, title: p.cleanTitle, brand: p.brand, price: defaultFormat.price, retailPrice: defaultFormat.retail, qty: 1, type: defaultFormat.name });
+  }
+  closeDetailModal();
+  updateCartUI();
+  openQuotationModal();
+}
+
+function closeDetailModal() {
+  const modal = document.getElementById('detailModal');
+  if (!modal) return;
+  const sheet = modal.querySelector('.modal-sheet');
+  if (sheet) { sheet.classList.add('translate-y-full'); setTimeout(() => modal.close(), 260); }
+  else modal.close();
+}
+function openQuotationModal() {
+  const m = document.getElementById('quoteModal');
+  if (!m) return;
+  updateCartUI();
+  if (!m.open) m.showModal();
+  const sheet = m.querySelector('.modal-sheet');
+  if (sheet) { sheet.classList.add('translate-y-full'); requestAnimationFrame(() => sheet.classList.remove('translate-y-full')); }
+}
+function closeQuotationModal() {
+  const m = document.getElementById('quoteModal');
+  if (!m) return;
+  const sheet = m.querySelector('.modal-sheet');
+  if (sheet) { sheet.classList.add('translate-y-full'); setTimeout(() => m.close(), 260); }
+  else m.close();
+}
+function changeQty(idx, delta) {
+  if (!cart[idx]) return;
+  cart[idx].qty += delta;
+  if (cart[idx].qty <= 0) cart.splice(idx, 1);
+  updateCartUI();
+}
+
+function buildWhatsAppMessage() {
+  if (!cart || cart.length === 0) return "";
+  const totalPrice = cart.reduce((acc, c) => acc + (c.price * c.qty), 0);
+  let lines = ["Hola Nümko 👋", "Quisiera cotizar los siguientes productos:"];
+  cart.forEach(c => lines.push(`• ${c.title} — ${formatCLP(c.price)} Cantidad: ${c.qty}`));
+  lines.push(`Total: ${formatCLP(totalPrice)}`);
+  lines.push("¡Gracias!");
+  return lines.join("\n");
+}
+
+function updateCartUI() {
+  const totalCount = cart.reduce((acc, c) => acc + c.qty, 0);
+  const totalPrice = cart.reduce((acc, c) => acc + (c.price * c.qty), 0);
+  const totalRetail = cart.reduce((acc, c) => acc + ((c.retailPrice || (c.price * 1.45)) * c.qty), 0);
+  const totalSavings = Math.max(0, totalRetail - totalPrice);
+  const savingsPct = totalRetail > 0 ? Math.round((totalSavings / totalRetail) * 100) : 0;
+
+  const b1 = document.getElementById('cartCountBadge');
+  const b2 = document.getElementById('floatingCartCount');
+  const b3 = document.getElementById('bottomNavBadge');
+  [b1, b2, b3].forEach(b => {
+    if (!b) return;
+    b.textContent = totalCount;
+    if (totalCount > 0) { b.classList.remove('hidden'); b.classList.remove('badge-pop'); void b.offsetWidth; b.classList.add('badge-pop'); }
+    else b.classList.add('hidden');
+  });
+
+  const floatText = document.getElementById('floatingItemsText');
+  const floatTotal = document.getElementById('floatingTotalText');
+  const floatSavings = document.getElementById('floatingSavingsText');
+  if (floatText) floatText.textContent = `${totalCount} perfume${totalCount === 1 ? '' : 's'} agregado${totalCount === 1 ? '' : 's'}`;
+  if (floatTotal) floatTotal.textContent = `${formatCLP(totalPrice)}`;
+  if (floatSavings) floatSavings.textContent = `Ahorras ${formatCLP(totalSavings)} vs referencia`;
+
+  const bar = document.getElementById('quotationBar');
+  if (bar) {
+    if (totalCount === 0) {
+      bar.classList.add('opacity-0', 'pointer-events-none', 'translate-y-3'); bar.classList.remove('opacity-100', 'translate-y-0');
+      setTimeout(() => { if (cart.length === 0) bar.classList.add('hidden'); }, 300);
+    } else {
+      bar.classList.remove('hidden');
+      requestAnimationFrame(() => { bar.classList.remove('opacity-0', 'pointer-events-none', 'translate-y-3'); bar.classList.add('opacity-100', 'translate-y-0'); });
+    }
+  }
+
+  const container = document.getElementById('quoteItemsContainer');
+  if (container) {
+    if (cart.length === 0) {
+      container.innerHTML = `<div class="py-6 text-center text-on-surface-variant flex flex-col items-center gap-1.5">
+        <span class="material-symbols-outlined text-[32px] text-outline">shopping_basket</span>
+        <span class="text-[12px] font-bold">Tu lista de cotización está vacía</span>
+        <span class="text-[10px]">Agrega fragancias del catálogo para comenzar</span></div>`;
+    } else {
+      container.innerHTML = cart.map((c, i) => {
+        const itemRetail = (c.retailPrice || (c.price * 1.45)) * c.qty;
+        const itemTotal = c.price * c.qty;
+        const itemSavings = Math.max(0, itemRetail - itemTotal);
+        return `<div class="flex items-center justify-between p-2.5 rounded-xl bg-surface-container-lowest shadow-sm border border-outline-variant/20 hover:border-primary/30 transition-colors">
+          <div class="flex flex-col min-w-0 pr-2">
+            <span class="text-[12px] font-bold text-on-surface truncate">${c.title}</span>
+            <div class="flex items-center gap-1.5 mt-0.5 flex-wrap">
+              <span class="text-[10px] text-on-surface-variant font-medium">${c.type}</span>
+              <span class="text-[10px] text-outline line-through">${formatCLP(itemRetail)}</span>
+              <span class="text-[11px] font-extrabold text-primary">${formatCLP(itemTotal)}</span>
+            </div>
+            <span class="text-[9px] font-bold text-emerald-800">Ahorro: ${formatCLP(itemSavings)}</span>
+          </div>
+          <div class="flex items-center gap-1.5 shrink-0 bg-surface-container-high/60 rounded-full p-0.5">
+            <button class="w-6 h-6 rounded-full bg-surface-container-lowest flex items-center justify-center text-on-surface active:scale-90 font-black shadow-sm transition-transform cursor-pointer" onclick="changeQty(${i}, -1)">-</button>
+            <span class="text-[11px] font-extrabold text-on-surface px-1 min-w-[16px] text-center">${c.qty}</span>
+            <button class="w-6 h-6 rounded-full bg-surface-container-lowest flex items-center justify-center text-on-surface active:scale-90 font-black shadow-sm transition-transform cursor-pointer" onclick="changeQty(${i}, 1)">+</button>
+          </div>
+        </div>`;
+      }).join('');
+    }
+  }
+
+  const retailEl = document.getElementById('quoteRetailTotal');
+  const sub = document.getElementById('quoteSubtotal');
+  const tot = document.getElementById('quoteTotal');
+  const savingsBox = document.getElementById('quoteTotalSavings');
+  if (retailEl) retailEl.textContent = `${formatCLP(totalRetail)} CLP`;
+  if (sub) sub.textContent = `${formatCLP(totalPrice)} CLP`;
+  if (tot) tot.textContent = `${formatCLP(totalPrice)} CLP`;
+  if (savingsBox) savingsBox.textContent = `${formatCLP(totalSavings)} CLP (${savingsPct}% de ahorro)`;
+
+  const promo = document.getElementById('quotePromoBanner');
+  const pText = document.getElementById('quotePromoText');
+  if (promo && pText) {
+    if (totalPrice >= 50000) {
+      promo.classList.remove('bg-surface-container-high', 'text-on-surface');
+      promo.classList.add('bg-tertiary-fixed', 'text-on-tertiary-fixed');
+      pText.textContent = "¡Felicidades! Pedido con Decant muestra gratis incluido.";
+    } else {
+      promo.classList.remove('bg-tertiary-fixed', 'text-on-tertiary-fixed');
+      promo.classList.add('bg-surface-container-high', 'text-on-surface');
+      pText.textContent = `Agrega ${formatCLP(50000 - totalPrice)} más para recibir Decant de regalo`;
+    }
+  }
+}
+
+
+
+/* ===== Arranque ===== */
+document.addEventListener('DOMContentLoaded', () => {
+  aplicarTemporada();
+  const searchInput = document.getElementById('catalogSearch');
+  if (searchInput) { searchInput.value = ''; searchInput.placeholder = 'Buscar fragancia...'; }
+  ['detailModal', 'quoteModal'].forEach(id => { const d = document.getElementById(id); if (d && d.open) d.close(); });
+  applyFilters();
+  updateCartUI();
+});
+</script>
+</body></html>
