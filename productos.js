@@ -2,7 +2,7 @@
 // productos.js — ARCHIVO GENERADO AUTOMÁTICAMENTE. NO LO EDITES A MANO.
 // La fuente del catálogo es catalogo.xlsx. Para cambiar un perfume:
 //   1) edita catalogo.xlsx   2) ejecuta ACTUALIZAR_CATALOGO   3) recarga la página
-// Generado: 2026-10-07 01:37 · 830 perfumes · 858 versiones
+// Generado: 2026-10-07 06:25 · 830 perfumes · 858 versiones
 // Cada perfume se identifica por su 'key' = MARCA + NOMBRE (sin números de ID)
 // y trae sus 'variantes' (volumen, extrait, tester...) para elegir en el detalle.
 // ============================================================================
@@ -43,7 +43,7 @@ const PRODUCTOS_DB = [
 "key":"FRAGRANCE-WORLD__PROUD-OF-YOU-OUD",
 "marca":"FRAGRANCE WORLD",
 "nombre":"PROUD OF YOU OUD",
-"nombreOriginal":"FRAGRANCE WORLD PROUDOF YOUR OUD",
+"nombreOriginal":"FRAGRANCE WORLD PROUD OF YOU OUD",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
 "notas":[
@@ -256,7 +256,7 @@ const PRODUCTOS_DB = [
 "key":"FRAGRANCE-WORLD__PROUD-OF-YOU-ABSOLUTE",
 "marca":"FRAGRANCE WORLD",
 "nombre":"PROUD OF YOU ABSOLUTE",
-"nombreOriginal":"PROUD OF YOU ABSOLUTE",
+"nombreOriginal":"FRAGRANCE WORLD PROUD OF YOU ABSOLUTE",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
 "notas":[
@@ -287,7 +287,7 @@ const PRODUCTOS_DB = [
 "key":"FRAGRANCE-WORLD__HAYAATI-BEAU",
 "marca":"FRAGRANCE WORLD",
 "nombre":"HAYAATI BEAU",
-"nombreOriginal":"HAYAATI BEAU",
+"nombreOriginal":"FRAGRANCE WORLD HAYAATI BEAU",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
 "notas":[
@@ -354,7 +354,7 @@ const PRODUCTOS_DB = [
 "key":"GIORGIO-ARMANI__ARMOUR-CODE-ABSOLUTE",
 "marca":"GIORGIO ARMANI",
 "nombre":"ARMOUR CODE ABSOLUTE",
-"nombreOriginal":"ARMOUR CODE ABSOLUTE",
+"nombreOriginal":"GIORGIO ARMANI ARMOUR CODE ABSOLUTE",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
 "notas":[
@@ -511,7 +511,7 @@ const PRODUCTOS_DB = [
 "key":"FRAGRANCE-WORLD__GENUINE-MAN-SOCIETY",
 "marca":"FRAGRANCE WORLD",
 "nombre":"GENUINE MAN SOCIETY",
-"nombreOriginal":"FRAGANCE WORLD GENUINE MAN SOCIETY",
+"nombreOriginal":"FRAGRANCE WORLD GENUINE MAN SOCIETY",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
 "notas":[
@@ -568,7 +568,7 @@ const PRODUCTOS_DB = [
 "key":"FRAGRANCE-WORLD__AQUA-DE-CLASSIC-MAN",
 "marca":"FRAGRANCE WORLD",
 "nombre":"AQUA DE CLASSIC MAN",
-"nombreOriginal":"FRAGANCE WORLD AQUA DE CLASSIC MAN",
+"nombreOriginal":"FRAGRANCE WORLD AQUA DE CLASSIC MAN",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
 "notas":[
@@ -762,7 +762,7 @@ const PRODUCTOS_DB = [
 "key":"LATTAFA__QAA-ED-SHABAAB",
 "marca":"LATTAFA",
 "nombre":"QAA ED SHABAAB",
-"nombreOriginal":"LATAFFA QAA ED SHABAAB",
+"nombreOriginal":"LATTAFA QAA ED SHABAAB",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
 "notas":[
@@ -1083,14 +1083,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"SELECTIVE MILLIONARE",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME SELECTIVE MILLIONARE HOMBRE EDP 85 ML.jpg",
 "variantes":[
 {
@@ -1243,7 +1236,7 @@ const PRODUCTOS_DB = [
 "key":"RASASI__HAWAS-ELIXIR",
 "marca":"RASASI",
 "nombre":"HAWAS ELIXIR",
-"nombreOriginal":"RASSASI HAWAS ELIXIR",
+"nombreOriginal":"RASASI HAWAS ELIXIR",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
 "notas":[
@@ -1917,14 +1910,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS BOXED BOSS",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS BOXED BOSS CLON BOSS BOTTLED HUGO BOSS HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -2001,14 +1987,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS ARES",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS ARES CLON EROS VERSACE HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -2028,14 +2007,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS QUIET MEN",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS QUIET MEN CLON SCANDAL JEAN PAUL GAULTIER HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -2055,14 +2027,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS ELEVEN MEN",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS ELEVEN MEN CLON 212 CAROLINA HERRERA HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -2082,13 +2047,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS ONE GOLD",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS ONE GOLD CLON ONE MILLION PACO RABANNE HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -2108,14 +2067,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS BEST MEN",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS BEST MEN CLON L HOMME IDEAL GUERLAIN HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -2135,14 +2087,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS CELSIOUS",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS CELSIOUS CLON FAHRENHEIT CHRISTIAN DIOR HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -2162,14 +2107,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS BARCODE",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS BARCODE CLON CODE GIORGIO ARMANI HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -2189,13 +2127,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS UNBEATABLE",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS UNBEATABLE CLON INVICTUS PACO RABANNE HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -2215,14 +2147,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS SALVAGE",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS SALVAGE CLON SAUVAGE CHRISTIAN DIOR HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -2242,14 +2167,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS Z MEN",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS Z MEN CLON Y YVES SAINT LAURENT HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -2269,14 +2187,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS AMAN",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS AMAN CLON AMEN THIERRY MUGLER MEN HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -2296,13 +2207,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS STARSTAND",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS STARSTAND CLON STARWALKER MONT BLANC HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -2322,14 +2227,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS EMBLEMATIC",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS EMBLEMATIC CLON EMBLEM MONT BLANC HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -2349,14 +2247,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS EXPLORATION",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS EXPLORATION CLON EXPLORER MONT BLANC HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -2376,14 +2267,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS RED POOL",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS RED POOL CLON POLO RED RALPH LAUREN HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -2403,13 +2287,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DUPE PARFUMS SINGULARITY MAN",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME DUPE PARFUMS SINGULARITY MAN HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -2429,14 +2307,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DUPE PARFUMS DEUXIEME HOMME",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME DUPE PARFUMS DEUXIEME HOMME HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -2456,14 +2327,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DUPE PARFUMS BLUE POINT",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME DUPE PARFUMS BLUE POINT HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -2483,13 +2347,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DUPE PARFUMS BRUTAL",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME DUPE PARFUMS BRUTAL HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -2509,14 +2367,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS JAMES",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS JAMES CLON GENTLEMAN GIVENCHY HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -2536,14 +2387,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS TOY GAME",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS TOY GAME CLON TOY BOY MOSCHINO HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -2563,14 +2407,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS BLUE POOL",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS BLUE POOL CLON POLO BLUE RALPH LAUREN HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -2590,13 +2427,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS BLACK POOL",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS BLACK POOL CLON POLO BLACK RALPH LAUREN HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -2617,12 +2448,18 @@ const PRODUCTOS_DB = [
 "categoria":"HOMBRE",
 "coleccion":"arabe",
 "notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
+"Lavanda",
+"bergamota",
+"limón",
+"pera",
+"menta",
+"esclarea",
+"canela",
+"alcaravea",
+"vainilla",
+"pachulí",
+"cedro",
+"ámbar"
 ],
 "foto":"PERFUME JO MILANO SAUDI KING HOMBRE EDP 100 ML.jpg",
 "variantes":[
@@ -2644,12 +2481,14 @@ const PRODUCTOS_DB = [
 "categoria":"HOMBRE",
 "coleccion":"arabe",
 "notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
+"Limón",
+"bergamota",
+"toronja",
+"manzana",
+"nuez moscada",
+"ámbar",
+"vainilla",
+"notas amaderadas"
 ],
 "foto":"PERFUME JO MILANO LEVANTE BLUE INTENSE VARON EDP 100 ML.jpg",
 "variantes":[
@@ -2667,7 +2506,7 @@ const PRODUCTOS_DB = [
 "key":"ARMAF__CLUB-DE-NUIT-INTENSE",
 "marca":"ARMAF",
 "nombre":"CLUB DE NUIT INTENSE",
-"nombreOriginal":"ARMAF CLUB DE NUIT INTENSE MAN",
+"nombreOriginal":"ARMAF CLUB DE NUIT INTENSE",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
 "notas":[
@@ -2699,7 +2538,7 @@ const PRODUCTOS_DB = [
 "key":"LATTAFA__SET-ASAD-ZANZIBAR",
 "marca":"LATTAFA",
 "nombre":"SET ASAD + ZANZIBAR",
-"nombreOriginal":"LATAFFA SET ASAD + ZANZIBAR",
+"nombreOriginal":"LATTAFA SET ASAD + ZANZIBAR",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
 "notas":[
@@ -2733,11 +2572,16 @@ const PRODUCTOS_DB = [
 "categoria":"HOMBRE",
 "coleccion":"arabe",
 "notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
+"Pomelo",
+"limón",
+"menta",
+"jengibre",
+"jazmín",
+"nuez moscada",
+"sándalo",
+"vetiver",
+"cedro",
+"pachulí"
 ],
 "foto":"AL HARAMAIN FRENCH COLLECTION AZURE HOMBRE 100 ML EDP.jpg",
 "variantes":[
@@ -2755,16 +2599,20 @@ const PRODUCTOS_DB = [
 "key":"AFNAN__9PM-FOR-MEN-SG-DEO",
 "marca":"AFNAN",
 "nombre":"9PM FOR MEN + SG + DEO",
-"nombreOriginal":"SET AFNAN 9PM FOR MEN + SG + DEO",
+"nombreOriginal":"AFNAN 9PM FOR MEN + SG + DEO",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
 "notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
+"Manzana",
+"canela",
+"lavanda silvestre",
+"bergamota",
+"flor de azahar del naranjo",
+"lirio de los valles",
+"vainilla",
+"haba tonka",
+"ámbar",
+"pachulí"
 ],
 "foto":"SET AFNAN 9PM FOR MEN EDP 100ML+SG 200ML+DEO 250ML.jpg",
 "variantes":[
@@ -2848,16 +2696,19 @@ const PRODUCTOS_DB = [
 "key":"ORIENTICA__LE-MOTIF-WILD-NEROLI",
 "marca":"ORIENTICA",
 "nombre":"LE MOTIF WILD NEROLI",
-"nombreOriginal":"LE MOTIF WILD NEROLI ORIENTICA",
+"nombreOriginal":"ORIENTICA LE MOTIF WILD NEROLI",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
 "notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
+"Limón",
+"bergamota",
+"neroli",
+"flor de azahar del naranjo",
+"jazmín",
+"lavanda",
+"pachulí",
+"ámbar",
+"almizcle"
 ],
 "foto":"PERFUME LE MOTIF WILD NEROLI ORIENTICA HOMBRE EDP 85 ML.jpg",
 "variantes":[
@@ -2875,16 +2726,16 @@ const PRODUCTOS_DB = [
 "key":"ORIENTICA__CUIR",
 "marca":"ORIENTICA",
 "nombre":"CUIR",
-"nombreOriginal":"CUIR DE ORIENTICA",
+"nombreOriginal":"ORIENTICA CUIR",
 "categoria":"HOMBRE",
 "coleccion":"arabe",
 "notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
+"Cítricos",
+"pimienta",
+"clavo de olor",
+"cuero",
+"notas amaderadas",
+"almizcle"
 ],
 "foto":"PERFUME CUIR DE ORIENTICA HOMBRE EDP 90 ML.jpg",
 "variantes":[
@@ -2906,12 +2757,12 @@ const PRODUCTOS_DB = [
 "categoria":"HOMBRE",
 "coleccion":"arabe",
 "notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
+"Naranja",
+"pomelo",
+"rosa",
+"pachulí",
+"ámbar",
+"almizcle"
 ],
 "foto":"PERFUME JO MILANO RAEES GOLD HOMBRE EDP 100 ML.jpg",
 "variantes":[
@@ -2962,12 +2813,16 @@ const PRODUCTOS_DB = [
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
+"Ylang-ylang",
+"bergamota",
+"limón",
+"rosa de Bulgaria",
+"jazmín",
+"nardos",
+"sándalo",
+"almizcle",
+"vainilla",
+"pachulí"
 ],
 "foto":"PERFUME ARD AL ZAAFARAN HEIBAH MUJER EDP 50 ML.jpg",
 "variantes":[
@@ -2989,11 +2844,14 @@ const PRODUCTOS_DB = [
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
+"Bergamota",
+"manzana",
+"peonía",
+"geranio",
+"rosa",
+"vainilla",
+"sándalo",
+"almizcle"
 ],
 "foto":"PERFUME ARD AL ZAAFARAN HAREEM AL SULTAN MUJER EDP 50 ML.jpg",
 "variantes":[
@@ -3015,12 +2873,13 @@ const PRODUCTOS_DB = [
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
+"Cítricos",
+"bergamota",
+"aloe vera",
+"jazmín",
+"almizcle",
+"notas amaderadas",
+"flor de manzano"
 ],
 "foto":"PERFUME ARD AL ZAAFARAN AMEERAT AL ARAB MUJER EDP 50 ML.jpg",
 "variantes":[
@@ -3071,12 +2930,17 @@ const PRODUCTOS_DB = [
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
+"Naranja",
+"mandarina",
+"bergamota",
+"flor de azahar",
+"rosa turca",
+"jazmín",
+"ylang-ylang",
+"pachulí",
+"almizcle blanco",
+"vainilla",
+"vetiver"
 ],
 "foto":"PERFUME LE CHAMEAU ARABIA MADAME MUJER EDP 100 ML.jpg",
 "variantes":[
@@ -3106,11 +2970,11 @@ const PRODUCTOS_DB = [
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
+"Naranja",
+"notas florales",
+"jazmín",
+"vainilla",
+"almizcle"
 ],
 "foto":"PERFUME LE CHAMEAU ARABIA HUBBI MUJER EDP 25 ML.jpg",
 "variantes":[
@@ -3132,12 +2996,11 @@ const PRODUCTOS_DB = [
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
+"Bergamota",
+"limón",
+"pimienta negra",
+"madera",
+"ámbar"
 ],
 "foto":"PERFUME LE CHAMEAU ARABIA BON VOYAGE MUJER EDP 100 ML.jpg",
 "variantes":[
@@ -3167,12 +3030,12 @@ const PRODUCTOS_DB = [
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
+"Manzana acaramelada",
+"bergamota",
+"peonía",
+"flor de manzano",
+"vainilla",
+"crema batida"
 ],
 "foto":"PERFUME MAISON ALHAMBRA MIA DOLCEZZA MUJER EDP 100 ML.jpg",
 "variantes":[
@@ -3193,13 +3056,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"ASTEN FALLEN ANGEL KARISMA",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME ASTEN FALLEN ANGEL KARISMA MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -3220,12 +3077,13 @@ const PRODUCTOS_DB = [
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
+"Almendra amarga",
+"azafrán",
+"jazmín egipcio",
+"cedro",
+"ámbar gris",
+"notas amaderadas",
+"almizcle"
 ],
 "foto":"PERFUME MAISON ALHAMBRA LA ROUGE BAROQUE EXTREME MUJER EDP 100 ML.jpg",
 "variantes":[
@@ -3247,12 +3105,15 @@ const PRODUCTOS_DB = [
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
+"Mora",
+"bergamota",
+"pera",
+"iris",
+"jazmín",
+"flor de azahar del naranjo",
+"praliné",
+"vainilla",
+"pachulí"
 ],
 "foto":"MAISON ALHAMBRA LA VITA MUJER 100 ML EDP.jpg",
 "variantes":[
@@ -3273,13 +3134,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"AMARAN KINGS & QUEENS PURE ARUBA",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME AMARAN KINGS & QUEENS PURE ARUBA MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -3300,12 +3155,17 @@ const PRODUCTOS_DB = [
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
+"Pimienta rosa",
+"pera",
+"flor de azahar del naranjo",
+"café",
+"jazmín",
+"almendra",
+"regaliz",
+"vainilla",
+"pachulí",
+"cedro",
+"madera de cachemira"
 ],
 "foto":"MAISON ALHAMBRA OPERA NOIR MUJER 100ML EDP.jpg",
 "variantes":[
@@ -3352,11 +3212,16 @@ const PRODUCTOS_DB = [
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
+"Bergamota",
+"cassis",
+"pomelo",
+"melocotón",
+"azafrán",
+"cuero",
+"vainilla",
+"ámbar",
+"almizcle",
+"vetiver"
 ],
 "foto":"PERFUME LATTAFA HAYAATI GOLD ELIXIR MUJER EDP 100 ML.jpg",
 "variantes":[
@@ -3378,12 +3243,9 @@ const PRODUCTOS_DB = [
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
+"Cereza",
+"peonía roja",
+"vainilla"
 ],
 "foto":"PERFUME MAISON ALHAMBRA PINK SHIMMER SECRET INTENSE MUJER EDP 100 ML.jpg",
 "variantes":[
@@ -3401,16 +3263,15 @@ const PRODUCTOS_DB = [
 "key":"FRAGRANCE-WORLD__PROUD-OF-YOU-WOMEN",
 "marca":"FRAGRANCE WORLD",
 "nombre":"PROUD OF YOU WOMEN",
-"nombreOriginal":"FRAGANCE WORLD PROUD OF YOU FOR WOMEN",
+"nombreOriginal":"FRAGRANCE WORLD PROUD OF YOU WOMEN",
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
+"Frambuesa",
+"neroli",
+"rosa",
+"vainilla",
+"almizcle"
 ],
 "foto":"FRAGANCE WORLD PROUD OF YOU FOR WOMEN EDP 100ML.jpg",
 "variantes":[
@@ -3431,13 +3292,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"AROMA FACTORY SUGAR MARSHMALLOW",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME ARO-FAC AROMA FACTORY SUGER MARSHMALLOW MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -3457,14 +3312,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"AROMA FACTORY SUGAR KISS",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME ARO-FAC AROMA FACTORY SUGER KISS MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -3484,14 +3332,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"AROMA FACTORY SUGAR RUSH",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME ARO-FAC AROMA FACTORY SUGER RUSH MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -3511,14 +3352,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"AROMA FACTORY SUGAR PUNCH",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME ARO-FAC AROMA FACTORY SUGER PUNCH MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -3538,13 +3372,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"AROMA FACTORY SUGAR LOLLIPOP",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME ARO-FAC AROMA FACTORY SUGER LOLLIPOP MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -3565,12 +3393,14 @@ const PRODUCTOS_DB = [
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
+"Pistacho",
+"helado",
+"vainilla",
+"avellana",
+"algodón de azúcar",
+"malvavisco",
+"sándalo",
+"ron"
 ],
 "foto":"PERFUME FRAGRANCE WORLD ELYSIA PISTA SUNDAE MUJER EDP 100 ML.jpg",
 "variantes":[
@@ -3592,12 +3422,15 @@ const PRODUCTOS_DB = [
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
+"Naranja sanguina",
+"mandarina",
+"miel",
+"gardenia",
+"flor de azahar",
+"jazmín",
+"cera de abejas",
+"caramelo",
+"pachulí"
 ],
 "foto":"SCANDADANT BELLE CELINE 100ML EDP.jpg",
 "variantes":[
@@ -3619,11 +3452,12 @@ const PRODUCTOS_DB = [
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
+"Frutos rojos",
+"peonía",
+"rosa",
+"notas amaderadas",
+"almizcle",
+"vainilla"
 ],
 "foto":"PERFUME LE CHAMEAU ARABIA EMOTION MUJER EDP 100 ML.jpg",
 "variantes":[
@@ -3645,12 +3479,12 @@ const PRODUCTOS_DB = [
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
+"Notas afrutadas",
+"jazmín",
+"peonía",
+"almizcle",
+"vainilla",
+"ámbar"
 ],
 "foto":"PERFUME LE CHAMEAU ARABIA HAYA MUJER EDP 100 ML.jpg",
 "variantes":[
@@ -3671,14 +3505,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"SELECTIVE ANGEL TEAR",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME SELECTIVE ANGEL TEAR MUJER EDP 85 ML.jpg",
 "variantes":[
 {
@@ -3698,14 +3525,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"SELECTIVE YOURSELF",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME SELECTIVE YOURSELF MUJER EDP 85 ML.jpg",
 "variantes":[
 {
@@ -3725,14 +3545,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"SELECTIVE SO",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME SELECTIVE SO MUJER EDP 85 ML.jpg",
 "variantes":[
 {
@@ -3749,7 +3562,7 @@ const PRODUCTOS_DB = [
 "key":"LATTAFA__YARA-TOUS",
 "marca":"LATTAFA",
 "nombre":"YARA TOUS",
-"nombreOriginal":"LATTAFA YARA TOUS DAMA",
+"nombreOriginal":"LATTAFA YARA TOUS",
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
@@ -3782,12 +3595,11 @@ const PRODUCTOS_DB = [
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
+"Notas afrutadas",
+"peonía",
+"jazmín",
+"almizcle",
+"vainilla"
 ],
 "foto":"PERFUME EMPER GENIUS BLUSH MUJER EDP 100 ML.jpg",
 "variantes":[
@@ -3805,16 +3617,17 @@ const PRODUCTOS_DB = [
 "key":"RUE-BROCA__BROCA-NEXA-MUSEE",
 "marca":"RUE BROCA",
 "nombre":"BROCA NEXA MUSEE",
-"nombreOriginal":"RUE BROCA NEXA MUSEE",
+"nombreOriginal":"RUE BROCA BROCA NEXA MUSEE",
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
+"Cítricos",
+"nardos",
+"flor de azahar del naranjo",
+"jazmín",
+"ámbar",
+"almizcle",
+"vainilla"
 ],
 "foto":"PERFUME RUE BROCA NEXA MUSEE MUJER EDP 100 ML.jpg",
 "variantes":[
@@ -3832,7 +3645,7 @@ const PRODUCTOS_DB = [
 "key":"LATTAFA__YARA-CANDY",
 "marca":"LATTAFA",
 "nombre":"YARA CANDY",
-"nombreOriginal":"LATTAFA YARA CANDY DAMA",
+"nombreOriginal":"LATTAFA YARA CANDY",
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
@@ -3865,12 +3678,15 @@ const PRODUCTOS_DB = [
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
-"Pimienta negra",
 "Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
+"cardamomo",
+"coco",
+"jazmín",
+"ylang-ylang",
+"nardos",
+"almizcle",
+"ámbar",
+"vainilla"
 ],
 "foto":"PERFUME LATTAFA PRIDE LA AFRICAN DRUMMER MUJER EDP 100 ML.jpg",
 "variantes":[
@@ -3921,12 +3737,14 @@ const PRODUCTOS_DB = [
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
+"Mandarina",
+"melocotón",
+"peonía",
+"jazmín",
+"flor de loto",
+"almizcle",
+"vainilla",
+"notas amaderadas"
 ],
 "foto":"PERFUME ARMAF MOMENTO LACE MUJER EDP 100 ML.jpg",
 "variantes":[
@@ -3948,12 +3766,13 @@ const PRODUCTOS_DB = [
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
+"Almendra",
+"bergamota",
+"peonía",
+"rosa",
+"vainilla",
+"sándalo",
+"almizcle"
 ],
 "foto":"LATTAFA NOBLE BLUSH EDP 100ML.jpg",
 "variantes":[
@@ -3971,16 +3790,17 @@ const PRODUCTOS_DB = [
 "key":"FRENCH-AVENUE__SULTANA",
 "marca":"FRENCH AVENUE",
 "nombre":"SULTANA",
-"nombreOriginal":"FRENCH AVENUE SULTANA DAMA",
+"nombreOriginal":"FRENCH AVENUE SULTANA",
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
-"Pimienta negra",
 "Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
+"rosa",
+"jazmín",
+"vainilla",
+"ámbar",
+"pachulí",
+"almizcle"
 ],
 "foto":"PERFUME FRENCH AVENUE SULTANA DAMA EDP 80 ML.jpg",
 "variantes":[
@@ -4002,11 +3822,14 @@ const PRODUCTOS_DB = [
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
+"Notas marinas",
+"sal marina",
+"bergamota",
+"cítricos",
+"lavanda",
+"algas",
+"musgo de roble",
+"ámbar gris"
 ],
 "foto":"PERFUME KHADLAJ AZURE VELVET MUJER EXTRAIT DE PARFUM 100 ML.jpg",
 "variantes":[
@@ -4028,12 +3851,12 @@ const PRODUCTOS_DB = [
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
+"Nata montada",
+"vainilla",
+"azúcar",
+"notas florales blancas",
+"sándalo",
+"almizcle"
 ],
 "foto":"PERFUME KHADLAJ CREAM VELVET MUJER EXTRAIT DE PARFUM 100 ML.jpg",
 "variantes":[
@@ -4051,7 +3874,7 @@ const PRODUCTOS_DB = [
 "key":"LATTAFA__YARA-WOMAN",
 "marca":"LATTAFA",
 "nombre":"YARA WOMAN",
-"nombreOriginal":"LATAFFA YARA WOMAN",
+"nombreOriginal":"LATTAFA YARA WOMAN",
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
@@ -4080,7 +3903,7 @@ const PRODUCTOS_DB = [
 "key":"LATTAFA__YARA",
 "marca":"LATTAFA",
 "nombre":"YARA",
-"nombreOriginal":"LATTAFA YARA DAMA",
+"nombreOriginal":"LATTAFA YARA",
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
@@ -4113,12 +3936,14 @@ const PRODUCTOS_DB = [
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
+"Cereza negra",
+"bergamota",
+"frambuesa",
+"jazmín",
+"rosa",
+"haba tonka",
+"vainilla",
+"sándalo"
 ],
 "foto":"PERFUME LATTAFA MAYAR CHERRY INTENSE MUJER EDP 100 ML.jpg",
 "variantes":[
@@ -4140,12 +3965,14 @@ const PRODUCTOS_DB = [
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
+"Lichi",
+"frambuesa",
+"hojas de violeta",
+"peonía",
+"rosa blanca",
+"jazmín",
+"almizcle",
+"vainilla"
 ],
 "foto":"LATTAFA MAYAR MUJER 100 ML EDP.jpg",
 "variantes":[
@@ -4167,11 +3994,11 @@ const PRODUCTOS_DB = [
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
+"Frutos rojos",
+"notas florales",
+"almizcle",
+"notas amaderadas",
+"vainilla"
 ],
 "foto":"AFNAN TURATHI RED MUJER.jpg",
 "variantes":[
@@ -4193,12 +4020,11 @@ const PRODUCTOS_DB = [
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
+"Caramelo",
+"vainilla",
+"flor de azahar del naranjo",
+"neroli",
+"almizcle"
 ],
 "foto":"PERFUME RAYHAAN KISS MUJER EDP 100 ML.jpg",
 "variantes":[
@@ -4220,12 +4046,17 @@ const PRODUCTOS_DB = [
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
+"Rosa",
+"geranio",
+"azafrán",
+"nuez moscada",
+"alcaravea",
+"pimienta",
+"violeta",
+"madera de oud",
+"pachulí",
+"vainilla",
+"ámbar"
 ],
 "foto":"ARMAF CLUB DE NUIT MUJER ROSADO 105ML EDP.jpg",
 "variantes":[
@@ -4247,12 +4078,14 @@ const PRODUCTOS_DB = [
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
-"Pimienta negra",
 "Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
+"mandarina",
+"jazmín",
+"rosa",
+"peonía",
+"sándalo",
+"almizcle",
+"vainilla"
 ],
 "foto":"PERFUME ARMAF MISS MAGNIFIQ MUJER EDP 100 ML.jpg",
 "variantes":[
@@ -4273,13 +4106,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS OBVIOUSLY YES",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS OBVIOUSLY YES CLON SI ARMANI MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -4299,14 +4126,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS BE TASTY",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS BE TASTY CLON BE DELICIOUS DKNY MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -4326,14 +4146,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS ADORABLE",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS ADORABLE CLON JADORE CHRISTIAN DIOR MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -4353,14 +4166,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS CHOICE N 5",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS CHOICE N 5 CLON CHANEL N 5 MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -4380,13 +4186,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS EXALTATION",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS EXALTATION CLON EUPHORIA CALVIN KLEIN MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -4406,14 +4206,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS SUNLIGHT",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS SUNLIGHT CLON LIGHT BLUE DOLCE GABBANA MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -4433,14 +4226,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS TESTIMONY",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS TESTIMONY MUJER CLON MANIFESTO YSL EDP 100 ML.jpg",
 "variantes":[
 {
@@ -4460,14 +4246,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS EVIL GIRL",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS EVIL GIRL CLON GOOD GIRL CAROLINA HERRERA MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -4487,13 +4266,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS ADDICTION",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS ADDICTION CLON ADDICT CHRISTIAN DIOR MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -4513,14 +4286,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS NIGHT LOVE",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS NIGHT LOVE CLON TRESOR LA NUIT LANCOME MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -4540,14 +4306,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS ELEVEN ROSE",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS ELEVEN ROSE CLON 212 VIP ROSE CAROLINA HERRERA MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -4567,14 +4326,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS ELEVEN SEXY",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS ELEVEN SEXY CLON 212 SEXY CAROLINA HERRERA MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -4594,13 +4346,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS MISS DYLON",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS MISS DYLON CON MISS DIOR CHRISTIAN DIOR MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -4621,12 +4367,12 @@ const PRODUCTOS_DB = [
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
+"Melocotón",
+"manzana",
+"notas florales",
+"almizcle",
+"sándalo",
+"vainilla"
 ],
 "foto":"AFNAN TRIBUTE PEACH MUJER.jpg",
 "variantes":[
@@ -4647,14 +4393,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS PYAR",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS PYAR PYAR CLON AMOR AMOR CACHAREL MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -4674,13 +4413,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS ADDICTION 2",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS ADDICTION 2 CLON ADDICT 2 CHRISTIAN DIOR MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -4700,14 +4433,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS PERSONAL WAY",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS PERSONAL WAY CLON MY WAY GIORGIO ARMANI MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -4727,14 +4453,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS DARK XL",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS DARK XL CLON XS BLACK PACO RABANNE MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -4754,14 +4473,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS DEALING MARILYN",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS DEALING MARILYN CLON DELINA PARFUMS DE MARLY MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -4781,13 +4493,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS OLYMPICS",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS OLYMPICS CLON OLYMPEA PACO RABANNE MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -4808,12 +4514,14 @@ const PRODUCTOS_DB = [
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
+"Bergamota",
+"mandarina",
+"jengibre",
+"flor de azahar del naranjo",
+"gardenia",
+"almizcle",
+"musgo",
+"sándalo"
 ],
 "foto":"ARMAF MISS VOCE VIVA MUJER 100 ML EDP.jpg",
 "variantes":[
@@ -4834,14 +4542,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS IDEALLY",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS IDEALLY CLON IDOLE LE PARFUM LANCOME MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -4861,14 +4562,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS STRANGE",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS STRANGE CLON ALIEN THIERRY MUGLER MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -4888,14 +4582,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS FREE SOUL",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS FREE SOUL CLON LIBRE INTENSE YSL MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -4915,14 +4602,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS DAHAR",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS DAHAR CLON KAJAL DAHAB MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -4942,13 +4622,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS INTERMITENT",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS INTERMITENT CLON GIVENCHY L INTERDIT MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -4968,14 +4642,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS BOMBLASTIC",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS BOMBLASTIC CLON BOMBA CAROLINA HERRERA MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -4995,14 +4662,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS ROMANTIC",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS ROMANTIC CLON ROMANCE WOMAN RALPH LAUREN MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -5022,14 +4682,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS NEW ANGEL",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS NEW ANGEL CLON ANGEL NOVA 100 ML THIERRY MUGLER MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -5049,13 +4702,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS DARKNIGHT",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS DARKNIGHT CLON MOONLIGHT ARIANA GRANDE MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -5075,14 +4722,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS HALLOQUEEN",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS HALLOQUEEN CLON HALLOWEEN WOMAN MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -5102,14 +4742,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS AMOURE",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS AMOURE CLON KENZO AMOUR MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -5129,14 +4762,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DUPE PARFUMS LLARA",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME DUPE PARFUMS LLARA MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -5156,13 +4782,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DUPE PARFUMS EKLAIRE",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME DUPE PARFUMS EKLAIRE MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -5182,14 +4802,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS SMILE",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS SMILE CLON FUNNY MOSCHINO MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -5209,14 +4822,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS ARIMAGE",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS ARIMAGE CLON AMARIGE GIVENCHY MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -5236,14 +4842,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS FORGANCE",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS FORGANCE CLON ORGANZA GIVENCHY MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -5263,13 +4862,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS FIRST ONE WOMAN",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS FIRST ONE WOMAN CLON THE ONE MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -5289,14 +4882,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS RUDOLPH",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS RUDOLPH CLON RALPH LAUREN MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -5316,14 +4902,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS POSSION",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS POSSION CLON POISON CHRISTIAN DIOR MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -5343,14 +4922,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS TREASURE",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS TREASURE CLON TRESOR LANCOME MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -5371,12 +4943,16 @@ const PRODUCTOS_DB = [
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
+"Cítricos",
+"manzana",
+"notas afrutadas",
+"clavel",
+"rosa",
+"peonía",
+"jazmín",
+"almizcle",
+"musgo",
+"ámbar"
 ],
 "foto":"AJMAL AURUM WINTER FOR HER EDP 75 ML.jpg",
 "variantes":[
@@ -5397,14 +4973,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"MIXOLOGY MAJESTIC ROSE",
 "categoria":"MUJER",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME MIXOLOGY MAJESTIC ROSE MUJER PARFUM 100 ML.jpg",
 "variantes":[
 {
@@ -5425,12 +4994,11 @@ const PRODUCTOS_DB = [
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
+"Flores blancas",
+"neroli",
+"melocotón",
+"vainilla",
+"ámbar"
 ],
 "foto":"AL HARAMAIN FRENCH COLLECTION DESTINO MUJER 100 ML EDP.jpg",
 "variantes":[
@@ -5485,12 +5053,14 @@ const PRODUCTOS_DB = [
 "categoria":"MUJER",
 "coleccion":"arabe",
 "notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
+"Violeta",
+"rosa",
+"bergamota",
+"jazmín",
+"lirio de los valles",
+"ámbar",
+"vainilla",
+"almizcle"
 ],
 "foto":"AL HARAMAIN ULTRA VIOLET MUJER 60 ML EDP.jpg",
 "variantes":[
@@ -5512,12 +5082,12 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
+"Almizcle blanco",
+"aceite de cipriol",
+"vainilla",
+"cardamomo",
+"azafrán",
+"madera de gaiac"
 ],
 "foto":"PERFUME ARD AL ZAAFARAN ANA ABIYEDH UNISEX EDP 50 ML.jpg",
 "variantes":[
@@ -5539,11 +5109,12 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
+"Manzana",
+"bergamota",
+"canela",
+"notas amaderadas",
+"vainilla",
+"almizcle"
 ],
 "foto":"PERFUME ARD AL ZAAFARAN HAYAATI UNISEX EDP 50 ML.jpg",
 "variantes":[
@@ -5561,16 +5132,16 @@ const PRODUCTOS_DB = [
 "key":"LE-CHAMEAU__HAYA-CRUSH",
 "marca":"LE CHAMEAU",
 "nombre":"HAYA CRUSH",
-"nombreOriginal":"LE CHAMEAU ARABIA HAYA CRUSH",
+"nombreOriginal":"LE CHAMEAU HAYA CRUSH",
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
+"Bergamota",
+"grosella negra",
+"rosa",
+"jazmín",
+"cedro",
+"almizcle blanco"
 ],
 "foto":"PERFUME LE CHAMEAU ARABIA HAYA CRUSH UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -5600,12 +5171,12 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
+"Notas afrutadas",
+"jazmín",
+"peonía",
+"almizcle",
+"vainilla",
+"ámbar"
 ],
 "foto":"PERFUME LE CHAMEAU ARABIA HAYA UNISEX EDP 20 ML.jpg",
 "variantes":[
@@ -5627,11 +5198,14 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
+"Pomelo",
+"notas marinas",
+"pimienta blanca",
+"hojas de laurel",
+"jazmín",
+"ámbar gris",
+"madera de gaiac",
+"pachulí"
 ],
 "foto":"PERFUME LE CHAMEAU ARABIA HEROES UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -5657,16 +5231,19 @@ const PRODUCTOS_DB = [
 "key":"LE-CHAMEAU__HAYA",
 "marca":"LE CHAMEAU",
 "nombre":"HAYA",
-"nombreOriginal":"LE CHAMEAU ARABIA HAYA",
+"nombreOriginal":"LE CHAMEAU HAYA",
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
+"Champán",
+"fresa",
+"naranja",
+"rosa",
+"jazmín",
+"gardenia",
+"almizcle",
+"ámbar",
+"maderas"
 ],
 "foto":"PERFUME LE CHAMEAU ARABIA HAYA UNISEX EDP 100 ML ESTUCHE.jpg",
 "variantes":[
@@ -5696,12 +5273,12 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
+"Cardamomo",
+"bergamota",
+"manzana",
+"lavanda",
+"cedro",
+"pachulí"
 ],
 "foto":"PERFUME LE CHAMEAU ARABIA NASER UNISEX EDP 25 ML.jpg",
 "variantes":[
@@ -5723,12 +5300,12 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
+"Cardamomo",
+"nuez moscada",
+"madera de cedro",
+"ámbar",
+"madera de ébano",
+"vetiver"
 ],
 "foto":"PERFUME MAISON ALHAMBRA MAN BLACK EDITION UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -5749,13 +5326,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"ASTEN GRASSY HEVEN CHARM 09",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME ASTEN GRASSY HEVEN CHARM 09 UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -5776,12 +5347,15 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
+"Naranja",
+"bergamota",
+"mandarina",
+"jazmín",
+"rosa",
+"pachulí",
+"sándalo",
+"vetiver",
+"almizcle"
 ],
 "foto":"PERFUME ASDAAF ANDALEEB UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -5803,11 +5377,17 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
+"Especias",
+"notas afrutadas",
+"cítricos",
+"miel",
+"flores",
+"jazmín",
+"orquídea",
+"sándalo",
+"ámbar",
+"almizcle",
+"caramelo"
 ],
 "foto":"PERFUME LATTAFA LAIL MALEKI UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -5829,11 +5409,11 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
+"Rosa",
+"azafrán",
+"ámbar",
+"madera de oud",
+"almizcle"
 ],
 "foto":"PERFUME EMPER HADIA UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -5855,11 +5435,15 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
+"Hoja de tomillo",
+"frambuesa",
+"azafrán",
+"jazmín",
+"olíbano",
+"cuero",
+"gamuza",
+"notas amaderadas",
+"ámbar"
 ],
 "foto":"PERFUME LATTAFA ANA ABIYEDH LEATHER UNISEX EDP 60 ML.jpg",
 "variantes":[
@@ -5877,16 +5461,21 @@ const PRODUCTOS_DB = [
 "key":"FRAGRANCE-WORLD__OPI-NOIR-RED-DOCE",
 "marca":"FRAGRANCE WORLD",
 "nombre":"OPI NOIR RED DOCE",
-"nombreOriginal":"FRAGANCE WORLD OPI NOIR RED DOCE",
+"nombreOriginal":"FRAGRANCE WORLD OPI NOIR RED DOCE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
+"Pimienta rosa",
+"pera",
+"flor de azahar del naranjo",
+"café",
+"jazmín",
+"almendra",
+"regaliz",
+"vainilla",
+"pachulí",
+"cedro",
+"madera de cachemira"
 ],
 "foto":"FRAGANCE WORLD OPI NOIR RED DOCE EDP 100ML.jpg",
 "variantes":[
@@ -5904,16 +5493,10 @@ const PRODUCTOS_DB = [
 "key":"AROMA-FACTORY__SUGAR-BOO",
 "marca":"AROMA FACTORY",
 "nombre":"SUGAR BOO",
-"nombreOriginal":"AROMA FACTORY SUGAR CANDY",
+"nombreOriginal":"AROMA FACTORY SUGAR BOO",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME ARO-FAC AROMA FACTORY SUGER BOO UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -5930,17 +5513,10 @@ const PRODUCTOS_DB = [
 "key":"AROMA-FACTORY__SUGAR-CANDY",
 "marca":"AROMA FACTORY",
 "nombre":"SUGAR CANDY",
-"nombreOriginal":"AROMA FACTORY SUGAR BOO",
+"nombreOriginal":"AROMA FACTORY SUGAR CANDY",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME ARO-FAC AROMA FACTORY SUGER CANDY UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -5960,14 +5536,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"AROMA FACTORY SUGAR ICE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME ARO-FAC AROMA FACTORY SUGER ICE UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -5987,14 +5556,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"AROMA FACTORY SUGAR SPRINKLE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME ARO-FAC AROMA FACTORY SUGER SPRINKLE UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -6015,11 +5577,13 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
+"Notas marinas",
+"algas",
+"sal",
+"almizcle",
+"ámbar gris",
+"notas amaderadas",
+"pachulí"
 ],
 "foto":"PERFUME FRAGRANCE WORLD AQUA PURA UNISEX EDP 70 ML.jpg",
 "variantes":[
@@ -6041,12 +5605,15 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
+"Mandarina",
+"frambuesa",
+"ciruela",
+"jazmín",
+"notas florales",
+"pachulí",
+"vainilla",
+"azúcar",
+"ámbar"
 ],
 "foto":"PERFUME FRAGRANCE WORLD ELYSIA SUGAR PATCHOULI UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -6068,12 +5635,13 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
+"Flor de azahar del naranjo",
+"bergamota",
+"nardos",
+"jazmín de la India",
+"vainilla de Madagascar",
+"almizcle blanco",
+"cedro"
 ],
 "foto":"MAISON ALHAMBRA LA VOIE 100ML EDP.jpg",
 "variantes":[
@@ -6095,12 +5663,13 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
+"Notas cítricas",
+"flor de azahar del naranjo",
+"lavanda",
+"jazmín",
+"vainilla",
+"almizcle",
+"notas amaderadas"
 ],
 "foto":"MAISON ALHAMBRA EXTRAVAGANT LOVER 100 ML EDP.jpg",
 "variantes":[
@@ -6122,11 +5691,16 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
+"Manzana",
+"jengibre",
+"bergamota",
+"salvia",
+"bayas de enebro",
+"geranio",
+"madera de ámbar",
+"haba tonka",
+"cedro",
+"vetiver"
 ],
 "foto":"PERFUME FRAGRANCE WORLD PRIVE SERIES YYY UNISEX EXTRAIT DE PARFUM 70 ML.jpg",
 "variantes":[
@@ -6148,12 +5722,18 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
+"Pistacho",
+"helado",
+"bergamota",
+"avellana",
+"ron",
+"pera",
+"jazmín",
+"peonía",
+"malvavisco",
+"algodón de azúcar",
+"vainilla",
+"sándalo"
 ],
 "foto":"PERFUME PARIS CORNER KHAIR PISTACHIO CLON KAYALI PISTACHIO GELATTO UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -6175,12 +5755,15 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
+"Piña",
+"pomelo",
+"bergamota",
+"cedro",
+"jazmín",
+"pachulí",
+"notas amaderadas",
+"ámbar",
+"musgo de roble"
 ],
 "foto":"PERFUME PARIS CORNER NOUF UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -6202,12 +5785,11 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
+"Madera de oud",
+"incienso",
+"pachulí",
+"notas amaderadas",
+"ámbar"
 ],
 "foto":"PERFUME LATTAFA RAMAAD AL OUD UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -6228,13 +5810,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"AROMA FACTORY SUGAR CITRON",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME ARO-FAC AROMA FACTORY SUGER CITRON UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -6255,12 +5831,16 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
+"Cardamomo",
+"té negro",
+"higo",
+"iris",
+"vetiver",
+"ládano",
+"sándalo",
+"vainilla",
+"haba tonka",
+"pachulí"
 ],
 "foto":"LATTAFA LIAM EDP 100 ML.jpg",
 "variantes":[
@@ -6282,11 +5862,13 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
+"Mandarina",
+"manzana",
+"jazmín",
+"rosa",
+"almizcle",
+"ámbar",
+"notas de madera"
 ],
 "foto":"PERFUME KHADLAJ INFINI UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -6307,14 +5889,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"EMPER SHINNING CITY",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME EMPER SHINNING CITY UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -6335,12 +5910,11 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
+"Plátano",
+"crema",
+"vainilla",
+"malvavisco",
+"sándalo"
 ],
 "foto":"PERFUME FRAGRANCE WORLD ELYSIA SWEET BANANA UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -6361,13 +5935,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"MPF L AMOUR",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME MPF L AMOUR UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -6388,12 +5956,11 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
+"Frutas tropicales",
+"maracuyá",
+"naranja",
+"vainilla",
+"almizcle"
 ],
 "foto":"PERFUME FRAGRANCE WORLD NUDO TUTTI FRUTTI UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -6415,12 +5982,12 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
+"Cítricos",
+"bergamota",
+"lavanda",
+"pachulí",
+"ámbar",
+"vetiver"
 ],
 "foto":"PERFUME EMPER INTIMATION UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -6442,11 +6009,12 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
+"Cítricos",
+"azafrán",
+"jazmín",
+"madera de ámbar",
+"resina de abeto",
+"cedro"
 ],
 "foto":"MAISON ALHAMBRA LA VIVACITE INTENSA 100 ML EDP.jpg",
 "variantes":[
@@ -6467,14 +6035,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"EMPER CRIKI ABSOLUTE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME EMPER CRIKI ABSOLUTE UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -6495,12 +6056,12 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
+"Canela",
+"cedro",
+"ámbar",
+"sándalo",
+"almizcle blanco",
+"vainilla"
 ],
 "foto":"LATTAFA MUSK AL AROOS UNISEX 80 ML EDP.jpg",
 "variantes":[
@@ -6522,12 +6083,12 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
+"Vainilla",
+"clavo de olor",
+"notas florales",
+"ámbar",
+"madera de oud",
+"almizcle"
 ],
 "foto":"AL WATANIAH WATANI INTENSE 100 ML EDP.jpg",
 "variantes":[
@@ -6548,13 +6109,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS 764",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS 764 CLON AMOUAGE SUNSHINE UNISEX EDP 50 ML.jpg",
 "variantes":[
 {
@@ -6574,14 +6129,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS 762",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS 762 CLON NISHANE EGE UNISEX EDP 50 ML.jpg",
 "variantes":[
 {
@@ -6601,14 +6149,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS 761",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS 761 CLON NISHANE ANI UNISEX EDP 50 ML.jpg",
 "variantes":[
 {
@@ -6628,14 +6169,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS 744",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS 744 CLON VILHELM PARFUMERIE MANGO SKIN UNISEX EDP 50 ML.jpg",
 "variantes":[
 {
@@ -6656,11 +6190,12 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
+"Canela",
+"whisky",
+"café",
+"cardamomo",
+"nuez moscada",
+"vainilla"
 ],
 "foto":"PERFUME EMIR YOU ARE DRUGGED UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -6681,14 +6216,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS 743",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS 743 CLON LOUIS VUITTON OMBRE NOMADE UNISEX EDP 50 ML.jpg",
 "variantes":[
 {
@@ -6708,14 +6236,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS 742",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS 742 CLON TOM FORD OUD WOOD UNISEX EDP 50 ML.jpg",
 "variantes":[
 {
@@ -6735,13 +6256,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS 728",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS 728 CLON TIZIANA TERENZI KIRKE UNISEX EDP 50 ML.jpg",
 "variantes":[
 {
@@ -6761,14 +6276,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS 739",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS 739 CLON INITIO PARFUMS PRIVES PSYCHEDELIC LOVE UNISEX EDP 50 ML.jpg",
 "variantes":[
 {
@@ -6789,12 +6297,17 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
+"Bergamota",
+"limón",
+"piña",
+"manzana",
+"rosa",
+"jazmín",
+"abedul",
+"pachulí",
+"almizcle",
+"musgo de roble",
+"ámbar gris"
 ],
 "foto":"PERFUME MAISON ASRAR MASTERPIECE UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -6815,14 +6328,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS 740",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS 740 CLON MEMO PARIS ITALIAN LEATHER UNISEX EDP 50 ML.jpg",
 "variantes":[
 {
@@ -6842,14 +6348,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"ATTRI TALA",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME ATTRI TALA UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -6870,12 +6369,13 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
+"Nata montada",
+"helado de vainilla",
+"pera",
+"malvavisco",
+"algodón de azúcar",
+"ylang-ylang",
+"sándalo"
 ],
 "foto":"PERFUME PARIS CORNER KHAIR CONFECTION MUJER EDP 100 ML  DESODORANTE 200 ML ESTUCHE.jpg",
 "variantes":[
@@ -6896,13 +6396,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS 712",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS 712 CLON MONTALE SOLEIL DE CAPRI UNISEX EDP 50 ML.jpg",
 "variantes":[
 {
@@ -6922,14 +6416,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS 713",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS 713 CLON MONTALE STARRY NIGHTS UNISEX EDP 50 ML.jpg",
 "variantes":[
 {
@@ -6949,14 +6436,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS 714",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS 714 CLON TOM FORD BLACK ORCHID UNISEX EDP 50 ML.jpg",
 "variantes":[
 {
@@ -6976,14 +6456,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS 719",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS 719 CLON FRANCK BOCLET COCAINE UNISEX EDP 50 ML.jpg",
 "variantes":[
 {
@@ -7003,13 +6476,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS 733",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS 733 CLON DIOR OUD ISPAHAN UNISEX EDP 50 ML.jpg",
 "variantes":[
 {
@@ -7029,14 +6496,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS 735",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS 735 CLON TOM FORD BITTER PEACH UNISEX EDP 50 ML.jpg",
 "variantes":[
 {
@@ -7056,14 +6516,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS 736",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS 736 CLON TOM FORD LOST CHERRY UNISEX EDP 50 ML.jpg",
 "variantes":[
 {
@@ -7083,14 +6536,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS 738",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS 738 CLON MEMO PARIS FRENCH LEATHER UNISEX EDP 50 ML.jpg",
 "variantes":[
 {
@@ -7110,13 +6556,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS 702",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS 702 CLON MONTALE CHOCOLATE GREEDY UNISEX EDP 50 ML.jpg",
 "variantes":[
 {
@@ -7137,12 +6577,17 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
+"Azafrán",
+"jengibre",
+"mandarina",
+"bergamota",
+"rosa",
+"jazmín",
+"madera de ámbar",
+"sándalo",
+"vainilla",
+"almizcle blanco",
+"musgo de roble"
 ],
 "foto":"PERFUME EMIR SUPER CRUSH UNISEX EXTRAIT DE PARFUM 75 ML.jpg",
 "variantes":[
@@ -7164,12 +6609,12 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
+"Grosella negra",
+"pera",
+"rosa",
+"jazmín",
+"pachulí",
+"vainilla"
 ],
 "foto":"MAISON ALHAMBRA PRIVE ESQUISITE EDP 100ML.jpg",
 "variantes":[
@@ -7191,12 +6636,13 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
+"Arándano",
+"mandarina",
+"orquídea",
+"magnolia",
+"almizcle",
+"sándalo",
+"vainilla"
 ],
 "foto":"PERFUME ARABIYAT PRESTIGE BLUEBERRY MUSK UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -7214,15 +6660,17 @@ const PRODUCTOS_DB = [
 "key":"FRAGRANCE-WORLD__OPTIMYSTIC-PARADOX",
 "marca":"FRAGRANCE WORLD",
 "nombre":"OPTIMYSTIC PARADOX",
-"nombreOriginal":"FRAGANCE WORLD OPTIMYSTIC PARADOX",
+"nombreOriginal":"FRAGRANCE WORLD OPTIMYSTIC PARADOX",
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
+"Mandarina",
+"pera",
+"flor de azahar",
+"jazmín",
+"vainilla",
+"ámbar",
+"almizcle blanco"
 ],
 "foto":"FRAGANCE WORLD OPTIMYSTIC PARADOX EDP 100ML.jpg",
 "variantes":[
@@ -7244,12 +6692,13 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
+"Pimienta rosa",
+"rosa turca",
+"rosa de Bulgaria",
+"jazmín",
+"vainilla",
+"ámbar",
+"madera de oud"
 ],
 "foto":"LATTAFA AMETHYST UNISEX 100ML EDP.jpg",
 "variantes":[
@@ -7270,14 +6719,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"SYNONIMUS FORTE WOOD",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME SYNONIMUS FORTE WOOD DUPES OUD WOOD TOM FORD UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -7297,14 +6739,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"SELECTIVE BLUE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME SELECTIVE BLUE UNISEX EDP 85 ML.jpg",
 "variantes":[
 {
@@ -7325,11 +6760,15 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
+"Toronja",
+"romero",
+"cardamomo",
+"cedro",
+"nardos",
+"ylang-ylang",
+"vetiver",
+"cuero",
+"gamuza"
 ],
 "foto":"PERFUME MAISON ASRAR HUNTER UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -7351,12 +6790,15 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
+"Ciruela",
+"azafrán",
+"pimienta rosa",
+"cuero",
+"iris",
+"vetiver",
+"cedro",
+"almizcle",
+"ámbar"
 ],
 "foto":"PERFUME LATTAFA PRIDE RAW HUMAN UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -7377,14 +6819,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"SELECTIVE ALAYA",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME SELECTIVE ALAYA UNISEX EDP 85 ML.jpg",
 "variantes":[
 {
@@ -7404,14 +6839,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"SELECTIVE OUD MOROCCO",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME SELECTIVE OUD MOROCCO UNISEX EDP 85 ML.jpg",
 "variantes":[
 {
@@ -7431,13 +6859,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"SYNONIMUS L ESSENCE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME SYNONIMUS L ESSENCE DUPES RENAISSANCE XERJOFF UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -7458,12 +6880,14 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
+"Manzana",
+"bergamota",
+"lavanda",
+"canela",
+"notas acuáticas",
+"sándalo",
+"ámbar",
+"almizcle"
 ],
 "foto":"LATTAFA NADJDIA INTENSE EDP 100ML.jpg",
 "variantes":[
@@ -7484,14 +6908,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"FRAGRANCE WORLD GAME ACE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME FRAGRANCE WORLD GAME ACE UNISEX EDP 80 ML  NAIPE ESTUCHE.jpg",
 "variantes":[
 {
@@ -7511,14 +6928,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"SELECTIVE THE ELIXIR",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME SELECTIVE THE ELIXIR UNISEX EDP 85 ML.jpg",
 "variantes":[
 {
@@ -7538,13 +6948,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"SELECTIVE IMAGINE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME SELECTIVE IMAGINE UNISEX EDP 85 ML.jpg",
 "variantes":[
 {
@@ -7564,14 +6968,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"SELECTIVE ALTER",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME SELECTIVE ALTER UNISEX EDP 85 ML.jpg",
 "variantes":[
 {
@@ -7591,14 +6988,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"SELECTIVE HALIVAT",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME SELECTIVE HALIVAT UNISEX EDP 85 ML.jpg",
 "variantes":[
 {
@@ -7618,13 +7008,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"EMPER VALENCIA PINK",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME EMPER VALENCIA PINK UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -7644,14 +7028,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"SELECTIVE ROUGE 540",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME SELECTIVE ROUGE 540 UNISEX EDP 85 ML.jpg",
 "variantes":[
 {
@@ -7671,13 +7048,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"SELECTIVE INTER ROUGE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME SELECTIVE INTER ROUGE UNISEX EDP 85 ML.jpg",
 "variantes":[
 {
@@ -7697,14 +7068,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"SYNONIMUS MELISS",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME SYNONIMUS MELISS UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -7724,14 +7088,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"SELECTIVE ADVENTUROUS",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME SELECTIVE ADVENTUROUS UNISEX EDP 85 ML.jpg",
 "variantes":[
 {
@@ -7751,14 +7108,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"SYNONIMUS SWEET AIR",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME SYNONIMUS SWEET AIR DUPES ALTHAIR PARFUMS DE MARLY UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -7779,12 +7129,14 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
+"Bergamota",
+"limón",
+"rosa",
+"peonía",
+"sándalo",
+"pachulí",
+"vainilla",
+"almizcle"
 ],
 "foto":"PERFUME MAISON ALHAMBRA JEAN LOWE VIBE UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -7806,11 +7158,11 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
+"Vainilla",
+"malvavisco",
+"caramelo",
+"almizcle blanco",
+"notas amaderadas"
 ],
 "foto":"PERFUME ARABIYAT PRESTIGE NYLA VANILLE UNISEX EDP 80 ML.jpg",
 "variantes":[
@@ -7831,14 +7183,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"MPF LAGOON DREAM",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME MPF LAGOON DREAM UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -7858,13 +7203,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"SYNONIMUS GRAN TORINO",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME SYNONIMUS GRAN TORINO DUPES TORINO 21 XERJOFF UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -7881,16 +7220,17 @@ const PRODUCTOS_DB = [
 "key":"LE-CHAMEAU__LIQUID-GOLD",
 "marca":"LE CHAMEAU",
 "nombre":"LIQUID GOLD",
-"nombreOriginal":"LE CHAMEAU ARABIA LIQUID GOLD",
+"nombreOriginal":"LE CHAMEAU LIQUID GOLD",
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
+"Azafrán",
+"rosa",
+"madera de oud",
+"pachulí",
+"sándalo",
+"ámbar",
+"almizcle"
 ],
 "foto":"PERFUME LE CHAMEAU ARABIA LIQUID GOLD UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -7939,11 +7279,17 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
+"Petit grain",
+"cidra",
+"bergamota de Calabria",
+"naranja siciliana",
+"neroli",
+"jengibre",
+"canela",
+"té negro",
+"ambroxan",
+"incienso",
+"mirra"
 ],
 "foto":"ARMAF VENTANA MARINE EDP100ML.jpg",
 "variantes":[
@@ -7965,12 +7311,12 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
+"Café tostado",
+"crema",
+"vainilla",
+"caramelo",
+"almizcle blanco",
+"notas dulces"
 ],
 "foto":"PERFUME FRAGRANCE WORLD CAFE N CREAM UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -7992,12 +7338,23 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
+"Pomelo",
+"limón",
+"bergamota",
+"lima",
+"tomillo",
+"gálbano",
+"vetiver",
+"bayas de enebro",
+"grosella negra",
+"manzana",
+"pimienta rosa",
+"cedro",
+"rosa",
+"jazmín",
+"ámbar gris",
+"cuero",
+"vainilla"
 ],
 "foto":"PERFUME EMIR TRILLIUM UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -8015,16 +7372,10 @@ const PRODUCTOS_DB = [
 "key":"LAFFAIR__AFFAIR-TOFY-CARAMEL",
 "marca":"L'AFFAIR",
 "nombre":"AFFAIR TOFY CARAMEL",
-"nombreOriginal":"L AFFAIR TOFY CARAMEL",
+"nombreOriginal":"L'AFFAIR AFFAIR TOFY CARAMEL",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME L AFFAIR TOFY CARAMEL UNISEX EDT 100 ML.jpg",
 "variantes":[
 {
@@ -8041,17 +7392,10 @@ const PRODUCTOS_DB = [
 "key":"LAFFAIR__AFFAIR-LUNE-UNIVERSE",
 "marca":"L'AFFAIR",
 "nombre":"AFFAIR LUNE UNIVERSE",
-"nombreOriginal":"L AFFAIR LUNE UNIVERSE",
+"nombreOriginal":"L'AFFAIR AFFAIR LUNE UNIVERSE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME L AFFAIR LUNE UNIVERSE UNISEX EDT 100 ML.jpg",
 "variantes":[
 {
@@ -8068,17 +7412,10 @@ const PRODUCTOS_DB = [
 "key":"LAFFAIR__AFFAIR-LUREE-GLOW",
 "marca":"L'AFFAIR",
 "nombre":"AFFAIR LUREE GLOW",
-"nombreOriginal":"L AFFAIR LUREE GLOW",
+"nombreOriginal":"L'AFFAIR AFFAIR LUREE GLOW",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME L AFFAIR LUREE GLOW UNISEX EDT 100 ML.jpg",
 "variantes":[
 {
@@ -8095,7 +7432,7 @@ const PRODUCTOS_DB = [
 "key":"REYANE-TRADITION__II-SPORT",
 "marca":"REYANE TRADITION",
 "nombre":"II SPORT",
-"nombreOriginal":"INSURRECTION II SPORT",
+"nombreOriginal":"REYANE TRADITION II SPORT",
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
@@ -8125,14 +7462,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"ARABIYAT PRESTIGE MALIKAT AL HUB GOLD",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME ARABIYAT PRESTIGE MALIKAT AL HUB GOLD UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -8152,14 +7482,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"ALLDAY FRUIT PUNCH",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME ALLDAY FRUIT PUNCH UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -8179,13 +7502,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"ALLDAY SUBLIME RUM",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME ALLDAY SUBLIME RUM UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -8206,11 +7523,15 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
+"Higo",
+"mandarina verde",
+"melón",
+"nenúfar",
+"flor de loto",
+"jazmín",
+"vainilla",
+"sándalo",
+"almizcle"
 ],
 "foto":"LATTAFA MAYAR NATURAL INTENSE 100ML EDP.jpg",
 "variantes":[
@@ -8231,14 +7552,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"ALLDAY ROMANO INTENSE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME ALLDAY ROMANO INTENSE UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -8258,14 +7572,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"ALLDAY SIETE MARES",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME ALLDAY SIETE MARES UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -8285,14 +7592,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"ALLDAY MAGIC SUMMER",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME ALLDAY MAGIC SUMMER UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -8313,12 +7613,15 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
+"Mango",
+"mora",
+"pimienta negra",
+"jazmín sambac",
+"flor de loto",
+"iris",
+"vainilla",
+"pachulí",
+"glaseado rosa"
 ],
 "foto":"PERFUME EMIR MANGO PUNCH UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -8340,11 +7643,13 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
+"Notas marinas",
+"sal",
+"algas",
+"ámbar gris",
+"pachulí",
+"notas amaderadas",
+"almizcle"
 ],
 "foto":"PERFUME EMIR A CHAOS IN THE OCEAN UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -8362,17 +7667,10 @@ const PRODUCTOS_DB = [
 "key":"SEVEN-STREET__SEVEN-STREET",
 "marca":"SEVEN STREET",
 "nombre":"SEVEN STREET",
-"nombreOriginal":"ALLDAY SEVEN STREET",
+"nombreOriginal":"SEVEN STREET SEVEN STREET",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME ALLDAY SEVEN STREET UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -8393,12 +7691,14 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
+"Bergamota",
+"canela",
+"nuez moscada",
+"lavanda",
+"vainilla",
+"ámbar",
+"pachulí",
+"notas amaderadas"
 ],
 "foto":"PERFUME RAYHAAN ELIXIR UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -8420,12 +7720,13 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
+"Naranja siciliana",
+"bergamota",
+"limón",
+"frutas",
+"almizcle blanco",
+"ámbar",
+"vainilla de Madagascar"
 ],
 "foto":"PERFUME ZIMAYA RABAB BLUE UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -8447,11 +7748,13 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
+"Azafrán",
+"lavanda",
+"madera de oud",
+"cuero",
+"pachulí",
+"pachulí",
+"almizcle"
 ],
 "foto":"PERFUME LATTAFA KASHAN UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -8473,12 +7776,17 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
+"Orégano",
+"pimienta",
+"bergamota",
+"incienso",
+"opopónaco",
+"ámbar",
+"ládano",
+"cuero",
+"madera de oud",
+"pachulí",
+"sándalo"
 ],
 "foto":"PERFUME PARIS CORNER KILLER OUD UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -8500,11 +7808,13 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
+"Nuez moscada",
+"azafrán",
+"lavanda",
+"madera de oud",
+"notas dulces",
+"pachulí",
+"almizcle"
 ],
 "foto":"AFNAN SUPREMACY IN OUD GOLD.jpg",
 "variantes":[
@@ -8525,14 +7835,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"EMPER ARUBA GOLD",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME EMPER ARUBA GOLD UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -8584,12 +7887,13 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
+"Pimienta rosa",
+"rosa turca",
+"rosa de Bulgaria",
+"jazmín",
+"vainilla",
+"ámbar",
+"madera de oud"
 ],
 "foto":"PERFUME LATTAFA AMETHYST BADEE AL OUD UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -8611,12 +7915,12 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
+"Azafrán",
+"nuez moscada",
+"lavanda",
+"madera de oud",
+"pachulí",
+"almizcle"
 ],
 "foto":"LATTAFA OUD FOR GLORY 100ML EDP.jpg",
 "variantes":[
@@ -8637,14 +7941,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"OUD INDONESIAN MINISTRY OF OUD",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME OUD INDONESIAN EXTRAIT PERFUME MINISTRY OF OUD UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -8665,11 +7962,14 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
+"Bergamota",
+"cilantro",
+"flores",
+"manzana",
+"ambroxan",
+"vainilla",
+"haba tonka",
+"notas amaderadas"
 ],
 "foto":"MAISON ALHAMBRA LUXE STREET EDP 100ML.jpg",
 "variantes":[
@@ -8691,12 +7991,14 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
+"Mango",
+"bergamota",
+"pimienta rosa",
+"osmanto",
+"jazmín",
+"madera de oud",
+"ámbar",
+"almizcle"
 ],
 "foto":"PERFUME MAISON ALHAMBRA SCEPTRE MALACHITE UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -8719,11 +8021,12 @@ const PRODUCTOS_DB = [
 "coleccion":"arabe",
 "notas":[
 "Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
+"pachulí",
+"iris",
+"vainilla",
+"ámbar",
+"cuero",
+"almizcle"
 ],
 "foto":"PERFUME LATTAFA NICHE EMARATI VINTAGE CASTILE UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -8745,12 +8048,14 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
+"Jazmín",
+"rosa",
+"peonía",
+"melocotón",
+"ciruela",
+"almizcle",
+"ámbar",
+"notas amaderadas"
 ],
 "foto":"PERFUME LATTAFA NICHE EMARATI GHINWA UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -8772,12 +8077,13 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
+"Rosa",
+"geranio",
+"madera de oud",
+"sándalo",
+"ámbar",
+"vainilla",
+"almizcle"
 ],
 "foto":"PERFUME LATTAFA NICHE EMARATI LUJAIN UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -8799,11 +8105,14 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
+"Davana",
+"ciruela",
+"azafrán",
+"rosa",
+"osmanto",
+"pachulí",
+"vainilla",
+"ámbar"
 ],
 "foto":"PERFUME LATTAFA NICHE EMARATI AL JAWHARA UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -8821,17 +8130,10 @@ const PRODUCTOS_DB = [
 "key":"JIVI-PARFUMS__DHAHAB-NAQI",
 "marca":"JIVI PARFUMS",
 "nombre":"DHAHAB NAQI",
-"nombreOriginal":"DHAHAB NAQI JIVI PARFUMS",
+"nombreOriginal":"JIVI PARFUMS DHAHAB NAQI",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"DHAHAB NAQI JIVI PARFUMS EDP 100ML UNISEX.jpg",
 "variantes":[
 {
@@ -8851,14 +8153,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"JIVI STORY OF OUD CHAPTER 1 ORIGIN PARFUMS",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"JIVI STORY OF OUD CHAPTER 1ORIGIN 100ML PARFUMS.jpg",
 "variantes":[
 {
@@ -8878,13 +8173,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"JIVI STORY OF OUD CHAPTER SILK ROAD PARFUMS",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"JIVI STORY OF OUD CHAPTER SILK ROAD 100ML PARFUMS.jpg",
 "variantes":[
 {
@@ -8904,14 +8193,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"JIVI STORY OF OUD CHAPTER COLLECTION SET",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME JIVI STORY OF OUD CHAPTER COLLECTION UNISEX EDP 7 X 10 ML ESTUCHE.jpg",
 "variantes":[
 {
@@ -8931,14 +8213,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"ESSENCE DE BLANC",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"ESSENCE DE BLANC 100ML EDP.jpg",
 "variantes":[
 {
@@ -8959,11 +8234,15 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
+"Jengibre",
+"pimienta rosa",
+"mandarina",
+"jazmín",
+"lavanda",
+"praliné",
+"vainilla",
+"ámbar",
+"almizcle"
 ],
 "foto":"PERFUME LATTAFA ANGHAM UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -9047,12 +8326,14 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
+"Lichi",
+"rosa",
+"manzana",
+"ciruela",
+"jazmín",
+"pachulí",
+"vainilla",
+"musgo"
 ],
 "foto":"PERFUME LATTAFA BADEE AL OUD SUBLIME UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -9074,12 +8355,14 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
+"Mango",
+"coco",
+"piña",
+"notas florales",
+"leche de coco",
+"vainilla",
+"sándalo",
+"almizcle"
 ],
 "foto":"PERFUME PARIS CORNER MINISTRY OF GOURMAND MANGO JUGOSO UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -9101,11 +8384,13 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
+"Caramelo",
+"café",
+"cacao",
+"chocolate",
+"haba tonka",
+"vainilla",
+"almizcle"
 ],
 "foto":"PERFUME ZIMAYA TIRAMISU CARAMEL UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -9127,12 +8412,13 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
+"Coco",
+"café",
+"cacao",
+"vainilla",
+"notas dulces",
+"sándalo",
+"almizcle"
 ],
 "foto":"PERFUME ZIMAYA TIRAMISU COCO UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -9153,14 +8439,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DUPE PARFUMS DISCOVERY SET",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME DUPE PARFUMS DISCOVERY SET UNISEX EDP 30 X 3 ML ESTUCHE.jpg",
 "variantes":[
 {
@@ -9180,14 +8459,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS POSSIBLE EAU TENDRE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS POSSIBLE EAU TENDRE CLON CHANCE EAU TENDRE CHANEL MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -9207,13 +8479,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS OMBRE DAMAGE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS OMBRE DAMAGE CLON LOUIS VUITTON OMBRE NOMADE UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -9233,14 +8499,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS POSSIBLE EAU FRAICHE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS POSSIBLE EAU FRAICHE CLON CHANCE EAU FRAICHE CHANEL MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -9260,14 +8519,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS BEAUTIFULL LIFE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS BEAUTIFULL LIFE CLON LA VIE EST BELLE LANCOME MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -9287,14 +8539,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS LADY COCO",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS LADY COCO CLON COCO MADEMOISELLE CHANEL MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -9314,13 +8559,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS SM WOMEN",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS SM WOMEN CLON CH CAROLINA HERRERA MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -9340,14 +8579,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS REASON ITS YOU",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS REASON ITS YOU CLON BECAUSE ITS YOU GIORGIO ARMANI MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -9367,14 +8599,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS SPACEBOMBER EXTREME",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS SPACEBOMBER EXTREME CLON SPICEBOMB EXTREME VICTOR & ROLF MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -9394,14 +8619,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS PROFUMO RULE MEN",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS PROFUMO RULE MEN CLON CODE PROFUMO GIORGIO ARMANI HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -9421,13 +8639,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS GIOGIA WATER",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS GIOGIA WATER CLON GIOIA GIORGIO ARMANI MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -9447,14 +8659,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS MAN IN NIGHT",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS MAN IN NIGHT CLON BVLGARI MAN IN BLACK HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -9474,14 +8679,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS CARE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS CARE CARE CLON LOVE LOVE MOSCHINO MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -9501,14 +8699,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS ELEVEN WOMEN",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS ELEVEN WOMEN CLON 212 CAROLINA HERRERA MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -9557,14 +8748,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS SALVAGE ELIXIR",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS SALVAGE ELIXIR CLON SAUVAGE ELIXIR CHRISTIAN DIOR HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -9584,14 +8768,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS UNBEATABLE INTENSE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS UNBEATABLE INTENSE CLON INVICTUS INTENSE PACO RABANNE HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -9611,14 +8788,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS WANTER NIGHT",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS WANTER NIGHT CLON AZZARO WANTED BY NIGHT HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -9638,13 +8808,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS COOKIE MONSTER",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS COOKIE MONSTER CLON CHOCOLATE GREEDY MONTALE UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -9664,14 +8828,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS VANILLE AND DARK TOBACCO",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS VANILLE AND DARK TOBACCO CLON TOBACCO VANILLE TOM FORD UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -9691,14 +8848,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS PURE COTTON",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS PURE COTTON CLON SOSPIRO ERBA PURA UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -9718,14 +8868,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS BROTHERHOOD",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS BROTHERHOOD CLON TIZIANA TERENZI KIRKE UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -9745,13 +8888,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS BLACK GEM",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS BLACK GEM CLON BVLGARY LA GEMME TYGAR UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -9771,14 +8908,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS SWETT PEACH",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS SWETT PEACH CLON BITTER PEACH TOM FORD UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -9798,14 +8928,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS FORGOTTEN CHERRY",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS FORGOTTEN CHERRY CLON LOST CHERRY TOM FORD UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -9825,14 +8948,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS MANGO REVOLUTIONS",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS MANGO REVOLUTIONS CLON VILHELM PERFUMARIE MANGO SKIN UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -9852,13 +8968,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS SANDALWOOD EMOTIONS",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS SANDALWOOD EMOTIONS CLON LE LABO SANTAL 33 UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -9878,14 +8988,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS DEEP WATERS",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS DEEP WATERS CLON ORTO PARISI MEGAMARE UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -9905,14 +9008,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS MOONLIGHT",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS MOONLIGHT CLON LIGHT BLUE DOLCE GABBANA HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -9932,14 +9028,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS DARLING DONT SAY IT",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS DARLING DONT SAY IT CLON LOVE BY KILLIAN DONT BE SHY UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -9959,13 +9048,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS OZGE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS OZGE CLON NISHANE HACIVAT UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -9985,14 +9068,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"ODYSSEY SPECTRA SKY",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"ODYSSEY SPECTRA SKY EDP 100ML.jpg",
 "variantes":[
 {
@@ -10012,14 +9088,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS TATLI",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS TATLI CLON NISHANE ANI UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -10039,13 +9108,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS BLACK NARCOTIC",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS BLACK NARCOTIC CLON BLACK OPIUM YSL MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -10065,14 +9128,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS PLAY SPORT",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS PLAY SPORT CLON DIOR HOMME SPORT CHRISTIAN DIOR HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -10092,14 +9148,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS DARK SHADOW EXTREME",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS DARK SHADOW EXTREME CLON TOM FORD NOIR EXTREME HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -10119,14 +9168,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS QUIET WOMEN",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS QUIET WOMEN CLON SCANDAL JEAN PAUL GAULTIER MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -10146,13 +9188,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DUPE PARFUMS ITALIAN FORUM",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME DUPE PARFUMS ITALIAN FORUM UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -10172,14 +9208,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"LHAYA CARAMEL CASHMERAN",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME LHAYA CARAMEL CASHMERAN UNISEX EXTRAIT DE PARFUM 100 ML.jpg",
 "variantes":[
 {
@@ -10199,14 +9228,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"LHAYA ELIXIR VERDE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME LHAYA ELIXIR VERDE UNISEX EXTRAIT DE PARFUM 100 ML.jpg",
 "variantes":[
 {
@@ -10226,14 +9248,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"LHAYA ISKANDER ASH",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME LHAYA ISKANDER ASH UNISEX EXTRAIT DE PARFUM 100 ML.jpg",
 "variantes":[
 {
@@ -10253,13 +9268,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"LHAYA ZESTY MERINGUE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME LHAYA ZESTY MERINGUE UNISEX EXTRAIT DE PARFUM 100 ML.jpg",
 "variantes":[
 {
@@ -10279,14 +9288,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS HYPNOSE POSSION",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS HYPNOSE POSSION CLON HYPNOTIC POISON CHRISTIAN DIOR MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -10306,14 +9308,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS FBI DIVINE WOMEN",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS FBI DIVINE WOMEN CLON JEAN PAUL GAULTIER DIVINE MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -10333,14 +9328,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS CHARM SPORT",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS CHARM SPORT CLON ALLURE SPORT CHANEL HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -10360,13 +9348,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS BLUE CHOICE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS BLUE CHOICE CLON BLEU CHANEL HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -10386,14 +9368,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS ITALIAN WATER",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS ITALIAN WATER CLON ACQUA DI GIO HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -10413,14 +9388,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS BARCODE SPORT",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS BARCODE SPORT CLON CODE SPORT ARMANI HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -10440,14 +9408,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS BOXED INTENSE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS BOXED INTENSE CLON BOSS INTENSE HUGO BOSS HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -10467,13 +9428,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS TERRA UOMO",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS TERRA UOMO CLON TERRE D HERMES HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -10493,14 +9448,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS POWER WITH YOU",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS POWER WITH YOU CLON STRONGER WITH YOU ARMANI HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -10520,14 +9468,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS DARK SHADOW",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS DARK SHADOW CLON TOM FORD NOIR HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -10547,14 +9488,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DUPE PARFUMS AGED ORANGE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME DUPE PARFUMS AGED ORANGE UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -10574,13 +9508,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS ANGELODEMON",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS ANGELODEMON CLON ANGE OU DEMON GIVENCHY MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -10600,14 +9528,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS EVIL GIRL BLUSH",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS EVIL GIRL BLUSH CLON GOOD GIRL BLUSH MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -10627,14 +9548,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS VERY EVIL GIRL",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS VERY EVIL GIRL CLON VERY GOOD GIRL MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -10654,14 +9568,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS ELEVEN VIP BLACK",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS ELEVEN VIP BLACK CLON 212 VIP BLACK HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -10681,13 +9588,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS RUDOLPH CLUB",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS RUDOLPH CLUB CLON RALPH CLUB MEN HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -10707,14 +9608,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS BLANC MEN",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS BLANC MEN CLON LACOSTE LE BLANC HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -10734,14 +9628,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS MIYAGI MEN",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS MIYAGI MEN CLON ISSEY MIYAKE HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -10761,14 +9648,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS ASARO",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS ASARO CLON AZZARO HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -10788,13 +9668,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS ASARO CROME",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS ASARO CROME CLON AZZARO CHROME HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -10814,14 +9688,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS TOMMAS MEN",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS TOMMAS MEN CLON TOMMY MEN HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -10841,14 +9708,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS TOMMAS GIRL",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS TOMMAS GIRL CLON TOMMY GIRL MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -10868,14 +9728,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS RED BIRD",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS RED BIRD CLON PALOMA PICASSO MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -10895,13 +9748,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS GOLD LADY",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS GOLD LADY CLON LADY MILLION PACO RABANNE MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -10918,17 +9765,10 @@ const PRODUCTOS_DB = [
 "key":"BEAS__PONY-TALE",
 "marca":"BEAS",
 "nombre":"PONY TALE",
-"nombreOriginal":"BEAS PONY TALE MUJER",
+"nombreOriginal":"BEAS PONY TALE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS PONY TALE CLON BIG PONY 2 WOMAN RALPH LAUREN MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -10948,14 +9788,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS POOL SPORT",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS POOL SPORT CLON POLO SPORT RALPH LAUREN HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -10975,14 +9808,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS THANKS A LOT",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS THANKS A LOT CLON THANK U NEXT ARIANA GRANDE MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -11002,13 +9828,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS ARE WOMAN",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS ARE WOMAN CLON ARI BY ARIANA GRANDE MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -11028,14 +9848,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS SM FOR MEN",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS SM FOR MEN CLON CH FOR MEN CAROLINA HERRERA HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -11055,14 +9868,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS LEGENDARY",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS LEGENDARY CLON MONT BLANC LEGEND EDP HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -11082,14 +9888,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS VIRGINIA HOMME",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS VIRGINIA HOMME CLON VERSACE POUR HOMME HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -11109,13 +9908,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS VIRGINIA FRAICHE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS VIRGINIA FRAICHE CLON VERSACE FRAICHE POUR HOMME VERSACE HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -11135,14 +9928,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS BRIGHT GLASS",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS BRIGHT GLASS CLON BRIGHT CRYSTAL WOMAN VERSACE MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -11162,14 +9948,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS GREEN DIAMOND",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS GREEN DIAMOND CLON YELLOW DIAMOND WOMAN VERSACE MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -11189,14 +9968,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS DARK XL FOR MEN",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS DARK XL FOR MEN CLON XS BLACK FOR MEN PACO RABANNE HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -11216,13 +9988,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DUPE PARFUMS CHERUB",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME DUPE PARFUMS CHERUB UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -11242,14 +10008,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DUPE PARFUMS FLUOANGE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME DUPE PARFUMS FLUOANGE UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -11269,14 +10028,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DUPE PARFUMS COLORED TOBACCO",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME DUPE PARFUMS COLORED TOBACCO UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -11296,14 +10048,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DUPE PARFUMS DELICIOUS DESIRE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME DUPE PARFUMS DELICIOUS DESIRE UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -11323,13 +10068,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DUPE PARFUMS PISTACCIO ICE CREAM",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME DUPE PARFUMS PISTACCIO ICE CREAM UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -11349,14 +10088,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DUPE PARFUMS INGENIOSITE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME DUPE PARFUMS INGENIOSITE UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -11376,14 +10108,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DUPE PARFUMS SEASHORE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME DUPE PARFUMS SEASHORE UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -11403,14 +10128,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DUPE PARFUMS POISONED",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME DUPE PARFUMS POISONED UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -11430,13 +10148,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DUPE PARFUMS GRIS IRIS",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME DUPE PARFUMS GRIS IRIS UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -11456,14 +10168,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DUPE PARFUMS MAKE YOURSELF",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME DUPE PARFUMS MAKE YOURSELF UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -11483,14 +10188,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DUPE PARFUMS SWEET HONEY",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME DUPE PARFUMS SWEET HONEY UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -11510,14 +10208,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DUPE PARFUMS DEEP GARDEN",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME DUPE PARFUMS DEEP GARDEN UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -11537,13 +10228,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DUPE PARFUMS SUMMER SUN",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME DUPE PARFUMS SUMMER SUN UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -11563,14 +10248,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DUPE PARFUMS GYPSY DREAM",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME DUPE PARFUMS GYPSY DREAM UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -11590,14 +10268,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS WANTER INTENSE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS WANTER INTENSE CLON THE MOST WANTED INTENSE MEN BY AZZARO HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -11617,14 +10288,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS HALLOKING",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS HALLOKING CLON HALLOWEEN MAN HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -11644,14 +10308,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DUPE PARFUMS SALT WATER",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME DUPE PARFUMS SALT WATER UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -11671,14 +10328,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DUPE PARFUMS CARIBBEAN DREAMS",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME DUPE PARFUMS CARIBBEAN DREAMS UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -11698,14 +10348,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DUPE PARFUMS CONSTELLATION",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME DUPE PARFUMS CONSTELLATION UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -11725,13 +10368,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DUPE PARFUMS TWENTY-ONE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME DUPE PARFUMS TWENTY ONE UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -11751,14 +10388,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS MIYAGI WOMEN",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS MIYAGI WOMEN CLON ISSEY MIYAKE WOMEN MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -11778,14 +10408,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DUPE PARFUMS MUFASA",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME DUPE PARFUMS MUFASA UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -11805,14 +10428,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DUPE PARFUMS RINASCIMENTO",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME DUPE PARFUMS RINASCIMENTO UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -11832,13 +10448,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DUPE PARFUMS FRENCH PRIDE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME DUPE PARFUMS FRENCH PRIDE UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -11858,14 +10468,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DUPE PARFUMS GOLDEN HARP",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME DUPE PARFUMS GOLDEN HARP UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -11886,12 +10489,15 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
+"Pera",
+"bergamota",
+"nardos",
+"flor de azahar del naranjo",
+"jazmín",
+"pachulí",
+"vetiver",
+"ambroxan",
+"vainilla"
 ],
 "foto":"PERFUME FRENCH AVENUE PINNACE UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -11912,14 +10518,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS AMAZING VANILLE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS AMAZING VANILLE CLON EXTRAORDINAIRE ORCHIDEE VANILLE CAN CLIFF MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -11939,13 +10538,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS PROFUMO WATER MEN",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS PROFUMO WATER MEN CLON ACQUA DI GIO PROFUMO GIORGIO ARMANI HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -11965,14 +10558,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS JAMES SOCIETY",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS JAMES SOCIETY CLON GENTLEMAN SOCIETY HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -11992,14 +10578,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS BACARAT RED 540",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS BACARAT RED 540 CLON MAISON FRANCIS KURKDIJAN BACCARAT ROUGE 540 UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -12019,13 +10598,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS BOXED ABSOLUTE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS BOXED ABSOLUTE CLON SCENT ABSOLUTE HUGO BOSS MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -12045,14 +10618,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS ETERNAL MEN",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS ETERNAL MEN CLON ETERNITY FOR MEN CALVIN KLEIN HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -12100,14 +10666,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS FBI LE BEAU PARADISE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS FBI LE BEAU PARADISE CLON JEAN PAUL GAULTIER LE BEAU PARADISE HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -12127,13 +10686,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS QUEEN WOMAN",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS QUEEN WOMAN CLON DOLCE Q DOLCE GABBANA MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -12153,14 +10706,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS DIVITION WOMAN",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS DIVITION WOMAN CLON DEVOTION WOMAN DOLCE GABBANA MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -12180,14 +10726,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS DIVITION MEN",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS DIVITION MEN CLON DEVOTION MEN DOLCE GABBANA HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -12207,14 +10746,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS BOXED NIGHT",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS BOXED NIGHT CLON BOSS BOTTLED NIGHT HUGO BOSS HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -12235,11 +10767,14 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
+"Ron",
+"especias",
+"pachulí",
+"café",
+"vetiver",
+"sándalo",
+"vainilla",
+"caña de azúcar"
 ],
 "foto":"PERFUME FRENCH AVENUE SPECTRE WRAITH UNISEX EDP 80 ML.jpg",
 "variantes":[
@@ -12260,14 +10795,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS BLACKBERRY HER",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS BLACKBERRY HER CLON BURBERRY HER MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -12287,14 +10815,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS ARES FLAME MEN",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS ARES FLAME MEN CLON EROS FLAME VERSACE HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -12314,14 +10835,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS CREEK SILVER PEAK",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS CREEK SILVER PEAK CLON CREED SILVER MOUNTAIN WATER HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -12341,13 +10855,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS SUNLIGHT INTENSE WOMEN",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS SUNLIGHT INTENSE WOMEN CLON LIGHT BLUE EAU INTENSE DOLCE GABBANA MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -12367,14 +10875,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS ELEVEN HEROES’ MEN",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS ELEVEN HEROES MEN CLON 212 HEROES FOREVER YOUNG CAROLINA HERRERA HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -12394,14 +10895,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS GLOOM WOMEN",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS GLOOM WOMEN CLON ARIANA GRANDE CLOUD MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -12421,14 +10915,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS FLOWER VALLEY",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS FLOWER VALLEY CLON FLOWER BY KENZO MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -12448,13 +10935,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS PROFONDO WATER",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS PROFONDO WATER CLON ACQUA DI GIO PROFONDO GIORGIO ARMANI HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -12474,14 +10955,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS ELIXIR WATER",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS ELIXIR WATER CLON ACQUA DI GIO ELIXIR GIORGIO ARMANI HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -12501,14 +10975,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS ETERNAL WOMEN",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME BEAS ETERNAL WOMEN CLON ETERNITY FOR WOMAN CALVIN KLEIN MUJER EDP 100 ML.jpg",
 "variantes":[
 {
@@ -12528,14 +10995,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS FBI ULTRA MALE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME BEAS FBI ULTRA MALE CLON JEAN PAUL GAULTIER ULTRA MALE HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -12555,13 +11015,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS POWER WITH YOU ABSOLUTE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME BEAS POWER WITH YOU ABSOLUTE CLON STRONGER WITH YOU ABSOLUTELY ARMANI HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -12581,14 +11035,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BEAS KING MEN",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME BEAS KING MEN CLON DOLCE K DOLCE GABBANA HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -12609,12 +11056,15 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
+"Notas marinas",
+"frutos rojos",
+"bergamota",
+"violeta",
+"maderas blancas",
+"sándalo",
+"ambroxan",
+"almizcle",
+"vetiver"
 ],
 "foto":"ARMAF CLUB DE NUIT MILESTONE 105ML EDP.jpg",
 "variantes":[
@@ -12636,12 +11086,15 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
+"Azafrán",
+"manzana",
+"ládano",
+"cuero",
+"rosa",
+"ámbar",
+"madera de oud",
+"vainilla",
+"pachulí"
 ],
 "foto":"LATTAFA KHALID UNISEX 80 ML EDP.jpg",
 "variantes":[
@@ -12663,11 +11116,16 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
+"Limón",
+"bergamota",
+"lavanda",
+"rosa",
+"grosella negra",
+"raíz de lirio",
+"jazmín",
+"lirio de los valles",
+"sándalo",
+"ámbar"
 ],
 "foto":"AL HARAMAIN AVENTURE BLANCHE EDP 100ML.jpg",
 "variantes":[
@@ -12689,12 +11147,16 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
+"Cardamomo",
+"higo",
+"té negro",
+"iris",
+"vetiver",
+"sándalo",
+"haba tonka",
+"pachulí",
+"caramelo",
+"almizcle"
 ],
 "foto":"LATTAFA NICHE EMARATI ANTIQUE UNISEX 100ML EDP.jpg",
 "variantes":[
@@ -12715,14 +11177,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE ADENIUM",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE ADENIUM UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -12742,13 +11197,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE MAGGIORE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE MAGGIORE UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -12768,14 +11217,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE 1918",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE 1918 UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -12795,14 +11237,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE MADAGASCAR BREEZE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE MADAGASCAR BREEZE UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -12822,13 +11257,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE LIBERAT ED SOUL",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE LIBERATUNISEX ED SOUL UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -12848,14 +11277,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE IDYLLIC ALMOND",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE IDYLLIC ALMOND UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -12875,14 +11297,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE COFFEE CHICA",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE COFFEE CHICA UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -12902,14 +11317,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE HOOKAH AMBER",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE HOOKAH AMBER UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -12929,13 +11337,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE FLY HIGH",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE FLY HIGH UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -12955,14 +11357,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE FLORAL STORM",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE FLORAL STORM UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -12982,14 +11377,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE FIREWOOD SPICE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE FIREWOOD SPICE UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13009,14 +11397,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"NOVENTA GRADOS MOONLIGHT PREMIUM",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME NOVENTA GRADOS MOONLIGHT PREMIUM COLLECTION UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13036,13 +11417,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"NOVENTA GRADOS ORIENTAL PREMIUM",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME NOVENTA GRADOS ORIENTAL PREMIUM COLLECTION UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13062,14 +11437,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"NOVENTA GRADOS ROUGE PREMIUM",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME NOVENTA GRADOS ROUGE PREMIUM COLLECTION UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13089,14 +11457,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE ESSENCIAL BEAUTY",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE ESSENCIAL BEAUTY UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13116,14 +11477,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE DYNAMIC SAGE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE DYNAMIC SAGE UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13143,13 +11497,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE DYNAMIC CLARY",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE DYNAMIC CLARY UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13169,14 +11517,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE DEWY ROSE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE DEWY ROSE UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13196,14 +11537,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE DELIGHTFUL TOUCH",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE DELIGHTFUL TOUCH UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13223,14 +11557,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE DARK PARADISE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE DARK PARADISE UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13250,13 +11577,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE CASHMERAN INK",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE CASHMERAN INK UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13276,14 +11597,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE GLORIOUS FEM",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE GLORIOUS FEM UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13303,14 +11617,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE CITRUS BARK",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE CITRUS BARK UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13330,13 +11637,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE SECRET CITRUS",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE SECRET CITRUS UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13356,14 +11657,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE MAHOGANY CANDY",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE MAHOGANY CANDY UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13383,14 +11677,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE VIOLET AMBER",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE VIOLET AMBER UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13410,14 +11697,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE VENUS",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE VENUS UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13437,13 +11717,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE VANILLA JAGUAR",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE VANILLA JAGUAR UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13463,14 +11737,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE UNTOUCHED HYACINTHS",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE UNTOUCHED HYACINTHS UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13490,14 +11757,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE UNTAMED ELIXIR",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE UNTAMED ELIXIR UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13517,14 +11777,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE TRIUMPH KING",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE TRIUMPH KING UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13544,13 +11797,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE THUNDERSTORM",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE THUNDERSTORM UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13570,14 +11817,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE THE BANDIT",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE THE BANDIT UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13597,14 +11837,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE SWEET TOBACCO",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE SWEET TOBACCO UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13624,14 +11857,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE SPIRITUAL BREEZE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE SPIRITUAL BREEZE UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13651,13 +11877,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE SPICE UP",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE SPICE UP UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13677,14 +11897,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE SMOKY SPICE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE SMOKY SPICE UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13704,14 +11917,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE SILENT HISS",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE SILENT HISS UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13731,14 +11937,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE ANGELIC PURPOSE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE ANGELIC PURPOSE UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13758,13 +11957,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE SAFFRON CODE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE SAFFRON CODE UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13784,14 +11977,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE ROSA MAJESTICA",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE ROSA MAJESTICA UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13811,14 +11997,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE PURPLE PETALS",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE PURPLE PETALS UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13838,14 +12017,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE POISONOUS NIGHT",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE POISONOUS NIGHT UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13865,13 +12037,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE PINK SERENE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE PINK SERENE UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13891,14 +12057,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE PEAR A PEA",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE PEAR A PEA UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13918,14 +12077,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE PEACH PLUM PASSION",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE PEACH PLUM PASSION UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13945,14 +12097,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE ORANGE WAVE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE ORANGE WAVE UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13972,13 +12117,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE OH HONEY",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE OH HONEY UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -13998,14 +12137,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE OCEAN BLUE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE OCEAN BLUE UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -14025,14 +12157,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE NOT THIS EVENING",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE NOT THIS EVENING UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -14052,13 +12177,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUM.AE ASH SPICE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME PARFUM.AE ASH SPICE UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -14079,12 +12198,16 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
+"Flor de azahar del naranjo",
+"bergamota",
+"canela",
+"cardamomo",
+"vainilla bourbon",
+"elemí",
+"praliné",
+"almizcle",
+"ambroxan",
+"madera de gaiac"
 ],
 "foto":"FRENCH AVENUE LIQUID BRUN EDP 100ML.jpg",
 "variantes":[
@@ -14106,12 +12229,14 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
+"Notas florales blancas",
+"jazmín",
+"nardos",
+"pera",
+"bergamota",
+"vainilla",
+"vetiver",
+"pachulí"
 ],
 "foto":"ARMAF MISS GRANDEUR PARFUM 100 ML EDP.jpg",
 "variantes":[
@@ -14133,12 +12258,17 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
+"Manzana",
+"piña",
+"bergamota",
+"rosa",
+"abedul",
+"jazmín",
+"pachulí",
+"almizcle",
+"vainilla",
+"musgo de roble",
+"ámbar gris"
 ],
 "foto":"PERFUME LATTAFA PRIDE PURE CRYSTAL UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -14159,14 +12289,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"NABEEL NADER",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME NABEEL NADER UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -14186,14 +12309,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"NABEEL FULAD",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME NABEEL FULAD UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -14214,12 +12330,12 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
+"Cítricos",
+"notas ozónicas",
+"fresia",
+"notas florales",
+"ámbar gris",
+"almizcle"
 ],
 "foto":"PERFUME MATIN MARTIN SANTORINI UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -14241,11 +12357,15 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
+"Limón",
+"bergamota",
+"ylang-ylang",
+"rosa",
+"jazmín",
+"iris",
+"vainilla",
+"sándalo",
+"almizcle"
 ],
 "foto":"AL HARAMAIN FENCH COLLECTION BLANCHE 100 ML EDP.jpg",
 "variantes":[
@@ -14267,12 +12387,15 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
+"Ylang-ylang",
+"bergamota",
+"pimienta",
+"jazmín",
+"lirio de los valles",
+"rosa",
+"almizcle",
+"cera de abejas",
+"pachulí"
 ],
 "foto":"AL HARAMAIN ROYAL MUSK 100 ML EDP.jpg",
 "variantes":[
@@ -14294,11 +12417,14 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
+"Pimienta negra",
+"bergamota",
+"lavanda",
+"pimienta rosa",
+"vetiver",
+"pachulí",
+"cedro",
+"elemí"
 ],
 "foto":"PERFUME FRENCH AVENUE VULCAN FEU UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -14350,14 +12476,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"ARMAF BEACH PARTY",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"ARMAF BEACH PARTY EDP 100ML.jpg",
 "variantes":[
 {
@@ -14378,12 +12497,14 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
+"Tabaco",
+"notas especiadas",
+"notas amaderadas",
+"notas dulces",
+"lavanda",
+"cedro",
+"vainilla",
+"madera de oud"
 ],
 "foto":"AFNAN TABACCO RUSH.jpg",
 "variantes":[
@@ -14404,14 +12525,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"ODYSSEY SPECTRA",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"ODYSSEY SPECTRA EDP 200ML.jpg",
 "variantes":[
 {
@@ -14431,13 +12545,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"AL HARAMAIN MUSK MALAKI",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"AL HARAMAIN MUSK MALAKI UNISEX 100 ML EDP.jpg",
 "variantes":[
 {
@@ -14458,12 +12566,15 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
+"Frambuesa",
+"azafrán",
+"tomillo",
+"olíbano",
+"jazmín",
+"cuero",
+"gamuza",
+"ámbar",
+"notas amaderadas"
 ],
 "foto":"RASASI LA YUQAWAM 100ML EDP.jpg",
 "variantes":[
@@ -14484,14 +12595,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"ODYSSEY CANDEE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"ODYSSEY CANDEE EDP 200ML.jpg",
 "variantes":[
 {
@@ -14512,12 +12616,15 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
+"Bayas de enebro",
+"limón",
+"bergamota",
+"cardamomo",
+"cilantro",
+"nuez moscada",
+"almizcle",
+"madera de gaiac",
+"pachulí"
 ],
 "foto":"FRENCH AVENUE VULCAN BAIE EXTRAIT DE PARFUM 100ML.jpg",
 "variantes":[
@@ -14539,11 +12646,16 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
+"Bergamota",
+"lavanda",
+"romero",
+"geranio",
+"notas marinas",
+"salvia",
+"vetiver",
+"cedro",
+"musgo",
+"ámbar"
 ],
 "foto":"AL HARAMAIN AMBER OUD CARBON EDITION 60ML EXTRAIT DE PARFUM.jpg",
 "variantes":[
@@ -14564,14 +12676,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DUBAI GARDEN FOREST",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME DUBAI GARDEN FOREST UNISEX EXTRAIT DE PARFUM 100 ML.jpg",
 "variantes":[
 {
@@ -14592,12 +12697,17 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
+"Limón",
+"bergamota",
+"piña",
+"manzana",
+"rosa",
+"abedul",
+"jazmín",
+"pachulí",
+"vainilla",
+"almizcle",
+"musgo"
 ],
 "foto":"PERFUME MATIN MARTIN EL DORADO UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -14618,14 +12728,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DUBAI GARDEN TROPICAL",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME DUBAI GARDEN TROPICAL UNISEX EXTRAIT DE PARFUM 100 ML.jpg",
 "variantes":[
 {
@@ -14678,14 +12781,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DUBAI GARDEN FLOWER",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME DUBAI GARDEN FLOWER UNISEX EXTRAIT DE PARFUM 100 ML.jpg",
 "variantes":[
 {
@@ -14705,14 +12801,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"NABEEL FULAD AZM",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME NABEEL FULAD AZM UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -14733,12 +12822,13 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
+"Cítricos",
+"vainilla",
+"notas dulces",
+"rosa",
+"jazmín",
+"ámbar",
+"almizcle"
 ],
 "foto":"PERFUME LATTAFA PRIDE NEBRAS ELIXIR UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -14759,13 +12849,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"AL HARAMAIN BLUE AMBER OUD EXCLUSIF",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"AL HARAMAIN BLUE AMBER OUD EXCLUSIF EXTRAIT DE PERFUM 60 ML.jpg",
 "variantes":[
 {
@@ -14786,12 +12870,15 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
+"Bergamota",
+"naranja",
+"especias",
+"coco",
+"ylang-ylang",
+"ambroxan",
+"sándalo",
+"benjuí",
+"almizcle"
 ],
 "foto":"PERFUME LATTAFA MUSAMAM WHITE INTENSE UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -14813,12 +12900,15 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
+"Maracuyá",
+"melocotón",
+"pera",
+"grosella negra",
+"lirio de los valles",
+"ámbar",
+"vainilla",
+"almizcle",
+"sándalo"
 ],
 "foto":"ARMAF PRIVATE KEY TOY LOVE EDP 100ML.jpg",
 "variantes":[
@@ -14839,13 +12929,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"LATTAFA PRIDE DREAM OF HAZE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME LATTAFA PRIDE DREAM OF HAZE UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -14865,14 +12949,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"MATIN MARTIN ILLUSION",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PERFUME MATIN MARTIN ILLUSION UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -14893,12 +12970,13 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
+"Cardamomo",
+"lavanda",
+"pomelo",
+"cuero",
+"ámbar",
+"benjuí",
+"vetiver"
 ],
 "foto":"AL HARAMAIN AMBER OUD BLACK EDITION UNISEX 60 ML EDP.jpg",
 "variantes":[
@@ -14920,12 +12998,11 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
+"Azafrán",
+"jazmín",
+"ámbar",
+"madera de cedro",
+"almizcle"
 ],
 "foto":"AL HARAMAIN AMBER OUD EXCLUSIF SPORT 100ML EXTRAIT DE PARFUM.jpg",
 "variantes":[
@@ -14946,13 +13023,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"NABEEL IRTH FAIROOZ",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME NABEEL IRTH FAIROOZ UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -15005,14 +13076,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"NABEEL MAGHATEER KILSA",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME NABEEL MAGHATEER KILSA UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -15033,11 +13097,13 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
+"Azafrán",
+"frambuesa",
+"tomillo",
+"jazmín",
+"cuero",
+"gamuza",
+"ámbar"
 ],
 "foto":"PERFUME AL HARAMAIN OPULENT SAFFRON UNISEX EDP 100 ML.jpg",
 "variantes":[
@@ -15059,11 +13125,14 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
+"Bergamota",
+"notas verdes",
+"melón",
+"piña",
+"ámbar",
+"cedro",
+"vainilla",
+"notas amaderadas"
 ],
 "foto":"AL HARAMAIN AMBER OUD PRIVATE EDITION UNISEX 60 ML EDP.jpg",
 "variantes":[
@@ -15084,14 +13153,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"AL HARAMAIN AMBER OUD AQUA DUBAI NIGHT",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"AL HARAMAIN AMBER OUD AQUA DUBAI NIGHT PARFUM 100ML.jpg",
 "variantes":[
 {
@@ -15111,14 +13173,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"LATTAFA PRIDE ART OF UNIVERSE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME LATTAFA PRIDE ART OF UNIVERSE UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -15139,12 +13194,16 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"arabe",
 "notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
+"Flor de azahar del naranjo",
+"bergamota",
+"canela",
+"cardamomo",
+"vainilla bourbon",
+"elemí",
+"praliné",
+"almizcle",
+"ambroxan",
+"madera de gaiac"
 ],
 "foto":"PERFUME FRENCH AVENUE LIQUID BRUN LIMITED EDITION UNISEX EXTRAIT DE PARFUM 150 ML.jpg",
 "variantes":[
@@ -15165,13 +13224,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"NABEEL OCEAN BLUE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME NABEEL OCEAN BLUE UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -15191,14 +13244,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"NABEEL OCEAN",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME NABEEL OCEAN UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -15218,14 +13264,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PRIVATE KEY MI DREAMS",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PRIVATE KEY MI DREAMS 100ML EDP.jpg",
 "variantes":[
 {
@@ -15245,14 +13284,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PRIVATE KEY MI SOUL",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PRIVATE KEY MI SOUL 100ML EDP.jpg",
 "variantes":[
 {
@@ -15272,14 +13304,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"ARABIYAT PRESTIGE QISSAT NAJAH KIAMCHI",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME ARABIYAT PRESTIGE QISSAT NAJAH KIAMCHI HOMBRE EDP 100 ML.jpg",
 "variantes":[
 {
@@ -15299,14 +13324,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"AL HARAMAIN AMBER OUD AQUA DUBAI TESTER",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"AL HARAMAIN AMBER OUD AQUA DUBAI EXTRAIT PARFUM 100ML TESTER.jpg",
 "variantes":[
 {
@@ -15327,13 +13345,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BHARARA KING",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"BHARARA KING EDP 100ML.jpg",
 "variantes":[
 {
@@ -15353,14 +13365,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"AL HARAMAIN BLUE EDITION",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"AL HARAMAIN BLUE EDITION 100ML EXTRAIT DE PARFUM.jpg",
 "variantes":[
 {
@@ -15380,14 +13385,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BHARARA CHOCOLATE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"BHARARA CHOCOLATE EDP 100ML.jpg",
 "variantes":[
 {
@@ -15407,13 +13405,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"JO MILANO GAME OF SPADES WIN",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Frutas tropicales",
-"Jazmín blanco",
-"Miel dorada",
-"Sándalo cremoso",
-"Almizcle blanco"
-],
+"notas":[],
 "foto":"PERFUME JO MILANO GAME OF SPADES WIN UNISEX PARFUM 100 ML.jpg",
 "variantes":[
 {
@@ -15433,14 +13425,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"JO MILANO GAME OF SPADES WILDCARD",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Azafrán oriental",
-"Rosa de Damasco",
-"Oud blanco",
-"Ámbar cálido",
-"Vainilla suave",
-"Almizcle"
-],
+"notas":[],
 "foto":"PERFUME JO MILANO GAME OF SPADES WILDCARD UNISEX PARFUM 100 ML.jpg",
 "variantes":[
 {
@@ -15460,14 +13445,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"JO MILANO ZODIAC LEO",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME JO MILANO ZODIAC LEO UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -15487,14 +13465,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"JO MILANO GAME OF SPADES EMERALD",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME JO MILANO GAME OF SPADES EMERALD UNISEX PARFUM 90 ML.jpg",
 "variantes":[
 {
@@ -15511,17 +13482,10 @@ const PRODUCTOS_DB = [
 "key":"BAHARA__CHOCOLATE",
 "marca":"BAHARA",
 "nombre":"CHOCOLATE",
-"nombreOriginal":"SET BHARARA CHOCOLATE + + LOTION + SHOWER",
+"nombreOriginal":"BAHARA CHOCOLATE",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Pimienta negra",
-"Bergamota",
-"Lavanda aromática",
-"Cuero fino",
-"Pachulí terroso",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"SET BHARARA CHOCOLATE 100ML +10ML +BODY LOTION 200 + SHOWER ML200.jpg",
 "variantes":[
 {
@@ -15541,14 +13505,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"FRENCH AVENUE GENESIS SET 12 X",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[
-"Praliné gourmand",
-"Vainilla Bourbon",
-"Canela dulce",
-"Dátiles",
-"Haba tonka",
-"Benjuí"
-],
+"notas":[],
 "foto":"PERFUME FRENCH AVENUE GENESIS UNISEX EDP 12 X 30 ML ESTUCHE.jpg",
 "variantes":[
 {
@@ -15568,14 +13525,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"ANTONIO BANDERA BLUE SEDUCTION",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"ANTONIO BANDERA BLUE SEDUCTION EDT 50ML.jpg",
 "variantes":[
 {
@@ -15595,13 +13545,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"ANTONIO BANDERAS KING OF SEDUCTION",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"ANTONIO BANDERAS KING OF SEDUCTION EDT 100ML.jpg",
 "variantes":[
 {
@@ -15618,17 +13562,10 @@ const PRODUCTOS_DB = [
 "key":"RAMY-MARQUIS__SHALIS-MAN",
 "marca":"RAMY MARQUIS",
 "nombre":"SHALIS MAN",
-"nombreOriginal":"REMY MARQUIS SHALIS MAN",
+"nombreOriginal":"RAMY MARQUIS SHALIS MAN",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"REMY MARQUIS SHALIS MAN EDT.jpg",
 "variantes":[
 {
@@ -15648,13 +13585,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARIS CORNER COGÑAC BLAZE",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"PARIS CORNER COG#U00d1AC BLAZE EDP 100ML.jpg",
 "variantes":[
 {
@@ -15674,13 +13605,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARIS CORNER DATE CARAMEL",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"PARIS CORNER DATE CARAMEL EDP 100ML.jpg",
 "variantes":[
 {
@@ -15700,14 +13625,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"CALVIN KLEIN CK IN2U",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"CALVIN KLEIN CK IN2U HOMBRE 100ML EDT.jpg",
 "variantes":[
 {
@@ -15727,13 +13645,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"CALVIN KLEIN CK FREE",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"CALVIN KLEIN CK FREE HOMBRE 100ML EDT.jpg",
 "variantes":[
 {
@@ -15761,13 +13673,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"ANTONIO BANDERA SET BLUE SEDUCTION + DES",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"ANTONIO BANDERA SET BLUE SEDUCTION EDT 100ML + DES 150 ML.jpg",
 "variantes":[
 {
@@ -15787,14 +13693,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BENETTON COLORES MAN GREEN",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"BENETTON COLORES MAN GREEN 200 ML EDT.jpg",
 "variantes":[
 {
@@ -15814,13 +13713,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DAVIDOFF COOL WATER REBORN",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"DAVIDOFF COOL WATER REBORN HOMBRE 125 ML EDT.jpg",
 "variantes":[
 {
@@ -15837,17 +13730,10 @@ const PRODUCTOS_DB = [
 "key":"MAUBOUSSIN__CLUB-MAUBOUSSIN",
 "marca":"MAUBOUSSIN",
 "nombre":"CLUB MAUBOUSSIN",
-"nombreOriginal":"PRIVATE CLUB MAUBOUSSIN",
+"nombreOriginal":"MAUBOUSSIN CLUB MAUBOUSSIN",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"Private club mauboussinn.jpg",
 "variantes":[
 {
@@ -15867,13 +13753,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DIESEL ONLY THE BRAVE",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"DIESEL ONLY THE BRAVE EDP 125ML.jpg",
 "variantes":[
 {
@@ -15901,13 +13781,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"CALVIN KLEIN ETERNITY FOR MEN",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"CALVIN KLEIN ETERNITY FOR MEN 100 M EDT.jpg",
 "variantes":[
 {
@@ -15935,14 +13809,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DIESEL RED PARFUM",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"DIESEL RED PARFUM HOMBRE 100ML EDP.jpg",
 "variantes":[
 {
@@ -15970,13 +13837,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BENTLEY FOR MAN",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"BENTLEY FOR MAN 100ML EDT.jpg",
 "variantes":[
 {
@@ -15993,16 +13854,10 @@ const PRODUCTOS_DB = [
 "key":"CALVIN-KLEIN__CKIN2U",
 "marca":"CALVIN KLEIN",
 "nombre":"CKIN2U",
-"nombreOriginal":"CALVIN KLEIN CKIN2U MUJER",
+"nombreOriginal":"CALVIN KLEIN CKIN2U",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"CALVIN KLEIN CKIN2U MUJER EDT 150ML.jpg",
 "variantes":[
 {
@@ -16022,14 +13877,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"CALVIN KLEIN DEFY",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"CALVIN KLEIN DEFY HOMBRE 50 ML EDT.jpg",
 "variantes":[
 {
@@ -16049,13 +13897,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DIESEL FOR SUCCESSFUL LIVING",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"DIESEL FOR SUCCESSFUL LIVING HOMBRE 100ML EDT.jpg",
 "variantes":[
 {
@@ -16083,13 +13925,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"CALVIN KLEIN CONTRADICTION MEN",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"Calvin Klein Contradiction Men 100ml.jpg",
 "variantes":[
 {
@@ -16106,17 +13942,10 @@ const PRODUCTOS_DB = [
 "key":"BOSS__MAN",
 "marca":"BOSS",
 "nombre":"MAN",
-"nombreOriginal":"BOSS MAN TESTER",
+"nombreOriginal":"BOSS MAN",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"BOSS MAN TESTER EDT 100ML.jpg",
 "variantes":[
 {
@@ -16134,16 +13963,10 @@ const PRODUCTOS_DB = [
 "key":"AZZARO__CHROME",
 "marca":"AZZARO",
 "nombre":"CHROME",
-"nombreOriginal":"AZZARO CHROME TESTER",
+"nombreOriginal":"AZZARO CHROME",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"AZZARO CHROME EDT 100ML TESTER.jpg",
 "variantes":[
 {
@@ -16164,13 +13987,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"CALVIN KLEIN ESCAPE FOR MEN",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"calvin klein escape edp for men 100 ml.jpg",
 "variantes":[
 {
@@ -16190,14 +14007,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"HALLOWEEN MAN CLASICO",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"HALLOWEEN MAN CLASICO 125ML EDT.jpg",
 "variantes":[
 {
@@ -16217,13 +14027,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"TOMMY VIBRANT MEN SUMMER",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"TOMMY VIBRANT MEN SUMMER EDT 100ML.jpg",
 "variantes":[
 {
@@ -16243,13 +14047,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"TOMMY IMPACT",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"TOMMY IMPACT EDT 100ML.jpg",
 "variantes":[
 {
@@ -16266,17 +14064,10 @@ const PRODUCTOS_DB = [
 "key":"HUGO-BOSS__BOTTLED-ON-THE-GO-FRESH",
 "marca":"HUGO BOSS",
 "nombre":"BOTTLED ON THE GO FRESH",
-"nombreOriginal":"TESTER HUGO BOSS BOTTLED ON THE GO FRESH",
+"nombreOriginal":"HUGO BOSS BOTTLED ON THE GO FRESH",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"TESTER HUGO BOSS BOTLLED ON THE GO FRESH HOMBRE 100ML EDT.jpg",
 "variantes":[
 {
@@ -16297,13 +14088,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BURBERRY WEEKEND FOR MEN",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"BURBERRY WEEKEND FOR MEN 100ML EDT.jpg",
 "variantes":[
 {
@@ -16323,13 +14108,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"HALLOWEEN MAN MYSTERY",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"HALLOWEEN MAN MYSTERY EDP 100ML.jpg",
 "variantes":[
 {
@@ -16349,14 +14128,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"TOMMY HILFIGER MAN SIN CELOFAN",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"TOMMY HILFIGER MAN SIN CELOFAN 100 ML EDT.jpg",
 "variantes":[
 {
@@ -16376,13 +14148,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"ISSEY MIYAKE L'EAU D'ISSEY TESTER",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"ISSEY MIYAKE L'EAU D'ISSEY TESTER EDT 100ML.jpg",
 "variantes":[
 {
@@ -16403,13 +14169,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DIESEL FUEL FOR LIFE",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"DIESEL FLUEL FOR LIFE 125ML EDT.jpg",
 "variantes":[
 {
@@ -16429,14 +14189,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"AZZARO WANTED",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"AZZARO WANTED EDT 50ML.jpg",
 "variantes":[
 {
@@ -16456,13 +14209,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"ISSEY MIYAKE SET + CREMA + GEL",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"ISSEY MIYAKE 50ML +CREMA HIDRATANTE 50ML+GEL DE DIUCHA 50ML.jpg",
 "variantes":[
 {
@@ -16482,14 +14229,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"KENZO L'EAU PAR KENZO",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"KENZO L'EAU PAR KENZO HOMBRE 100 ML EDT.jpg",
 "variantes":[
 {
@@ -16509,13 +14249,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"RALPH LAUREN POLO RED MAN",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"RALPH LAUREN POLO RED MAN 125ML EDT.jpg",
 "variantes":[
 {
@@ -16543,14 +14277,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"HUGO BOSS BOTTLED NIGHT",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"HUGO BOSS BOTTLED NIGHT EDT 100ML.jpg",
 "variantes":[
 {
@@ -16570,13 +14297,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"HUGO BOSS JEANS",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"HUGO BOSS JEANS HOMBRE125ML EDT.jpg",
 "variantes":[
 {
@@ -16596,13 +14317,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"MONTBLANC EXPLORER PLATINUM",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"MONTBLANC EXPLORER PLATINUM EDP 100ML.jpg",
 "variantes":[
 {
@@ -16622,14 +14337,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"HUGO BOSS MAN CANTIMPLORA VERDE",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"HUGO BOSS MAN CANTIMPLORA VERDE 125ML EDT.jpg",
 "variantes":[
 {
@@ -16649,13 +14357,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"LACOSTE NOIR INTENSE",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"LACOSTE NOIR INTENSE HOMBRE 100 ML EDT.jpg",
 "variantes":[
 {
@@ -16675,14 +14377,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"GIVENCHY POUR HOMME",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"GIVENCHY POUR HOMME 100ML EDT.jpg",
 "variantes":[
 {
@@ -16702,13 +14397,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"VIKTOR AND ROLF SPICEBOMB MAN",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"VIKTOR AND ROLF SPICEBOMB MAN 50ML EDT.jpg",
 "variantes":[
 {
@@ -16725,16 +14414,10 @@ const PRODUCTOS_DB = [
 "key":"MONTBLANC__MONTBLANC",
 "marca":"MONTBLANC",
 "nombre":"MONTBLANC",
-"nombreOriginal":"SET MONTBLANC PARFUM + + GEL DOUCHE",
+"nombreOriginal":"MONTBLANC MONTBLANC",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"SET MONTBLANC 100ML PARFAM +7.5ML+GEL DOUCHE100ML.jpg",
 "variantes":[
 {
@@ -16751,17 +14434,10 @@ const PRODUCTOS_DB = [
 "key":"AZZARO__THE-MOST-WANTED-INTENSE",
 "marca":"AZZARO",
 "nombre":"THE MOST WANTED INTENSE",
-"nombreOriginal":"TESTER AZZARO THE MOST WANTED INTENSE",
+"nombreOriginal":"AZZARO THE MOST WANTED INTENSE",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"TESTER AZZARO THE MOST WANTED EDT INTENSE 100ML.jpg",
 "variantes":[
 {
@@ -16782,13 +14458,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PACO RABANNE BLACK XS MAN",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"PACO RABANNE BLACK XS MAN 100ML EDT.jpg",
 "variantes":[
 {
@@ -16805,16 +14475,10 @@ const PRODUCTOS_DB = [
 "key":"DOLCE-AND-GABBANA__LIGHT-BLUE-POUR-HOMME",
 "marca":"DOLCE & GABBANA",
 "nombre":"LIGHT BLUE POUR HOMME",
-"nombreOriginal":"DOLCE Y GABBANA LIGHT BLUE POUR HOMME",
+"nombreOriginal":"DOLCE & GABBANA LIGHT BLUE POUR HOMME",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"DOLCE Y GABBANA LIGHT BLUE POU HOMME EDT 100ML.jpg",
 "variantes":[
 {
@@ -16834,14 +14498,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BURBERRY MR BURBERRY",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"BURBERRY MR BURBERRY 100ML EDT.jpg",
 "variantes":[
 {
@@ -16861,13 +14518,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"AZZARO WANTED BY NIGHT",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"AZZARO WANTED BY NIGHT HOMBRE 100 ML EDP.jpg",
 "variantes":[
 {
@@ -16887,13 +14538,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"HUGO BOSS BOTTLED",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"HUGO BOSS BOTTLED 100ML EDT.jpg",
 "variantes":[
 {
@@ -16913,14 +14558,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"HUGO BOSS BOTTLED INFINITE",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"HUGO BOSS BOTTLED INFINITE HOMBRE 100 ML EDP.jpg",
 "variantes":[
 {
@@ -16940,13 +14578,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"CAROLINA HERRERA 212 MEN SEXY",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"CAROLINA HERRERA 212 MEN SEXY 100ML EDT.jpg",
 "variantes":[
 {
@@ -16997,13 +14629,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"YVES SAINT LAURENT Y MEN",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"YVES SAINT LAURENT Y YSL MEN 60ML EDT.jpg",
 "variantes":[
 {
@@ -17023,13 +14649,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"EMPORIO ARMANI MAN",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"EMPORIO ARMANI MAN EDT 100ML.jpg",
 "variantes":[
 {
@@ -17046,17 +14666,10 @@ const PRODUCTOS_DB = [
 "key":"DOLCE-AND-GABBANA__KING-INTENSE",
 "marca":"DOLCE & GABBANA",
 "nombre":"KING INTENSE",
-"nombreOriginal":"DOLCE AND GABBANA KING INTENSE",
+"nombreOriginal":"DOLCE & GABBANA KING INTENSE",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"DOLCE AND GABBANA KING INTENSE HOMBRE 100ML EDP.jpg",
 "variantes":[
 {
@@ -17077,11 +14690,13 @@ const PRODUCTOS_DB = [
 "categoria":"HOMBRE",
 "coleccion":"disenador",
 "notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
+"Cardamomo",
+"lavanda",
+"geranio",
+"vetiver",
+"haba tonka",
+"vainilla",
+"notas amaderadas"
 ],
 "foto":"AZZARO WANTED FOREVER PARFUM elixir HOMBRE 100Ml.jpg",
 "variantes":[
@@ -17110,13 +14725,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DOLCE & GABBANA KING MAN",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"DOLCE & GABBANA KING MAN 100ML EDP.jpg",
 "variantes":[
 {
@@ -17136,14 +14745,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"EMPORIO ARMANI STRONGER WITH YOU",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"EMPORIO ARMANI STRONGER WITH YOU 50ML EDT.jpg",
 "variantes":[
 {
@@ -17160,16 +14762,10 @@ const PRODUCTOS_DB = [
 "key":"PACO-RABANNE__1-MILLION-MAN",
 "marca":"PACO RABANNE",
 "nombre":"1 MILLION MAN",
-"nombreOriginal":"TESTER 1 MILLION MAN",
+"nombreOriginal":"PACO RABANNE 1 MILLION MAN",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"TESTER 1 MILLION MAN 100ML EDT.jpg",
 "variantes":[
 {
@@ -17190,13 +14786,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"GIORGIO ARMANI ACQUA DI GIO MEN",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"GIORGIO ARMANI ACQUA DI GIO MEN PARFUM 50ML.jpg",
 "variantes":[
 {
@@ -17216,14 +14806,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"RALPH LAUREN RED",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"RALPH LAUREN RED EDT 200 100ML.jpg",
 "variantes":[
 {
@@ -17240,16 +14823,10 @@ const PRODUCTOS_DB = [
 "key":"AZZARO__WANTED-FOREVER",
 "marca":"AZZARO",
 "nombre":"WANTED FOREVER",
-"nombreOriginal":"AZZARO WANTED FOREVER PARFUM ELIXIR",
+"nombreOriginal":"AZZARO WANTED FOREVER",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"AZZARO FOREVER WANTED ELIXIR 100ML.jpg",
 "variantes":[
 {
@@ -17266,16 +14843,10 @@ const PRODUCTOS_DB = [
 "key":"VIKTOR-AND-ROLF__SPICEBOMB-METALLIC-MUSK",
 "marca":"VIKTOR AND ROLF",
 "nombre":"SPICEBOMB METALLIC MUSK",
-"nombreOriginal":"VIKTOR Y ROLF SPICEBOMB METALLIC MUSK",
+"nombreOriginal":"VIKTOR AND ROLF SPICEBOMB METALLIC MUSK",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"VICTOR Y ROLF SPICEBOMB METALLIC MUSK EDP 50ML.jpg",
 "variantes":[
 {
@@ -17295,13 +14866,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"GIORGIO ARMANI CODE",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"GIORGIO ARMANI CODE PARFUM 75ML.jpg",
 "variantes":[
 {
@@ -17322,11 +14887,18 @@ const PRODUCTOS_DB = [
 "categoria":"HOMBRE",
 "coleccion":"disenador",
 "notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
+"Notas marinas",
+"Aquozone",
+"bergamota",
+"mandarina verde",
+"romero",
+"ciprés",
+"lavanda",
+"lentisco",
+"notas minerales",
+"almizcle",
+"pachulí",
+"ámbar"
 ],
 "foto":"GIORGIO ARMANI ACQUA DI GIO PROFONDO 100 ML EDP.jpg",
 "variantes":[
@@ -17363,13 +14935,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BURBERRY HERO",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"BURBERRY HERO HOMBRE 100 ML EDT.jpg",
 "variantes":[
 {
@@ -17389,14 +14955,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"CAROLINA HERRERA 212 HEROES FOREVER YOUNG",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"CAROLINA HERRERA 212 MAN H#U00c9ROES FOREVER YOUNG 90 ML EDT.jpg",
 "variantes":[
 {
@@ -17416,13 +14975,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"RALPH LAUREN POLO BLUE PARFUM",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"RALPH LAUREN POLO BLUE PARFUM HOMBRE 125 ML EDP.jpg",
 "variantes":[
 {
@@ -17442,13 +14995,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"CAROLINA HERRERA 212 VIP BLACK NYC RODEO",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"CAROLINA HERRERA 212 VIPBLACK NYC NY RODEO EDP 80ML.jpg",
 "variantes":[
 {
@@ -17468,13 +15015,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"RALPH LAUREN POLO 67",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"RALPH LAUREN POLO 67 EDP 125ML.jpg",
 "variantes":[
 {
@@ -17494,13 +15035,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"RALPH LAUREN POLO RED RUSH MAN",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"RALPH LAUREN POLO RED RUSH MAN 200ML EDT.jpg",
 "variantes":[
 {
@@ -17520,14 +15055,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"VERSACE EROS + + GEL",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"VERSACE EROS EDT 100ML +10ML +GEL 150ML.jpg",
 "variantes":[
 {
@@ -17547,13 +15075,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PACO RABANNE INVICTUS MAN",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"PACO RABANNE INVICTUS MAN 100ML EDT.jpg",
 "variantes":[
 {
@@ -17573,13 +15095,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"CAROLINA HERRERA BAD BOY",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"CAROLINA HERRERA BAD BOY EDT 100ML.jpg",
 "variantes":[
 {
@@ -17599,14 +15115,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"CAROLINA HERRERA 212 MAN NYC",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"CAROLINA HERRERA 212 MAN NYC EDT 100ML EDT.jpg",
 "variantes":[
 {
@@ -17626,13 +15135,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"JEAN PAUL GAULTIER LE BEAU",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"JEAN PAUL GALTIER LE BEAU EDT 75ML.jpg",
 "variantes":[
 {
@@ -17652,14 +15155,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"GIORGIO ARMANI ACQUA DI GIO MAN",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"GIORGIO ARMANI ACQUA DI GIO MAN 100ML EDT.jpg",
 "variantes":[
 {
@@ -17676,16 +15172,10 @@ const PRODUCTOS_DB = [
 "key":"PACO-RABANNE__RABANNE-PHANTOM",
 "marca":"PACO RABANNE",
 "nombre":"RABANNE PHANTOM",
-"nombreOriginal":"PACO RABANNE PHANTOM",
+"nombreOriginal":"PACO RABANNE RABANNE PHANTOM",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"PACO RABANNE PHANTOM 100ML EDT.jpg",
 "variantes":[
 {
@@ -17705,14 +15195,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"GIORGIO ARMANI SET ACQUA DI GIO +",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"GIORGIO ARMANI SET ARMANI ACQUA DIO GIO PARFUM EDT 100ML +15ML.jpg",
 "variantes":[
 {
@@ -17732,13 +15215,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"JEAN PAUL GAULTIER LE MALE TRAVEL SET +",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"JEAN PAUL GALTIER LE MALE TRAVE EDT 125 ML + 20ML.jpg",
 "variantes":[
 {
@@ -17758,13 +15235,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"YVES SAINT LAURENT LA NUIT DE L'HOMME",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"YVES SAINT LAURENT LA NUIT DE L'HOMME 100ML EDT.jpg",
 "variantes":[
 {
@@ -17784,14 +15255,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"JEAN PAUL GAULTIER LE MALE SET +",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"JEAN PAUL GULTIER LE MALE SETT EDT 125 ML+40ML.jpg",
 "variantes":[
 {
@@ -17811,13 +15275,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"EMPORIO ARMANI STRONGER WITH YOU INTENSELY",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"EMPORIO ARMANI STRONGER WITH YOU INTENSELY MAN 100ML EDP.jpg",
 "variantes":[
 {
@@ -17837,13 +15295,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"GIORGIO ARMANI ACQUA DI GIO",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"GIORGIO ARMANI ACQUA DI GIO PARFUM HOMBRE 100ML EDP.jpg",
 "variantes":[
 {
@@ -17863,14 +15315,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"POLO BLUE SET +",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"POLO BLUE SET 75ML +10ML EDT.jpg",
 "variantes":[
 {
@@ -17890,13 +15335,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"YVES SAINT LAURENT Y INTENSE",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"YVES SAINT LAURENT Y 100 ML EDP INTENSE.jpg",
 "variantes":[
 {
@@ -17916,13 +15355,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"EMPORIO ARMANI STRONGER WITH YOU SET ++GEL",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"EMPORIO ARMANI STRONGER WITH YOU SET EDT 100ML+EDT 15 ML + GEL DUCHA 75ML.jpg",
 "variantes":[
 {
@@ -17942,14 +15375,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"JEAN PAUL GAULTIER ULTRA MALE INTENSE",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"JEAN PAUL GAULTIER LES MALE ULTRA MALE UNTENSE 125ML EDT.jpg",
 "variantes":[
 {
@@ -17969,13 +15395,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"GIORGIO ARMANI ACQUA DI GIO RECARGABLE",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"GIORGIO ARMANI ACQUA DI RECARGABLE 150 ML EDP.jpg",
 "variantes":[
 {
@@ -17992,7 +15412,7 @@ const PRODUCTOS_DB = [
 "key":"JEAN-PAUL-GAULTIER__LE-MALE-ELIXIR",
 "marca":"JEAN PAUL GAULTIER",
 "nombre":"LE MALE ELIXIR",
-"nombreOriginal":"LE MALE ELIXIR",
+"nombreOriginal":"JEAN PAUL GAULTIER LE MALE ELIXIR",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
 "notas":[
@@ -18023,13 +15443,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"CHRISTIAN DIOR HOMME SPORT",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"CHRISTIAN DIOR HOMME SPORT 125ML EDT.jpg",
 "variantes":[
 {
@@ -18236,14 +15650,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"VICTORIA SECRET TEMPTATION",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"VICTORIA SECRET TEMPTATION 250ML.jpg",
 "variantes":[
 {
@@ -18263,13 +15670,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"VICTORIA SECRET STRAWBERRIES Y CHAMPAGNE",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"VICTORIA SECRET STRAWBERRIES Y CHAMPAGNE 250ML.jpg",
 "variantes":[
 {
@@ -18289,13 +15690,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"VICTORIA SECRET LOVE SPELL",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"VICTORIA SECRET LOVE SPELL 250ML.jpg",
 "variantes":[
 {
@@ -18315,14 +15710,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"VICTORIA SECRET LOVE ADDICT MUJER LOCION",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"VICTORIA SECRET LOVE ADDICT MUJER 250 ML LOCION.jpg",
 "variantes":[
 {
@@ -18342,13 +15730,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"VICTORIA SECRET AMBER ROMANCE",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"VICTORIA SECRET AMBER ROMANCE 100ml.jpg",
 "variantes":[
 {
@@ -18365,16 +15747,10 @@ const PRODUCTOS_DB = [
 "key":"CALVIN-KLEIN__CK-IN2U-HER",
 "marca":"CALVIN KLEIN",
 "nombre":"CK IN2U HER",
-"nombreOriginal":"TESTER CALVIN KLEIN CK IN2U HER",
+"nombreOriginal":"CALVIN KLEIN CK IN2U HER",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"TESTER CALVIN KLEIN CK IN2U HER EDT 100ML.jpg",
 "variantes":[
 {
@@ -18395,14 +15771,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"CACHAREL ANAIS ANAIS",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"CACHAREL ANAIS ANAIS 30 ML EDT.jpg",
 "variantes":[
 {
@@ -18422,13 +15791,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"CAVIOLI PARFUM VELORA",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"CAVIOLI PARFUM VELORA 30ML.jpg",
 "variantes":[
 {
@@ -18445,16 +15808,10 @@ const PRODUCTOS_DB = [
 "key":"RAMY-MARQUIS__SHALIS-WOMAN",
 "marca":"RAMY MARQUIS",
 "nombre":"SHALIS WOMAN",
-"nombreOriginal":"REMY MARQUIS SHALIS WOMAN",
+"nombreOriginal":"RAMY MARQUIS SHALIS WOMAN",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"REMY MARQUIS SHALIS WOMAN EDT 100ML.jpg",
 "variantes":[
 {
@@ -18474,14 +15831,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"CACHAREL YES I AM DELICIOUS",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"CACHAREL YES I AM DELICIOUS 30ML EDP.jpg",
 "variantes":[
 {
@@ -18498,16 +15848,10 @@ const PRODUCTOS_DB = [
 "key":"TED-LAPIDUS__LAPIDUS-ORISSIMA-DIVINE",
 "marca":"TED LAPIDUS",
 "nombre":"LAPIDUS ORISSIMA DIVINE",
-"nombreOriginal":"TED LAPIDUS ORISSIMA DIVINE MUJER",
+"nombreOriginal":"TED LAPIDUS LAPIDUS ORISSIMA DIVINE",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"TED LAPIDUS ORISSIMA DIVINE MUJER 100 ML EDP.jpg",
 "variantes":[
 {
@@ -18524,16 +15868,10 @@ const PRODUCTOS_DB = [
 "key":"DAVIDOFF__COOL-WATER-REBORN__MUJER",
 "marca":"DAVIDOFF",
 "nombre":"COOL WATER REBORN",
-"nombreOriginal":"DAVIDOFF COOL WATER REBORN MUJER",
+"nombreOriginal":"DAVIDOFF COOL WATER REBORN",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"DAVIDOFF COOL WATER REBORN MUJER 100 ML EDT.jpg",
 "variantes":[
 {
@@ -18553,14 +15891,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"CALVIN KLEIN CK ONE SHOCK FOR HER",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"CALVIN KLEIN CK ONE SHOCK FOR HER 200ML EDT.jpg",
 "variantes":[
 {
@@ -18585,16 +15916,10 @@ const PRODUCTOS_DB = [
 "key":"DIESEL__SET-ZERO-PLUS-FEMININE-LOTION-EAU-DE-TOILETTE",
 "marca":"DIESEL",
 "nombre":"SET ZERO PLUS FEMININE + LOTION + EAU DE TOILETTE",
-"nombreOriginal":"SET DIESEL ZERO PLUS FEMININE \\+",
+"nombreOriginal":"DIESEL SET ZERO PLUS FEMININE + LOTION + EAU DE TOILETTE",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"SET DIESEL ZERO PLUS FEMININE 100ML + 30ML EDT.jpg",
 "variantes":[
 {
@@ -18614,14 +15939,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARIS HILTON LUXE RUSH",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"Paris Hilton Luxe Rush Edp 100ml.jpg",
 "variantes":[
 {
@@ -18641,13 +15959,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BRITNEY SPEARS MIDNIGHT FANTASY WOMAN",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"BRITNEY SPEARS MIDNIGHT FANTASY WOMAN100ML EDP.jpg",
 "variantes":[
 {
@@ -18664,16 +15976,10 @@ const PRODUCTOS_DB = [
 "key":"CACHAREL__EDEN-PARFUM",
 "marca":"CACHAREL",
 "nombre":"EDEN PARFUM",
-"nombreOriginal":"CACHAREL EDEN PARFUM MUJER",
+"nombreOriginal":"CACHAREL EDEN PARFUM",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"CACHAREL EDEN PARFUM MUJER 50 ML EDP.jpg",
 "variantes":[
 {
@@ -18690,16 +15996,10 @@ const PRODUCTOS_DB = [
 "key":"PARIS-HILTON__JUST-ME",
 "marca":"PARIS HILTON",
 "nombre":"JUST ME",
-"nombreOriginal":"PARIS HILTON JUST ME MUJER",
+"nombreOriginal":"PARIS HILTON JUST ME",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"PARIS HILTON JUST ME MUJER 100 ML EDP.jpg",
 "variantes":[
 {
@@ -18719,13 +16019,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"CAVIOLI VELORA ELIXIR",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"CAVIOLI VELORA ELIXIR 100ML.jpg",
 "variantes":[
 {
@@ -18742,17 +16036,10 @@ const PRODUCTOS_DB = [
 "key":"ARIANA-GRANDE__ARI",
 "marca":"ARIANA GRANDE",
 "nombre":"ARI",
-"nombreOriginal":"TESTER ARI BY ARIANA GRANDE",
+"nombreOriginal":"ARIANA GRANDE ARI",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"TESTER ARI BY ARIANA GRANDE 100ML EDP.jpg",
 "variantes":[
 {
@@ -18770,16 +16057,10 @@ const PRODUCTOS_DB = [
 "key":"DKNY__DELICIOUS-GOLD",
 "marca":"DKNY",
 "nombre":"DELICIOUS GOLD",
-"nombreOriginal":"DKNY BE DELICIOUS GOLD",
+"nombreOriginal":"DKNY DELICIOUS GOLD",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"DKNY BE DELICIUS GOLD 100ML.jpg",
 "variantes":[
 {
@@ -18799,14 +16080,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"MOSCHINO MOSCHINO FEMME",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"MOSCHINO MOSCHINO FEMME 75ML EDT.jpg",
 "variantes":[
 {
@@ -18826,14 +16100,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BURBERRY BRIT FOR HER",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"BURBERRY BRIT FOR HER 50 ML EDT.jpg",
 "variantes":[
 {
@@ -18850,16 +16117,10 @@ const PRODUCTOS_DB = [
 "key":"DAVIDOFF__COOL-WATER-SEA-ROSE",
 "marca":"DAVIDOFF",
 "nombre":"COOL WATER SEA ROSE",
-"nombreOriginal":"DAVIDOFF COOL WATER SEA ROSE MUJER",
+"nombreOriginal":"DAVIDOFF COOL WATER SEA ROSE",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"DAVIDOFF COOL WATER SEA ROSE MUJER 100 ML EDT.jpg",
 "variantes":[
 {
@@ -18885,16 +16146,10 @@ const PRODUCTOS_DB = [
 "key":"PALOMA-PICASSO__WOMAN",
 "marca":"PALOMA PICASSO",
 "nombre":"WOMAN",
-"nombreOriginal":"PALOMA PICASSO WOMAN TESTER",
+"nombreOriginal":"PALOMA PICASSO WOMAN",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"PALOMA PICASSO WOMAN 100ML EDP TESTER.jpg",
 "variantes":[
 {
@@ -18915,14 +16170,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"HALLOWEEN MUJER CLASICO",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"HALLOWEEN MUJER CLASICO 100ML EDT.jpg",
 "variantes":[
 {
@@ -18942,13 +16190,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"CACHAREL NOA TESTER",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"CACHAREL NOA EDT 100ML TESTER.jpg",
 "variantes":[
 {
@@ -18969,14 +16211,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"NARCISO RODRIGUEZ ALL OF ME",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"NARCISO RODRIGUEZ ALL OF ME 30 ML EDP.jpg",
 "variantes":[
 {
@@ -18996,13 +16231,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"LANCOME IDOLE",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"LANCOME IDOLE EDT 25ML.jpg",
 "variantes":[
 {
@@ -19022,13 +16251,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"ROBERTO CAVALLI FLORENCE FOR WOMAN",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"ROBERTO CAVALLI FLORENCE FOR WOMAN EDP 75ML.jpg",
 "variantes":[
 {
@@ -19048,14 +16271,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"TOMMY GIRL VIBRANT SUMMER",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"TOMMY GIRL VIBRANT SUMMER EDT 100ML.jpg",
 "variantes":[
 {
@@ -19072,16 +16288,10 @@ const PRODUCTOS_DB = [
 "key":"VIKTOR-AND-ROLF__GOOD-FORTUNE",
 "marca":"VIKTOR AND ROLF",
 "nombre":"GOOD FORTUNE",
-"nombreOriginal":"VIKTOR AND ROLF GOOD FORTUNE MUJER",
+"nombreOriginal":"VIKTOR AND ROLF GOOD FORTUNE",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"VIKTOR AND ROLF GOOD FORTUNE MUJER 30ML EDP.jpg",
 "variantes":[
 {
@@ -19106,16 +16316,10 @@ const PRODUCTOS_DB = [
 "key":"DKNY__100-BE-DELICIOUS",
 "marca":"DKNY",
 "nombre":"100% BE DELICIOUS",
-"nombreOriginal":"DKNY 100% BE DELICIOUS MUJER",
+"nombreOriginal":"DKNY 100% BE DELICIOUS",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"DKNY 100% BE DELICIOUS MUJER 100ML EDT.jpg",
 "variantes":[
 {
@@ -19135,14 +16339,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"ARIANA GRANDE MOONLIGHT",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"ARIANA GRANDE MOON MOONLIGHT BY 100ML EDP.jpg",
 "variantes":[
 {
@@ -19171,13 +16368,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"CACHAREL AMOR AMOR",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"CACHAREL AMOR AMOR 100ML EDT.jpg",
 "variantes":[
 {
@@ -19203,16 +16394,10 @@ const PRODUCTOS_DB = [
 "key":"ARIANA-GRANDE__SWEET-LIKE-CANDY",
 "marca":"ARIANA GRANDE",
 "nombre":"SWEET LIKE CANDY",
-"nombreOriginal":"SWEET LIKE CANDY BY ARIANA GRANDE",
+"nombreOriginal":"ARIANA GRANDE SWEET LIKE CANDY",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"SWEET LIKE CANDY BY ARIANA GRANDE 100ML EDP.jpg",
 "variantes":[
 {
@@ -19229,17 +16414,10 @@ const PRODUCTOS_DB = [
 "key":"VIKTOR-AND-ROLF__AND-ROLF-FLOWERBOMB-RUBY-ORCHID",
 "marca":"VIKTOR AND ROLF",
 "nombre":"AND ROLF FLOWERBOMB RUBY ORCHID",
-"nombreOriginal":"VIKTOR AND ROLF FLOWERBOMB RUBY ORCHID",
+"nombreOriginal":"VIKTOR AND ROLF AND ROLF FLOWERBOMB RUBY ORCHID",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"VIKTOR AND ROLD FLOWERBOMB RUBY ORCHID MUJER 30ML EDP.jpg",
 "variantes":[
 {
@@ -19259,13 +16437,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"CALVIN KLEIN ETERNITY FOR WOMEN",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"CLAVIN KLEIN ETERNITY FOR WOMEN 100 ML EDP.jpg",
 "variantes":[
 {
@@ -19282,16 +16454,10 @@ const PRODUCTOS_DB = [
 "key":"ARIANA-GRANDE__CLOUD",
 "marca":"ARIANA GRANDE",
 "nombre":"CLOUD",
-"nombreOriginal":"TESTER CLOUD ARIANA GRANDE",
+"nombreOriginal":"ARIANA GRANDE CLOUD",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"TESTER CLOUD ARIANA GRANDE 100ML EDP.jpg",
 "variantes":[
 {
@@ -19309,17 +16475,10 @@ const PRODUCTOS_DB = [
 "key":"DOLCE-AND-GABBANA__LIGHT-BLUE",
 "marca":"DOLCE & GABBANA",
 "nombre":"LIGHT BLUE",
-"nombreOriginal":"TESTER DOLCE & GABBANA LIGHT BLUE MUJER",
+"nombreOriginal":"DOLCE & GABBANA LIGHT BLUE",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"TESTER DOLCE & GABBANA LIGHT BLUE MUJER 100ML EDT.jpg",
 "variantes":[
 {
@@ -19340,13 +16499,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"THIERRY MUGLER ALIEN GODDESS SUPRA FLORAL",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"THIERRY MUGLER ALLIEN GODDESS SUPRA FLORAL PARFUM 30 ML EDP.jpg",
 "variantes":[
 {
@@ -19363,16 +16516,10 @@ const PRODUCTOS_DB = [
 "key":"THIERRY-MUGLER__ANGEL-ELIXIR",
 "marca":"THIERRY MUGLER",
 "nombre":"ANGEL ELIXIR",
-"nombreOriginal":"THIERRY MUGLER ANGEL ELIXIR MUJER",
+"nombreOriginal":"THIERRY MUGLER ANGEL ELIXIR",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"THIERRY MUGLER ANGEL ELIXIR MUJER 25ML EDP.jpg",
 "variantes":[
 {
@@ -19392,14 +16539,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"CALVIN KLEIN EUPHORIA WOMEN",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"CALVIN KLEIN EUPHORIA WOMEN 100ML EDP.jpg",
 "variantes":[
 {
@@ -19419,13 +16559,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"LANCOME IDOLE SET + \\+ LASH IDOLE",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"LANCOME IDOLE EDP SET 25ML +EDP 5ML+LASH IDOLE 2.5ML.jpg",
 "variantes":[
 {
@@ -19442,16 +16576,10 @@ const PRODUCTOS_DB = [
 "key":"DKNY__MANZANA-VERDE",
 "marca":"DKNY",
 "nombre":"MANZANA VERDE",
-"nombreOriginal":"DKNY BE DELICIOUS MANZANA VERDE",
+"nombreOriginal":"DKNY MANZANA VERDE",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"DKNY BE DELICIOUS 100ML EDP MANZANA VERDE.jpg",
 "variantes":[
 {
@@ -19471,14 +16599,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"THIERRY MUGLER ANGEL FANTASM",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"THIERRY MUGLER ANGEL FANTASM EDP 50ML.jpg",
 "variantes":[
 {
@@ -19495,16 +16616,10 @@ const PRODUCTOS_DB = [
 "key":"MARC-JACOBS__DAISY",
 "marca":"MARC JACOBS",
 "nombre":"DAISY",
-"nombreOriginal":"MARC JACOBS DAISY MUJER",
+"nombreOriginal":"MARC JACOBS DAISY",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"MARC JACOBS DAISY MUJER 100 ML EDT.jpg",
 "variantes":[
 {
@@ -19525,11 +16640,17 @@ const PRODUCTOS_DB = [
 "categoria":"MUJER",
 "coleccion":"disenador",
 "notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
+"Pimienta rosa",
+"mandarina",
+"bergamota",
+"lila",
+"melocotón",
+"geranio",
+"jazmín",
+"pachulí",
+"ámbar",
+"vainilla",
+"almizcle blanco"
 ],
 "foto":"GUCCI GUILTY POUR FEMME 90 ML EDT.jpg",
 "variantes":[
@@ -19558,14 +16679,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"MOSCHINO SET TOY 2 PEARL + BODY LOTION",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"MOSCHINO SETT TOY 2 PEARL 30ML + PERFUMED BODY LOTION 50ML.jpg",
 "variantes":[
 {
@@ -19582,16 +16696,10 @@ const PRODUCTOS_DB = [
 "key":"DOLCE-AND-GABBANA__DEVOTION",
 "marca":"DOLCE & GABBANA",
 "nombre":"DEVOTION",
-"nombreOriginal":"DOLCE Y GABBANA DEVOTION",
+"nombreOriginal":"DOLCE & GABBANA DEVOTION",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"DOLCE Y GABBANA DEVOTION EDP 100ML.jpg",
 "variantes":[
 {
@@ -19617,16 +16725,10 @@ const PRODUCTOS_DB = [
 "key":"DOLCE-AND-GABBANA__THE-ONE-GOLD",
 "marca":"DOLCE & GABBANA",
 "nombre":"THE ONE GOLD",
-"nombreOriginal":"DOLCE Y GABBANA THE ONE GOLD",
+"nombreOriginal":"DOLCE & GABBANA THE ONE GOLD",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"DOLCE Y GABBANA THE ONE GOLD EDP 100ML.jpg",
 "variantes":[
 {
@@ -19643,17 +16745,10 @@ const PRODUCTOS_DB = [
 "key":"VIKTOR-AND-ROLF__AND-ROLF-GOOD-FORTUNE-INTENSE",
 "marca":"VIKTOR AND ROLF",
 "nombre":"& ROLF GOOD FORTUNE INTENSE",
-"nombreOriginal":"VIKTOR & ROLF GOOD FORTUNE INTENSE",
+"nombreOriginal":"VIKTOR AND ROLF & ROLF GOOD FORTUNE INTENSE",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"VIKTOR & ROLF GOOD FORTUNE INTENSE PARFUM 50 ML EDP.jpg",
 "variantes":[
 {
@@ -19673,13 +16768,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PACO RABANNE BLACK XS ROSE WOMAN",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"PACO RABANNE BLACK XS ROSE WOMAN 80ML EDT.jpg",
 "variantes":[
 {
@@ -19699,13 +16788,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"HUGO BOSS THE SCENT FOR HER",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"HUGO BOSS THE SCENT FOR HER 100ML EDP.jpg",
 "variantes":[
 {
@@ -19722,17 +16805,10 @@ const PRODUCTOS_DB = [
 "key":"CAROLINA-HERRERA__CH-WOMAN",
 "marca":"CAROLINA HERRERA",
 "nombre":"CH WOMAN",
-"nombreOriginal":"TESTER CAROLINA HERRERA CH WOMAN",
+"nombreOriginal":"CAROLINA HERRERA CH WOMAN",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"TESTER CAROLINA HERRERA CH WOMAN 100 ML EDT.jpg",
 "variantes":[
 {
@@ -19753,13 +16829,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"THIERRY MUGLER ALIEN TALISMAN",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"THIERRY MUGLER TALISMAN PARFUM 60 ML EDP.jpg",
 "variantes":[
 {
@@ -19779,13 +16849,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"EMPORIO ARMANI BECAUSE ITS YOU",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"EMPORIO ARMANI BECAUSE ITS YOU EDP 100ML.jpg",
 "variantes":[
 {
@@ -19813,14 +16877,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"VERSACE YELLOW DIAMOND INTENSE WOMAN",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"VERSACE YELLOW DIAMOND INTENSE WOMAN 90ML EDP.jpg",
 "variantes":[
 {
@@ -19837,16 +16894,10 @@ const PRODUCTOS_DB = [
 "key":"THIERRY-MUGLER__ALIEN",
 "marca":"THIERRY MUGLER",
 "nombre":"ALIEN",
-"nombreOriginal":"MUGLER ALIEN",
+"nombreOriginal":"THIERRY MUGLER ALIEN",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"MUGLER ALIEN EDP 90 ML.jpg",
 "variantes":[
 {
@@ -19863,15 +16914,25 @@ const PRODUCTOS_DB = [
 "key":"THIERRY-MUGLER__ANGEL",
 "marca":"THIERRY MUGLER",
 "nombre":"ANGEL",
-"nombreOriginal":"MUGLER ANGEL MUJER",
+"nombreOriginal":"THIERRY MUGLER ANGEL",
 "categoria":"MUJER",
 "coleccion":"disenador",
 "notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
+"Algodón de azúcar",
+"coco",
+"casis",
+"melón",
+"jazmín",
+"bergamota",
+"miel",
+"bayas rojas",
+"zarzamora",
+"ciruela",
+"pachulí",
+"chocolate",
+"caramelo",
+"vainilla",
+"haba tonka"
 ],
 "foto":"THIERRY MUGLER ANGEL MUGLER PARFUM 25 ML EDP.jpg",
 "variantes":[
@@ -19897,17 +16958,10 @@ const PRODUCTOS_DB = [
 "key":"DOLCE-AND-GABBANA__Q-BY",
 "marca":"DOLCE & GABBANA",
 "nombre":"Q BY",
-"nombreOriginal":"DOLCE & GABBANA Q BY MUJER",
+"nombreOriginal":"DOLCE & GABBANA Q BY",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"DOLCE & GABBANA Q BY MUJER 100ML EDT.jpg",
 "variantes":[
 {
@@ -19924,16 +16978,10 @@ const PRODUCTOS_DB = [
 "key":"DOLCE-AND-GABBANA__DEVOTION-INTENSE",
 "marca":"DOLCE & GABBANA",
 "nombre":"DEVOTION INTENSE",
-"nombreOriginal":"DOLCE Y GABBANA DEVOTION INTENSE",
+"nombreOriginal":"DOLCE & GABBANA DEVOTION INTENSE",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"DOLCE Y GABBANA DEVOTIONEDP INTENSE 100ML.jpg",
 "variantes":[
 {
@@ -19950,16 +16998,10 @@ const PRODUCTOS_DB = [
 "key":"GIVENCHY__ANGE-OU-DEMON",
 "marca":"GIVENCHY",
 "nombre":"ANGE OU DEMON",
-"nombreOriginal":"GIVENCHY ANGE OU DEMON MUJER",
+"nombreOriginal":"GIVENCHY ANGE OU DEMON",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"GIVENCHY ANGE OU DEMON MUJER 100ML EDP.jpg",
 "variantes":[
 {
@@ -19979,13 +17021,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"GIVENCHY VERY IRRESISTIBLE",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"GIVENCHY VERY IRRESISTIBLE 100 ML EDT.jpg",
 "variantes":[
 {
@@ -20005,13 +17041,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"NARCISO RODRIGUEZ MUSC NOIR FOR HER",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"NARCISO RODRIGUEZ MUSC NOIR FOR HER 100ML EDP.jpg",
 "variantes":[
 {
@@ -20028,17 +17058,10 @@ const PRODUCTOS_DB = [
 "key":"THIERRY-MUGLER__ALIEN-GODDESS-SUPRAFLORALE",
 "marca":"THIERRY MUGLER",
 "nombre":"ALIEN GODDESS SUPRAFLORALE",
-"nombreOriginal":"MUGLER ALIEN GODDESS SUPRAFLORALE",
+"nombreOriginal":"THIERRY MUGLER ALIEN GODDESS SUPRAFLORALE",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"MUGLER ALIEN GODDES SUPRAFLORALE 90 ML EDP.jpg",
 "variantes":[
 {
@@ -20058,13 +17081,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"EMPORIO ARMANI DIAMONDS WOMAN",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"EMPORIO ARMANI DIAMONS WOMAN 100ML EDP.jpg",
 "variantes":[
 {
@@ -20081,16 +17098,10 @@ const PRODUCTOS_DB = [
 "key":"THIERRY-MUGLER__ALIEN-GODDESS",
 "marca":"THIERRY MUGLER",
 "nombre":"ALIEN GODDESS",
-"nombreOriginal":"THIERRY MUGLER ALIEN GODDESS MUJER",
+"nombreOriginal":"THIERRY MUGLER ALIEN GODDESS",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"THIERRY MUGLER ALIEN GODDNES MUJER 90ML EDP.jpg",
 "variantes":[
 {
@@ -20107,17 +17118,10 @@ const PRODUCTOS_DB = [
 "key":"VIKTOR-AND-ROLF__FLOWERBOMB-SET-LOTION",
 "marca":"VIKTOR AND ROLF",
 "nombre":"FLOWERBOMB SET + LOTION +",
-"nombreOriginal":"VIKTOR Y ROLF FLOWERBOMB SET + LOTION +",
+"nombreOriginal":"VIKTOR AND ROLF FLOWERBOMB SET + LOTION +",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"VIKTOR Y ROLF FLOWERBOMB SETT 1OOML EDP + BODY LOTION +10ML.jpg",
 "variantes":[
 {
@@ -20137,13 +17141,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BURBERRY HER INTENSE",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"BURBERRY HER EDP INTENSE 50ML.jpg",
 "variantes":[
 {
@@ -20163,13 +17161,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PACO RABANNE LADY MILLION",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"PACO RABANNE LADY MILLION 80ML EDP.jpg",
 "variantes":[
 {
@@ -20189,14 +17181,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PACO RABANNE OLYMPEA WOMAN",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"PACO RABANNE OLYMPEA WOMAN 80ML EDP.jpg",
 "variantes":[
 {
@@ -20216,13 +17201,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"RALPH LAUREN ROMANCE WOMAN",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"RALPH LAUREN ROMANCE WOMAN 100ML EDP.jpg",
 "variantes":[
 {
@@ -20239,16 +17218,10 @@ const PRODUCTOS_DB = [
 "key":"BURBERRY__HER",
 "marca":"BURBERRY",
 "nombre":"HER",
-"nombreOriginal":"BURBERRY HER MUJER",
+"nombreOriginal":"BURBERRY HER",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"BURBERRY HER MUJER 100 ML EDT.jpg",
 "variantes":[
 {
@@ -20268,14 +17241,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"THIERRY MUGLER ALIEN HYPERSENSE",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"THIERRY MUGLER ALIEN HYPERSENSE PARFUM MUJER 90ML EDP.jpg",
 "variantes":[
 {
@@ -20295,13 +17261,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"JEAN PAUL GAULTIER CLASSIQUE",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"JEAN PAUL GULTIER CLASSIQUE EDT 100ML.jpg",
 "variantes":[
 {
@@ -20321,13 +17281,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"CAROLINA HERRERA 212 NYC WOMAN",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"CAROLINA HERRERA 212 NYC WOMAN EDT 100ML.jpg",
 "variantes":[
 {
@@ -20347,14 +17301,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"CAROLINA HERRERA 212 VIP ROSE",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"CAROLINA HERRERA 212 VIP ROSE 80ML EDP.jpg",
 "variantes":[
 {
@@ -20403,16 +17350,10 @@ const PRODUCTOS_DB = [
 "key":"BURBERRY__GODDESS",
 "marca":"BURBERRY",
 "nombre":"GODDESS",
-"nombreOriginal":"BURBERRY GODDESS MUJER",
+"nombreOriginal":"BURBERRY GODDESS",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"BURBERRY GODDNES MUJER 100ML EDP.jpg",
 "variantes":[
 {
@@ -20432,14 +17373,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"CAROLINA HERRERA CH + + LOTION",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"CAROLINA HERRERA CH EDT 100ML+ 10ML +BODY LOTION.jpg",
 "variantes":[
 {
@@ -20459,13 +17393,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"CAROLINA HERRERA CH WOMAN ROJO NUEVA PRES.",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"CAROLINA HERRERA CH WOMAN ROJO NUEVA PRES..jpg",
 "variantes":[
 {
@@ -20482,16 +17410,10 @@ const PRODUCTOS_DB = [
 "key":"THIERRY-MUGLER__ALIEN-PULP-TESTER",
 "marca":"THIERRY MUGLER",
 "nombre":"ALIEN PULP TESTER",
-"nombreOriginal":"MUGLER ALIEN PULP TESTER",
+"nombreOriginal":"THIERRY MUGLER ALIEN PULP TESTER",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"MUGLER ALIEN PULP EDP 100ML TESTER.jpg",
 "variantes":[
 {
@@ -20512,14 +17434,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"JEAN PAUL GAULTIER SCANDAL LE PARFUM INTENSE",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"JEAN PAUL GALTIER SCANDAL LE PARFAM INTENSE EDP 50ML.jpg",
 "variantes":[
 {
@@ -20536,16 +17451,10 @@ const PRODUCTOS_DB = [
 "key":"CHANEL-POUR__POUR-MONSIEUR",
 "marca":"CHANEL POUR",
 "nombre":"POUR MONSIEUR",
-"nombreOriginal":"TESTER CHANEL POUR MONSIEUR MUJER",
+"nombreOriginal":"CHANEL POUR POUR MONSIEUR",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"TESTER CHANEL POUR MONSIEUR MUJER 100ML EDT.jpg",
 "variantes":[
 {
@@ -20566,13 +17475,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"CAROLINA HERRERA 212 HEROES FOREVER YOUNG",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"CAROLINA HERRERA 212 HEROES FOREVER YOUNG MUJER 80 ML EDT.jpg",
 "variantes":[
 {
@@ -20592,14 +17495,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"LANCOME LA VIE EST BELLE TRADICIONAL",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"LANCOME LA VIE EST BELLE TRADICIONAL 100ML EDP.jpg",
 "variantes":[
 {
@@ -20619,13 +17515,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"GIORGIO ARMANI SI PASSIONE WOMAN",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"GIORGIO ARMANI SI PASSSIONE WOMAN 100ML EDP.jpg",
 "variantes":[
 {
@@ -20674,17 +17564,10 @@ const PRODUCTOS_DB = [
 "key":"YVES-SAINT-LAURENT__BLACK-OPIUM",
 "marca":"YVES SAINT LAURENT",
 "nombre":"BLACK OPIUM",
-"nombreOriginal":"YVES SAINT LAURENT BLACK OPIUM MUJER",
+"nombreOriginal":"YVES SAINT LAURENT BLACK OPIUM",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"YVES SAINT LAURENT BLACK OPIUM MUJER 90 ML EDP.jpg",
 "variantes":[
 {
@@ -20704,13 +17587,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BURBERRY GODDESS INTENSE",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"BURBERRY GODDESS EDP INTENSE 100ML.jpg",
 "variantes":[
 {
@@ -20730,14 +17607,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"LANCOME TRESOR",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"LANCOME TRESOR 100ML EDP.jpg",
 "variantes":[
 {
@@ -20757,13 +17627,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"CAROLINA HERRERA BLUSH ELIXIR",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"CAROLINA HERRERA BLUSH ELIXIR.jpg",
 "variantes":[
 {
@@ -20812,17 +17676,10 @@ const PRODUCTOS_DB = [
 "key":"YVES-SAINT-LAURENT__LIBRE",
 "marca":"YVES SAINT LAURENT",
 "nombre":"LIBRE",
-"nombreOriginal":"YVES SAINT LAURENT LIBRE MUJER",
+"nombreOriginal":"YVES SAINT LAURENT LIBRE",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"YVES SAINT LAURENT LIBRE MUJER 90 ML EDP.jpg",
 "variantes":[
 {
@@ -20842,13 +17699,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"LANCOME LA VIE EST BELLE ELIXIR WOMAN",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"LANCOM LA VIE EST BELLE ELIXIR WOMAN EDP 100ML.jpg",
 "variantes":[
 {
@@ -20868,13 +17719,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"JEAN PAUL GAULTIER SCANDAL INTENSE",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"JEAN PAUL GAULTIER SCANDAL EDP INTENSE 100ML.jpg",
 "variantes":[
 {
@@ -20894,14 +17739,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"CAROLINA HERRERA LA BOMBA",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"CAROLINA HERRERA LA BOMBA EDP 100ML.jpg",
 "variantes":[
 {
@@ -20921,13 +17759,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"CHRISTIAN DIOR MISS DIOR BLOOMING BOUQUET",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"CRHISTIAN DIOR MISS DIOR BLOOMING BOUQUET EDT 100ML.jpg",
 "variantes":[
 {
@@ -20947,13 +17779,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"CALVIN KLEIN CK ONE",
 "categoria":"UNISEX",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"CALVIN KLEIN CK ONE 15ML.jpg",
 "variantes":[
 {
@@ -20973,14 +17799,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"ZAK TURAB AL DHAHAB",
 "categoria":"UNISEX",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"ZAK TURAB AL DHAHAB EDP 100ML.jpg",
 "variantes":[
 {
@@ -21000,13 +17819,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"CAVIOLI PARFUM CASANOVA ELIXIR",
 "categoria":"UNISEX",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"CAVIOLI PARFUM CASANOVA ELIXIR 100ML.jpg",
 "variantes":[
 {
@@ -21034,13 +17847,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"CALVIN KLEIN CK BE TESTER",
 "categoria":"UNISEX",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"CALVIN KLEIN CK BE TESTER EDT 100ML.jpg",
 "variantes":[
 {
@@ -21058,17 +17865,10 @@ const PRODUCTOS_DB = [
 "key":"CALVIN-KLEIN__CK-ONE-ESSENCE-FY26",
 "marca":"CALVIN KLEIN",
 "nombre":"CK ONE ESSENCE FY26",
-"nombreOriginal":"TESTER CALVIN KLEIN CK ONE ESSENCE FY26",
+"nombreOriginal":"CALVIN KLEIN CK ONE ESSENCE FY26",
 "categoria":"UNISEX",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"TESTER CALVIN KLEIN CK ONE ESSENCE FY26 EDT 100ML.jpg",
 "variantes":[
 {
@@ -21089,13 +17889,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"CALVIN KLEIN CK BE UNISEX CAJA NEGRA",
 "categoria":"UNISEX",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"CALVIN KLEIN CK BE 200ML UNISEX CAJA NEGRA EDT.jpg",
 "variantes":[
 {
@@ -21123,14 +17917,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"VOUX ELEGANTE",
 "categoria":"UNISEX",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"VOUX ELEGANTE 100ML EDP.jpg",
 "variantes":[
 {
@@ -21147,17 +17934,10 @@ const PRODUCTOS_DB = [
 "key":"THIERRY-MUGLER__TAKE-ME-OUT",
 "marca":"THIERRY MUGLER",
 "nombre":"TAKE ME OUT",
-"nombreOriginal":"THIERRY MUGLER COLOGNE TAKE ME OUT",
+"nombreOriginal":"THIERRY MUGLER TAKE ME OUT",
 "categoria":"UNISEX",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"THIERRY MUGLER COLOGNE TAKE ME OUT 100ML EDT.jpg",
 "variantes":[
 {
@@ -21174,16 +17954,10 @@ const PRODUCTOS_DB = [
 "key":"THIERRY-MUGLER__RUN-FREE",
 "marca":"THIERRY MUGLER",
 "nombre":"RUN FREE",
-"nombreOriginal":"THIERRY MUGLER COLOGNE RUN FREE",
+"nombreOriginal":"THIERRY MUGLER RUN FREE",
 "categoria":"UNISEX",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"THIERRY MUGLER COLOGNE RUN FREE.jpg",
 "variantes":[
 {
@@ -21203,13 +17977,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"JEAN PAUL GAULTIER LE MALE PRIDE",
 "categoria":"UNISEX",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"JEAN PAUL GAULTIER LE MALE PRIDE 125ML.jpg",
 "variantes":[
 {
@@ -21226,17 +17994,10 @@ const PRODUCTOS_DB = [
 "key":"JO-MILANO__GAME-OF-SPADES-BONUS",
 "marca":"JO MILANO",
 "nombre":"GAME OF SPADES BONUS",
-"nombreOriginal":"GAME OF SPADES BONUS",
+"nombreOriginal":"JO MILANO GAME OF SPADES BONUS",
 "categoria":"UNISEX",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"GAME OF SPADES BONUS PARFUM 100ML.jpg",
 "variantes":[
 {
@@ -21253,16 +18014,10 @@ const PRODUCTOS_DB = [
 "key":"JO-MILANO__GAME-OF-SPADES-DOBLE-BONUS",
 "marca":"JO MILANO",
 "nombre":"GAME OF SPADES DOBLE BONUS",
-"nombreOriginal":"GAME OF SPADES DOBLE BONUS",
+"nombreOriginal":"JO MILANO GAME OF SPADES DOBLE BONUS",
 "categoria":"UNISEX",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"GAME OF SPADES DOBLE BONUS PARFUM 100ML.jpg",
 "variantes":[
 {
@@ -21282,13 +18037,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"JO MILANO GAME OF SPADES BLIND-BID",
 "categoria":"UNISEX",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"JO MILANO GAME OF SPADES BLIND-BID PARFUM 100ML.jpg",
 "variantes":[
 {
@@ -21308,14 +18057,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"JO MILANO FULL-HOUSE UNISEX",
 "categoria":"UNISEX",
 "coleccion":"disenador",
-"notas":[
-"Almendra tostada",
-"Café arábica",
-"Nardos blancos",
-"Cacao tostado",
-"Jazmín sambac",
-"Vainilla"
-],
+"notas":[],
 "foto":"JO MILANO FULL- HOUSE PARFUM 100ML UNISEX.jpg",
 "variantes":[
 {
@@ -21335,13 +18077,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"JO MILANO GAME OF SPADES OPAL",
 "categoria":"UNISEX",
 "coleccion":"disenador",
-"notas":[
-"Bergamota de Calabria",
-"Pimienta negra",
-"Lavanda provenzal",
-"Ambroxan",
-"Madera de cedro"
-],
+"notas":[],
 "foto":"JO MILANO GAME OF SPADES OPAL PARFUM 100ML.jpg",
 "variantes":[
 {
@@ -21361,13 +18097,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"GIORGIO ARMANI PRIVE ROSE ALEXANDRIE",
 "categoria":"UNISEX",
 "coleccion":"disenador",
-"notas":[
-"Lavanda aromática",
-"Menta piperita",
-"Vainilla dulce",
-"Haba tonka caramelizada",
-"Miel de abejas"
-],
+"notas":[],
 "foto":"GIORGIO ARMANI PRIVE ROSE ALEXANDRIE WOMAN 100ML EDT.jpg",
 "variantes":[
 {
@@ -21384,17 +18114,10 @@ const PRODUCTOS_DB = [
 "key":"CACHAREL__YES-I-AM-GLORIOUS",
 "marca":"CACHAREL",
 "nombre":"YES I AM GLORIOUS",
-"nombreOriginal":"YES I AM GLORIOUS TESTER",
+"nombreOriginal":"CACHAREL YES I AM GLORIOUS",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Grosella negra",
-"Abedul ahumado",
-"Jazmín marroquí",
-"Cuero noble",
-"Vainilla de Madagascar",
-"Vetiver"
-],
+"notas":[],
 "foto":"YES I AM GLORIOUS EDP 50 ML TESTER.jpg",
 "variantes":[
 {
@@ -21412,18 +18135,10 @@ const PRODUCTOS_DB = [
 "key":"CACHAREL__YES-I-AM-FABULOUS",
 "marca":"CACHAREL",
 "nombre":"YES I AM FABULOUS",
-"nombreOriginal":"YES I AM FABULOUS TESTER",
+"nombreOriginal":"CACHAREL YES I AM FABULOUS",
 "categoria":"MUJER",
 "coleccion":"disenador",
-"notas":[
-"Lichi exótico",
-"Rosa turca de Grasse",
-"Peonía",
-"Ruibarbo",
-"Almizcle blanco",
-"Vainilla",
-"Incienso"
-],
+"notas":[],
 "foto":"YES I AM FABULUS EDP 50ML TESTER.jpg",
 "variantes":[
 {
@@ -21444,13 +18159,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"NASOMATTO NARCOTIC V",
 "categoria":"MUJER",
 "coleccion":"nicho",
-"notas":[
-"Frutas mediterráneas",
-"Naranja siciliana",
-"Bergamota calabresa",
-"Almizcle puro",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"NASOMATTO NARCOTIC V EXTRAIT PARFUM 30ML.jpg",
 "variantes":[
 {
@@ -21536,7 +18245,7 @@ const PRODUCTOS_DB = [
 "key":"PARFUMS-DE-MARLY__DELINA",
 "marca":"PARFUMS DE MARLY",
 "nombre":"DELINA",
-"nombreOriginal":"PARFUMS DE MARLY PARIS DELINA",
+"nombreOriginal":"PARFUMS DE MARLY DELINA",
 "categoria":"MUJER",
 "coleccion":"nicho",
 "notas":[
@@ -21567,18 +18276,10 @@ const PRODUCTOS_DB = [
 "key":"AMOUAGE__INTERLUDE-JUBILATION-25",
 "marca":"AMOUAGE",
 "nombre":"INTERLUDE JUBILATION 25",
-"nombreOriginal":"AMOUAGE INTERLUDE JUBILATION 25 WOMAN",
+"nombreOriginal":"AMOUAGE INTERLUDE JUBILATION 25",
 "categoria":"MUJER",
 "coleccion":"nicho",
-"notas":[
-"Lichi exótico",
-"Rosa turca de Grasse",
-"Peonía",
-"Ruibarbo",
-"Almizcle blanco",
-"Vainilla",
-"Incienso"
-],
+"notas":[],
 "foto":"AMOUAGE INTERLUDE JUVILATION 25 WOMAN 100 ML.jpg",
 "variantes":[
 {
@@ -21598,13 +18299,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"XERJOFF ELLE",
 "categoria":"MUJER",
 "coleccion":"nicho",
-"notas":[
-"Frutas mediterráneas",
-"Naranja siciliana",
-"Bergamota calabresa",
-"Almizcle puro",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"XERJOFF ELLE PARFUM 100 ML EDP.jpg",
 "variantes":[
 {
@@ -21624,14 +18319,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"CREED AVENTUS FOR HER",
 "categoria":"MUJER",
 "coleccion":"nicho",
-"notas":[
-"Grosella negra",
-"Abedul ahumado",
-"Jazmín marroquí",
-"Cuero noble",
-"Vainilla de Madagascar",
-"Vetiver"
-],
+"notas":[],
 "foto":"CREED AVENTUS FOR HER EDP 240ML.jpg",
 "variantes":[
 {
@@ -21651,15 +18339,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUMS DE MARLY PERSEUS",
 "categoria":"HOMBRE",
 "coleccion":"nicho",
-"notas":[
-"Lichi exótico",
-"Rosa turca de Grasse",
-"Peonía",
-"Ruibarbo",
-"Almizcle blanco",
-"Vainilla",
-"Incienso"
-],
+"notas":[],
 "foto":"PARFUMS DE MARLY PERSEUS EDP 75ML.jpg",
 "variantes":[
 {
@@ -21679,13 +18359,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUMS DE MARLY ALTHAIR",
 "categoria":"HOMBRE",
 "coleccion":"nicho",
-"notas":[
-"Frutas mediterráneas",
-"Naranja siciliana",
-"Bergamota calabresa",
-"Almizcle puro",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PARFUMS DE MARLY ALTHAIR EDP 75ML.jpg",
 "variantes":[
 {
@@ -21705,14 +18379,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"TOM FORD OMBRE LEATHER",
 "categoria":"HOMBRE",
 "coleccion":"nicho",
-"notas":[
-"Grosella negra",
-"Abedul ahumado",
-"Jazmín marroquí",
-"Cuero noble",
-"Vainilla de Madagascar",
-"Vetiver"
-],
+"notas":[],
 "foto":"TOM FORD OMBRE LEATHER EDT 100ML.jpg",
 "variantes":[
 {
@@ -21732,15 +18399,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUMS DE MARLY LAYTON EXCLUSIF",
 "categoria":"HOMBRE",
 "coleccion":"nicho",
-"notas":[
-"Lichi exótico",
-"Rosa turca de Grasse",
-"Peonía",
-"Ruibarbo",
-"Almizcle blanco",
-"Vainilla",
-"Incienso"
-],
+"notas":[],
 "foto":"PARFUMS DE MARLY LAYTON EXCLUSIF PARFUM 75ML.jpg",
 "variantes":[
 {
@@ -21761,11 +18420,18 @@ const PRODUCTOS_DB = [
 "categoria":"HOMBRE",
 "coleccion":"nicho",
 "notas":[
-"Frutas mediterráneas",
-"Naranja siciliana",
-"Bergamota calabresa",
-"Almizcle puro",
-"Ámbar gris"
+"Pimienta rosa",
+"cardamomo",
+"heliotropo",
+"bergamota",
+"almendra amarga",
+"lavanda",
+"geranio",
+"jazmín",
+"vainilla",
+"madera de gaiac",
+"sándalo",
+"ámbar"
 ],
 "foto":"PARFUMS DE MARLY PEGASUS EXCLUSIF MAN 125ML EDP.jpg",
 "variantes":[
@@ -21791,18 +18457,10 @@ const PRODUCTOS_DB = [
 "key":"AMOUAGE__INTERLUDE-BLACK-IRIS-MAN",
 "marca":"AMOUAGE",
 "nombre":"INTERLUDE BLACK IRIS MAN",
-"nombreOriginal":"AMOUAGE INTERLUDE BLACK IRIS MAN MEN",
+"nombreOriginal":"AMOUAGE INTERLUDE BLACK IRIS MAN",
 "categoria":"HOMBRE",
 "coleccion":"nicho",
-"notas":[
-"Lichi exótico",
-"Rosa turca de Grasse",
-"Peonía",
-"Ruibarbo",
-"Almizcle blanco",
-"Vainilla",
-"Incienso"
-],
+"notas":[],
 "foto":"AMOUAGE INTERLUDE BLACK IRIS MAN 100 ML MEN.jpg",
 "variantes":[
 {
@@ -21819,16 +18477,10 @@ const PRODUCTOS_DB = [
 "key":"PARFUMS-DE-MARLY__PERCIVAL",
 "marca":"PARFUMS DE MARLY",
 "nombre":"PERCIVAL",
-"nombreOriginal":"PARFUMS DE MARLY PERCIVAL MAN",
+"nombreOriginal":"PARFUMS DE MARLY PERCIVAL",
 "categoria":"HOMBRE",
 "coleccion":"nicho",
-"notas":[
-"Frutas mediterráneas",
-"Naranja siciliana",
-"Bergamota calabresa",
-"Almizcle puro",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PARFUMS DE MARLY PERCIVAL MAN 125ML EDP.jpg",
 "variantes":[
 {
@@ -21848,14 +18500,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUMS DE MARLY HALTANE",
 "categoria":"HOMBRE",
 "coleccion":"nicho",
-"notas":[
-"Grosella negra",
-"Abedul ahumado",
-"Jazmín marroquí",
-"Cuero noble",
-"Vainilla de Madagascar",
-"Vetiver"
-],
+"notas":[],
 "foto":"PARFUMS DE MARLY HALTANE 125ML EDP.jpg",
 "variantes":[
 {
@@ -21875,15 +18520,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUMS DE MARLY CASTLEY",
 "categoria":"HOMBRE",
 "coleccion":"nicho",
-"notas":[
-"Lichi exótico",
-"Rosa turca de Grasse",
-"Peonía",
-"Ruibarbo",
-"Almizcle blanco",
-"Vainilla",
-"Incienso"
-],
+"notas":[],
 "foto":"PARFUMS DE MARLY CASTLEY EDP 125ML.jpg",
 "variantes":[
 {
@@ -21903,13 +18540,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"AMOUAGE INTERLUDE 53 MAN",
 "categoria":"HOMBRE",
 "coleccion":"nicho",
-"notas":[
-"Frutas mediterráneas",
-"Naranja siciliana",
-"Bergamota calabresa",
-"Almizcle puro",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"AMOUAGE INTERLUDE 53 MAN 100 ML MEN EXTRAIT DE PARFUM.jpg",
 "variantes":[
 {
@@ -21929,14 +18560,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"MONTALE VANILLA CAKE TESTER",
 "categoria":"UNISEX",
 "coleccion":"nicho",
-"notas":[
-"Grosella negra",
-"Abedul ahumado",
-"Jazmín marroquí",
-"Cuero noble",
-"Vainilla de Madagascar",
-"Vetiver"
-],
+"notas":[],
 "foto":"MONTALE VANILLA CAKE 100ML TESTER.jpg",
 "variantes":[
 {
@@ -21957,15 +18581,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"MONTALE PARIS INTENSE CAFE",
 "categoria":"UNISEX",
 "coleccion":"nicho",
-"notas":[
-"Lichi exótico",
-"Rosa turca de Grasse",
-"Peonía",
-"Ruibarbo",
-"Almizcle blanco",
-"Vainilla",
-"Incienso"
-],
+"notas":[],
 "foto":"MONTALE PARIS INTENSE CAFE 100ML EDP.jpg",
 "variantes":[
 {
@@ -21985,13 +18601,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"MANCERA AOUD BLUE NOTES",
 "categoria":"UNISEX",
 "coleccion":"nicho",
-"notas":[
-"Frutas mediterráneas",
-"Naranja siciliana",
-"Bergamota calabresa",
-"Almizcle puro",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"MANCERA AOUD BLUE NOTES 120ML EDP.jpg",
 "variantes":[
 {
@@ -22008,17 +18618,10 @@ const PRODUCTOS_DB = [
 "key":"MANCERA__BLACK-NOIR-PARFUM",
 "marca":"MANCERA",
 "nombre":"BLACK NOIR PARFUM",
-"nombreOriginal":"MANCERA BLACK NOIR PARFUM UNISEX",
+"nombreOriginal":"MANCERA BLACK NOIR PARFUM",
 "categoria":"UNISEX",
 "coleccion":"nicho",
-"notas":[
-"Grosella negra",
-"Abedul ahumado",
-"Jazmín marroquí",
-"Cuero noble",
-"Vainilla de Madagascar",
-"Vetiver"
-],
+"notas":[],
 "foto":"MANCERA BLACK NOIR PARFUM UNISEX 120ML EDP.jpg",
 "variantes":[
 {
@@ -22068,13 +18671,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"MANCERA RED TOBACCO",
 "categoria":"UNISEX",
 "coleccion":"nicho",
-"notas":[
-"Frutas mediterráneas",
-"Naranja siciliana",
-"Bergamota calabresa",
-"Almizcle puro",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"MANCERA RED TOBACCO EDP 120ML.jpg",
 "variantes":[
 {
@@ -22094,14 +18691,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"NASOMATTO BLACK AFGANO",
 "categoria":"UNISEX",
 "coleccion":"nicho",
-"notas":[
-"Grosella negra",
-"Abedul ahumado",
-"Jazmín marroquí",
-"Cuero noble",
-"Vainilla de Madagascar",
-"Vetiver"
-],
+"notas":[],
 "foto":"NASOMATTO BLACK AFGANO EXTRAIT PARFUM 30ML.jpg",
 "variantes":[
 {
@@ -22118,17 +18708,10 @@ const PRODUCTOS_DB = [
 "key":"XERJOFF__TORINO-24",
 "marca":"XERJOFF",
 "nombre":"TORINO 24",
-"nombreOriginal":"XERJOFF TESTER ATP TORINO 24",
+"nombreOriginal":"XERJOFF TORINO 24",
 "categoria":"UNISEX",
 "coleccion":"nicho",
-"notas":[
-"Grosella negra",
-"Abedul ahumado",
-"Jazmín marroquí",
-"Cuero noble",
-"Vainilla de Madagascar",
-"Vetiver"
-],
+"notas":[],
 "foto":"XERJOFF TORINO 24 50ML EDP.jpg",
 "variantes":[
 {
@@ -22149,13 +18732,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"XERJOFF TORINO 23",
 "categoria":"UNISEX",
 "coleccion":"nicho",
-"notas":[
-"Frutas mediterráneas",
-"Naranja siciliana",
-"Bergamota calabresa",
-"Almizcle puro",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"XERJOFF TORINO 23 EDP 50ML.jpg",
 "variantes":[
 {
@@ -22231,13 +18808,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"TOM FORD NOIR UNISEX",
 "categoria":"UNISEX",
 "coleccion":"nicho",
-"notas":[
-"Frutas mediterráneas",
-"Naranja siciliana",
-"Bergamota calabresa",
-"Almizcle puro",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"TOM FORD NOIR UNISEX 100ML EDP.jpg",
 "variantes":[
 {
@@ -22257,15 +18828,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"XERJOFF LA CAPITALE UNISEX",
 "categoria":"UNISEX",
 "coleccion":"nicho",
-"notas":[
-"Lichi exótico",
-"Rosa turca de Grasse",
-"Peonía",
-"Ruibarbo",
-"Almizcle blanco",
-"Vainilla",
-"Incienso"
-],
+"notas":[],
 "foto":"XERJOFF LA CAPITALE UNISEX PARFUM 50ML.jpg",
 "variantes":[
 {
@@ -22286,11 +18849,17 @@ const PRODUCTOS_DB = [
 "categoria":"UNISEX",
 "coleccion":"nicho",
 "notas":[
-"Frutas mediterráneas",
-"Naranja siciliana",
-"Bergamota calabresa",
-"Almizcle puro",
-"Ámbar gris"
+"Ron",
+"maracuyá",
+"bergamota",
+"geranio",
+"pachulí",
+"canela",
+"cuero",
+"sándalo",
+"vainilla",
+"caramelo",
+"almizcle"
 ],
 "foto":"XERJOFF BLENDS TONY IOMMI MONKEY SPECIAL PARFUM 100 ML EDP.jpg",
 "variantes":[
@@ -22319,14 +18888,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"XERJOFF XJ V ACCENTO OVERDOSE",
 "categoria":"UNISEX",
 "coleccion":"nicho",
-"notas":[
-"Grosella negra",
-"Abedul ahumado",
-"Jazmín marroquí",
-"Cuero noble",
-"Vainilla de Madagascar",
-"Vetiver"
-],
+"notas":[],
 "foto":"XERJOFF XJ V ACCENTO OVERDOSE EDP 100ML.jpg",
 "variantes":[
 {
@@ -22346,15 +18908,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"TOM FORD COSTA AZZURRA",
 "categoria":"UNISEX",
 "coleccion":"nicho",
-"notas":[
-"Lichi exótico",
-"Rosa turca de Grasse",
-"Peonía",
-"Ruibarbo",
-"Almizcle blanco",
-"Vainilla",
-"Incienso"
-],
+"notas":[],
 "foto":"TOM FORD COSTA AZZRURA 100ML EDP.jpg",
 "variantes":[
 {
@@ -22374,14 +18928,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"XERJOFF XJ 1861 RENAISSANCE",
 "categoria":"UNISEX",
 "coleccion":"nicho",
-"notas":[
-"Grosella negra",
-"Abedul ahumado",
-"Jazmín marroquí",
-"Cuero noble",
-"Vainilla de Madagascar",
-"Vetiver"
-],
+"notas":[],
 "foto":"XERJOFF XJ 1861 RENAISSANCE PARFUM 100 ML EDP.jpg",
 "variantes":[
 {
@@ -22401,15 +18948,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUMS DE MARLY KALAN",
 "categoria":"UNISEX",
 "coleccion":"nicho",
-"notas":[
-"Lichi exótico",
-"Rosa turca de Grasse",
-"Peonía",
-"Ruibarbo",
-"Almizcle blanco",
-"Vainilla",
-"Incienso"
-],
+"notas":[],
 "foto":"PARFUMS DE MARLY KALAN 125ML EDP.jpg",
 "variantes":[
 {
@@ -22429,13 +18968,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"XERJOFF ERBA GOLD UNISEX",
 "categoria":"UNISEX",
 "coleccion":"nicho",
-"notas":[
-"Frutas mediterráneas",
-"Naranja siciliana",
-"Bergamota calabresa",
-"Almizcle puro",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"XERJOFF ERBA GOLD UNISEX 100ML EDP.jpg",
 "variantes":[
 {
@@ -22455,14 +18988,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"XERJOFF TORINO 21",
 "categoria":"UNISEX",
 "coleccion":"nicho",
-"notas":[
-"Grosella negra",
-"Abedul ahumado",
-"Jazmín marroquí",
-"Cuero noble",
-"Vainilla de Madagascar",
-"Vetiver"
-],
+"notas":[],
 "foto":"XERJOFF TORINO 21 EDP 100ML.jpg",
 "variantes":[
 {
@@ -22482,15 +19008,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUMS DE MARLY GALLOWAY",
 "categoria":"UNISEX",
 "coleccion":"nicho",
-"notas":[
-"Lichi exótico",
-"Rosa turca de Grasse",
-"Peonía",
-"Ruibarbo",
-"Almizcle blanco",
-"Vainilla",
-"Incienso"
-],
+"notas":[],
 "foto":"PARFUMS DE MARLY GALLOWAY 125ML EDP.jpg",
 "variantes":[
 {
@@ -22510,13 +19028,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"PARFUMS DE MARLY CARLISLE",
 "categoria":"UNISEX",
 "coleccion":"nicho",
-"notas":[
-"Frutas mediterráneas",
-"Naranja siciliana",
-"Bergamota calabresa",
-"Almizcle puro",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"PARFUMS DE MARLY CARLISLE EDP 125ML.jpg",
 "variantes":[
 {
@@ -22536,15 +19048,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"INITIO OUD FOR GREATNESS",
 "categoria":"UNISEX",
 "coleccion":"nicho",
-"notas":[
-"Lichi exótico",
-"Rosa turca de Grasse",
-"Peonía",
-"Ruibarbo",
-"Almizcle blanco",
-"Vainilla",
-"Incienso"
-],
+"notas":[],
 "foto":"INITIO OUD FOR GREATNESS EDP 90ML.jpg",
 "variantes":[
 {
@@ -22564,13 +19068,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BOND N9 GREENWICH VILLAGE",
 "categoria":"UNISEX",
 "coleccion":"nicho",
-"notas":[
-"Frutas mediterráneas",
-"Naranja siciliana",
-"Bergamota calabresa",
-"Almizcle puro",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"BOND N9 GREENWICH VILLAGE 100ML.jpg",
 "variantes":[
 {
@@ -22590,14 +19088,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"TOM FORD NEROLI PORTOFINO",
 "categoria":"UNISEX",
 "coleccion":"nicho",
-"notas":[
-"Grosella negra",
-"Abedul ahumado",
-"Jazmín marroquí",
-"Cuero noble",
-"Vainilla de Madagascar",
-"Vetiver"
-],
+"notas":[],
 "foto":"TOM FORD NEROLI PORTOFINO EDP 100ML.jpg",
 "variantes":[
 {
@@ -22617,15 +19108,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BOND N9 NEW YORK ISLAND",
 "categoria":"UNISEX",
 "coleccion":"nicho",
-"notas":[
-"Lichi exótico",
-"Rosa turca de Grasse",
-"Peonía",
-"Ruibarbo",
-"Almizcle blanco",
-"Vainilla",
-"Incienso"
-],
+"notas":[],
 "foto":"BOND N9 NEW YORK ISLAND EDP 100ML.jpg",
 "variantes":[
 {
@@ -22645,13 +19128,7 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"BOND N9 NEW YORK FOREVER ANNIVERSARY",
 "categoria":"UNISEX",
 "coleccion":"nicho",
-"notas":[
-"Frutas mediterráneas",
-"Naranja siciliana",
-"Bergamota calabresa",
-"Almizcle puro",
-"Ámbar gris"
-],
+"notas":[],
 "foto":"BOND N9 NEW YORK FOREVER ANIVERSARY 100ML.jpg",
 "variantes":[
 {
