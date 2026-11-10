@@ -2,7 +2,7 @@
 // productos.js — ARCHIVO GENERADO AUTOMÁTICAMENTE. NO LO EDITES A MANO.
 // La fuente del catálogo es catalogo.xlsx. Para cambiar un perfume:
 //   1) edita catalogo.xlsx   2) ejecuta ACTUALIZAR_CATALOGO   3) recarga la página
-// Generado: 2026-11-10 01:48 · 830 perfumes · 858 versiones
+// Generado: 2026-11-10 02:13 · 830 perfumes · 858 versiones
 // Cada perfume se identifica por su 'key' = MARCA + NOMBRE (sin números de ID)
 // y trae sus 'variantes' (volumen, extrait, tester...) para elegir en el detalle.
 // ============================================================================
@@ -15692,7 +15692,21 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"RASASI HAWAS REINA",
 "categoria":"UNISEX",
 "coleccion":"arabe",
-"notas":[],
+"notas":[
+"damasco",
+"pera",
+"canela",
+"jazmín",
+"flor de azahar",
+"frangipani",
+"coco",
+"café",
+"vainilla",
+"almizcle blanco",
+"sándalo",
+"ámbar",
+"azúcar"
+],
 "foto":"PERFUME RASASI HAWAS REINA UNISEX EDP 100 ML.jpg",
 "variantes":[
 {
@@ -16301,7 +16315,14 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"ANTONIO BANDERAS KING OF SEDUCTION",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[],
+"notas":[
+"bergamota",
+"manzana",
+"cardamomo",
+"notas marinas",
+"cedro",
+"ámbar"
+],
 "foto":"ANTONIO BANDERAS KING OF SEDUCTION EDT 100ML.jpg",
 "variantes":[
 {
@@ -16418,7 +16439,7 @@ const PRODUCTOS_DB = [
 "volumen":"100ML",
 "presentacion":"Perfume solo",
 "precio":20000,
-"precioRetail":28000,
+"precioRetail":69990,
 "foto":""
 }
 ]
@@ -16455,7 +16476,7 @@ const PRODUCTOS_DB = [
 "volumen":"100ML",
 "presentacion":"Perfume solo",
 "precio":22000,
-"precioRetail":31000,
+"precioRetail":99990,
 "foto":""
 }
 ]
@@ -16596,7 +16617,7 @@ const PRODUCTOS_DB = [
 "volumen":"35ML",
 "presentacion":"Perfume solo",
 "precio":23000,
-"precioRetail":32000,
+"precioRetail":39990,
 "foto":"DIESEL ONLY THE BRAVE EDT 35ML.jpg"
 },
 {
@@ -16604,7 +16625,7 @@ const PRODUCTOS_DB = [
 "volumen":"125ML",
 "presentacion":"Perfume solo",
 "precio":58000,
-"precioRetail":81000,
+"precioRetail":119990,
 "foto":""
 }
 ]
@@ -16637,7 +16658,7 @@ const PRODUCTOS_DB = [
 "volumen":"50ML",
 "presentacion":"Perfume solo",
 "precio":23000,
-"precioRetail":32000,
+"precioRetail":89990,
 "foto":""
 },
 {
@@ -16742,7 +16763,7 @@ const PRODUCTOS_DB = [
 "volumen":"150ML",
 "presentacion":"Perfume solo",
 "precio":25000,
-"precioRetail":35000,
+"precioRetail":81990,
 "foto":""
 }
 ]
@@ -17335,7 +17356,7 @@ const PRODUCTOS_DB = [
 "volumen":"75ML",
 "presentacion":"Perfume solo",
 "precio":38000,
-"precioRetail":53000,
+"precioRetail":101990,
 "foto":"RALPH LAUREN POLO RED MAN 75ML EDT.jpg"
 },
 {
@@ -17343,7 +17364,7 @@ const PRODUCTOS_DB = [
 "volumen":"125ML",
 "presentacion":"Perfume solo",
 "precio":47000,
-"precioRetail":66000,
+"precioRetail":137990,
 "foto":""
 }
 ]
@@ -17526,7 +17547,7 @@ const PRODUCTOS_DB = [
 "volumen":"50ML",
 "presentacion":"Perfume solo",
 "precio":49500,
-"precioRetail":69500,
+"precioRetail":98990,
 "foto":""
 }
 ]
@@ -17638,7 +17659,7 @@ const PRODUCTOS_DB = [
 "volumen":"100ML",
 "presentacion":"Perfume solo",
 "precio":52000,
-"precioRetail":73000,
+"precioRetail":139990,
 "foto":""
 }
 ]
@@ -17738,7 +17759,7 @@ const PRODUCTOS_DB = [
 "volumen":"100ML",
 "presentacion":"Perfume solo",
 "precio":54000,
-"precioRetail":75500,
+"precioRetail":149990,
 "foto":""
 }
 ]
@@ -17768,7 +17789,7 @@ const PRODUCTOS_DB = [
 "volumen":"100 ML",
 "presentacion":"Perfume solo",
 "precio":55000,
-"precioRetail":77000,
+"precioRetail":167990,
 "foto":""
 }
 ]
@@ -17801,7 +17822,7 @@ const PRODUCTOS_DB = [
 "volumen":"100ML",
 "presentacion":"Perfume solo",
 "precio":58000,
-"precioRetail":81000,
+"precioRetail":89990,
 "foto":""
 }
 ]
@@ -17832,7 +17853,7 @@ const PRODUCTOS_DB = [
 "volumen":"100ML",
 "presentacion":"Perfume solo",
 "precio":60000,
-"precioRetail":84000,
+"precioRetail":112990,
 "foto":""
 }
 ]
@@ -17896,7 +17917,12 @@ const PRODUCTOS_DB = [
 "nombreOriginal":"DOLCE & GABBANA KING INTENSE",
 "categoria":"HOMBRE",
 "coleccion":"disenador",
-"notas":[],
+"notas":[
+"azafrán",
+"higo",
+"acorde amaderado",
+"cuero"
+],
 "foto":"DOLCE AND GABBANA KING INTENSE HOMBRE 100ML EDP.jpg",
 "variantes":[
 {
@@ -18003,7 +18029,7 @@ const PRODUCTOS_DB = [
 "volumen":"50ML",
 "presentacion":"Perfume solo",
 "precio":62000,
-"precioRetail":87000,
+"precioRetail":94990,
 "foto":""
 }
 ]
@@ -18063,7 +18089,7 @@ const PRODUCTOS_DB = [
 "volumen":"50ML",
 "presentacion":"Perfume solo",
 "precio":63000,
-"precioRetail":88000,
+"precioRetail":111990,
 "foto":""
 }
 ]
@@ -18215,7 +18241,7 @@ const PRODUCTOS_DB = [
 "volumen":"15ML",
 "presentacion":"Set / Pack con regalo",
 "precio":99000,
-"precioRetail":138500,
+"precioRetail":183990,
 "foto":"GIORGIO ARMANI ACQUA DI GIO PROFONDO EDP 100ML+15ML.jpg"
 },
 {
@@ -18223,7 +18249,7 @@ const PRODUCTOS_DB = [
 "volumen":"50ML",
 "presentacion":"Perfume solo",
 "precio":66000,
-"precioRetail":92500,
+"precioRetail":111990,
 "foto":"GIORGIO ARMANI ACQUA DI GIO PROFONDO MEN PARFUM 50ML.jpg"
 },
 {
@@ -18231,7 +18257,7 @@ const PRODUCTOS_DB = [
 "volumen":"100 ML",
 "presentacion":"Perfume solo",
 "precio":82500,
-"precioRetail":115500,
+"precioRetail":154990,
 "foto":""
 }
 ]
@@ -18258,7 +18284,7 @@ const PRODUCTOS_DB = [
 "volumen":"100 ML",
 "presentacion":"Perfume solo",
 "precio":69500,
-"precioRetail":97500,
+"precioRetail":154990,
 "foto":""
 }
 ]
@@ -18285,7 +18311,7 @@ const PRODUCTOS_DB = [
 "volumen":"90 ML",
 "presentacion":"Perfume solo",
 "precio":70000,
-"precioRetail":98000,
+"precioRetail":122990,
 "foto":""
 }
 ]
@@ -18314,7 +18340,7 @@ const PRODUCTOS_DB = [
 "volumen":"125 ML",
 "presentacion":"Perfume solo",
 "precio":71000,
-"precioRetail":99500,
+"precioRetail":157990,
 "foto":""
 }
 ]
@@ -18371,7 +18397,7 @@ const PRODUCTOS_DB = [
 "volumen":"125ML",
 "presentacion":"Perfume solo",
 "precio":74000,
-"precioRetail":103500,
+"precioRetail":147990,
 "foto":""
 }
 ]
@@ -18462,7 +18488,7 @@ const PRODUCTOS_DB = [
 "volumen":"100ML",
 "presentacion":"Perfume solo",
 "precio":75000,
-"precioRetail":105000,
+"precioRetail":129990,
 "foto":""
 }
 ]
@@ -18490,7 +18516,7 @@ const PRODUCTOS_DB = [
 "volumen":"100ML",
 "presentacion":"Perfume solo",
 "precio":75000,
-"precioRetail":105000,
+"precioRetail":132990,
 "foto":""
 }
 ]
@@ -18519,7 +18545,7 @@ const PRODUCTOS_DB = [
 "volumen":"100ML",
 "presentacion":"Perfume solo",
 "precio":75500,
-"precioRetail":105500,
+"precioRetail":117990,
 "foto":""
 }
 ]
@@ -18545,7 +18571,7 @@ const PRODUCTOS_DB = [
 "volumen":"75ML",
 "presentacion":"Perfume solo",
 "precio":76000,
-"precioRetail":106500,
+"precioRetail":106990,
 "foto":""
 }
 ]
@@ -18576,7 +18602,7 @@ const PRODUCTOS_DB = [
 "volumen":"100ML",
 "presentacion":"Perfume solo",
 "precio":78000,
-"precioRetail":109000,
+"precioRetail":147990,
 "foto":""
 }
 ]
@@ -18602,7 +18628,7 @@ const PRODUCTOS_DB = [
 "volumen":"100ML",
 "presentacion":"Perfume solo",
 "precio":82500,
-"precioRetail":115500,
+"precioRetail":129990,
 "foto":""
 }
 ]
@@ -18631,7 +18657,7 @@ const PRODUCTOS_DB = [
 "volumen":"15ML",
 "presentacion":"Set / Pack con regalo",
 "precio":82500,
-"precioRetail":115500,
+"precioRetail":174990,
 "foto":""
 }
 ]
@@ -18689,7 +18715,7 @@ const PRODUCTOS_DB = [
 "volumen":"100ML",
 "presentacion":"Perfume solo",
 "precio":85000,
-"precioRetail":119000,
+"precioRetail":142990,
 "foto":""
 }
 ]
@@ -18750,7 +18776,7 @@ const PRODUCTOS_DB = [
 "volumen":"100ML",
 "presentacion":"Perfume solo",
 "precio":87000,
-"precioRetail":122000,
+"precioRetail":160990,
 "foto":""
 }
 ]
@@ -18779,7 +18805,7 @@ const PRODUCTOS_DB = [
 "volumen":"100ML",
 "presentacion":"Perfume solo",
 "precio":88000,
-"precioRetail":123000,
+"precioRetail":170990,
 "foto":""
 }
 ]
@@ -18955,7 +18981,7 @@ const PRODUCTOS_DB = [
 "volumen":"125ML",
 "presentacion":"Perfume solo",
 "precio":106000,
-"precioRetail":148500,
+"precioRetail":155990,
 "foto":""
 }
 ]
@@ -18984,7 +19010,7 @@ const PRODUCTOS_DB = [
 "volumen":"125ML",
 "presentacion":"Perfume solo",
 "precio":115000,
-"precioRetail":161000,
+"precioRetail":165300,
 "foto":""
 }
 ]
@@ -19013,7 +19039,7 @@ const PRODUCTOS_DB = [
 "volumen":"100ML",
 "presentacion":"Perfume solo",
 "precio":140000,
-"precioRetail":196000,
+"precioRetail":181800,
 "foto":""
 }
 ]
@@ -19042,7 +19068,7 @@ const PRODUCTOS_DB = [
 "volumen":"200ML",
 "presentacion":"Perfume solo",
 "precio":155000,
-"precioRetail":217000,
+"precioRetail":206100,
 "foto":""
 }
 ]
@@ -19073,7 +19099,7 @@ const PRODUCTOS_DB = [
 "volumen":"60ML",
 "presentacion":"Perfume solo",
 "precio":165000,
-"precioRetail":231000,
+"precioRetail":219300,
 "foto":""
 }
 ]
@@ -20074,7 +20100,7 @@ const PRODUCTOS_DB = [
 "volumen":"30ML",
 "presentacion":"Perfume solo",
 "precio":26300,
-"precioRetail":37000,
+"precioRetail":53990,
 "foto":""
 },
 {
@@ -20082,7 +20108,7 @@ const PRODUCTOS_DB = [
 "volumen":"90ML",
 "presentacion":"Perfume solo",
 "precio":61000,
-"precioRetail":85500,
+"precioRetail":121990,
 "foto":""
 }
 ]
@@ -20275,7 +20301,7 @@ const PRODUCTOS_DB = [
 "volumen":"100 ML",
 "presentacion":"Perfume solo",
 "precio":41000,
-"precioRetail":57500,
+"precioRetail":97990,
 "foto":""
 }
 ]
@@ -20419,7 +20445,7 @@ const PRODUCTOS_DB = [
 "volumen":"100ML",
 "presentacion":"Perfume solo",
 "precio":47000,
-"precioRetail":66000,
+"precioRetail":112990,
 "foto":""
 }
 ]
@@ -20565,7 +20591,7 @@ const PRODUCTOS_DB = [
 "volumen":"50 ML",
 "presentacion":"Perfume solo",
 "precio":51000,
-"precioRetail":71500,
+"precioRetail":142990,
 "foto":"GUCCI GUILTY POUR FEMME 50 ML EDT.jpg"
 },
 {
@@ -20573,7 +20599,7 @@ const PRODUCTOS_DB = [
 "volumen":"90 ML",
 "presentacion":"Perfume solo",
 "precio":68000,
-"precioRetail":95000,
+"precioRetail":152990,
 "foto":""
 }
 ]
@@ -20629,7 +20655,7 @@ const PRODUCTOS_DB = [
 "volumen":"100ML",
 "presentacion":"Perfume solo",
 "precio":53500,
-"precioRetail":75000,
+"precioRetail":149990,
 "foto":""
 },
 {
@@ -20808,7 +20834,7 @@ const PRODUCTOS_DB = [
 "volumen":"60 ML",
 "presentacion":"Perfume solo",
 "precio":58000,
-"precioRetail":81000,
+"precioRetail":134990,
 "foto":""
 }
 ]
@@ -20902,7 +20928,7 @@ const PRODUCTOS_DB = [
 "volumen":"90 ML",
 "presentacion":"Perfume solo",
 "precio":60500,
-"precioRetail":84500,
+"precioRetail":179990,
 "foto":""
 }
 ]
@@ -20938,7 +20964,7 @@ const PRODUCTOS_DB = [
 "volumen":"25 ML",
 "presentacion":"Perfume solo",
 "precio":66000,
-"precioRetail":92500,
+"precioRetail":74990,
 "foto":""
 },
 {
@@ -20946,7 +20972,7 @@ const PRODUCTOS_DB = [
 "volumen":"50 ML",
 "presentacion":"Perfume solo",
 "precio":60500,
-"precioRetail":84500,
+"precioRetail":109990,
 "foto":""
 }
 ]
@@ -21108,7 +21134,7 @@ const PRODUCTOS_DB = [
 "volumen":"90 ML",
 "presentacion":"Perfume solo",
 "precio":70000,
-"precioRetail":98000,
+"precioRetail":179990,
 "foto":""
 }
 ]
@@ -21164,7 +21190,7 @@ const PRODUCTOS_DB = [
 "volumen":"90ML",
 "presentacion":"Perfume solo",
 "precio":71500,
-"precioRetail":100000,
+"precioRetail":169990,
 "foto":""
 }
 ]
@@ -21249,7 +21275,7 @@ const PRODUCTOS_DB = [
 "volumen":"80ML",
 "presentacion":"Perfume solo",
 "precio":73000,
-"precioRetail":102000,
+"precioRetail":127990,
 "foto":""
 }
 ]
@@ -21277,7 +21303,7 @@ const PRODUCTOS_DB = [
 "volumen":"80ML",
 "presentacion":"Perfume solo",
 "precio":74000,
-"precioRetail":103500,
+"precioRetail":127990,
 "foto":""
 }
 ]
@@ -21341,7 +21367,7 @@ const PRODUCTOS_DB = [
 "volumen":"100 ML",
 "presentacion":"Perfume solo",
 "precio":74000,
-"precioRetail":103500,
+"precioRetail":174990,
 "foto":""
 }
 ]
@@ -21439,7 +21465,7 @@ const PRODUCTOS_DB = [
 "volumen":"100ML",
 "presentacion":"Perfume solo",
 "precio":78000,
-"precioRetail":109000,
+"precioRetail":132990,
 "foto":""
 }
 ]
@@ -21466,7 +21492,7 @@ const PRODUCTOS_DB = [
 "volumen":"80ML",
 "presentacion":"Perfume solo",
 "precio":79000,
-"precioRetail":110500,
+"precioRetail":137990,
 "foto":""
 }
 ]
@@ -21523,7 +21549,7 @@ const PRODUCTOS_DB = [
 "volumen":"100ML",
 "presentacion":"Perfume solo",
 "precio":82000,
-"precioRetail":115000,
+"precioRetail":219990,
 "foto":""
 }
 ]
@@ -21707,7 +21733,7 @@ const PRODUCTOS_DB = [
 "volumen":"80 ML",
 "presentacion":"Perfume solo",
 "precio":85000,
-"precioRetail":119000,
+"precioRetail":137990,
 "foto":""
 }
 ]
@@ -21737,7 +21763,7 @@ const PRODUCTOS_DB = [
 "volumen":"100ML",
 "presentacion":"Perfume solo",
 "precio":85000,
-"precioRetail":119000,
+"precioRetail":156990,
 "foto":""
 }
 ]
@@ -21802,7 +21828,7 @@ const PRODUCTOS_DB = [
 "volumen":"80ML",
 "presentacion":"Perfume solo",
 "precio":89000,
-"precioRetail":124500,
+"precioRetail":149990,
 "foto":""
 }
 ]
@@ -21833,7 +21859,7 @@ const PRODUCTOS_DB = [
 "volumen":"90 ML",
 "presentacion":"Perfume solo",
 "precio":90000,
-"precioRetail":126000,
+"precioRetail":170990,
 "foto":""
 }
 ]
@@ -21858,7 +21884,7 @@ const PRODUCTOS_DB = [
 "volumen":"100ML",
 "presentacion":"Perfume solo",
 "precio":93000,
-"precioRetail":130000,
+"precioRetail":219990,
 "foto":""
 }
 ]
@@ -21944,7 +21970,7 @@ const PRODUCTOS_DB = [
 "volumen":"80 ML",
 "presentacion":"Perfume solo",
 "precio":95000,
-"precioRetail":133000,
+"precioRetail":159990,
 "foto":""
 }
 ]
@@ -21972,7 +21998,7 @@ const PRODUCTOS_DB = [
 "volumen":"90 ML",
 "presentacion":"Perfume solo",
 "precio":95000,
-"precioRetail":133000,
+"precioRetail":176990,
 "foto":""
 }
 ]
@@ -22000,7 +22026,7 @@ const PRODUCTOS_DB = [
 "volumen":"100ML",
 "presentacion":"Perfume solo",
 "precio":96000,
-"precioRetail":134500,
+"precioRetail":165990,
 "foto":""
 }
 ]
@@ -22675,7 +22701,7 @@ const PRODUCTOS_DB = [
 "volumen":"30ML",
 "presentacion":"Perfume solo",
 "precio":180000,
-"precioRetail":255500,
+"precioRetail":364990,
 "foto":""
 },
 {
@@ -22711,7 +22737,7 @@ const PRODUCTOS_DB = [
 "volumen":"30ML",
 "presentacion":"Perfume solo",
 "precio":195000,
-"precioRetail":277000,
+"precioRetail":355990,
 "foto":""
 }
 ]
@@ -22742,7 +22768,7 @@ const PRODUCTOS_DB = [
 "volumen":"75ML",
 "presentacion":"Perfume solo",
 "precio":285000,
-"precioRetail":404500,
+"precioRetail":473990,
 "foto":""
 }
 ]
@@ -22876,7 +22902,7 @@ const PRODUCTOS_DB = [
 "volumen":"75ML",
 "presentacion":"Perfume solo",
 "precio":220000,
-"precioRetail":312500,
+"precioRetail":391990,
 "foto":""
 }
 ]
@@ -22934,7 +22960,7 @@ const PRODUCTOS_DB = [
 "volumen":"100ML",
 "presentacion":"Perfume solo",
 "precio":250000,
-"precioRetail":355000,
+"precioRetail":399990,
 "foto":""
 }
 ]
@@ -23145,7 +23171,7 @@ const PRODUCTOS_DB = [
 "volumen":"125ML",
 "presentacion":"Perfume solo",
 "precio":330000,
-"precioRetail":468500,
+"precioRetail":513990,
 "foto":""
 }
 ]
@@ -23687,7 +23713,7 @@ const PRODUCTOS_DB = [
 "volumen":"100ML",
 "presentacion":"Perfume solo",
 "precio":205000,
-"precioRetail":291000,
+"precioRetail":355990,
 "foto":""
 }
 ]
