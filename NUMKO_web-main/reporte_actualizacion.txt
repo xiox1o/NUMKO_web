@@ -1,0 +1,32 @@
+REPORTE DE ACTUALIZACIÓN · 2026-11-09 22:14
+======================================================================
+Filas en el Excel: 854
+Perfumes publicados en la web: 830 (con 858 versiones en total)
+Filas ocultas (MOSTRAR = NO): 0
+Fotos disponibles en fotos/: 848
+Perfumes con foto: 830
+Perfumes SIN foto: 0
+
+
+## AVISOS DE DATOS (revisar, no bloquean) (3)
+ - fila 582 (CALVIN KLEIN CK IN2U): el tester no tiene descuento (precio tester 18000, retail tester None)
+ - fila 690 (CACHAREL ANAIS ANAIS): el tester no tiene descuento (precio tester 26500, retail tester None)
+ - fila 788 (CALVIN KLEIN CK ONE): el tester no tiene descuento (precio tester 20000, retail tester None)
+
+## Mismo nombre con distinta CATEGORÍA: salen como perfumes separados (si es el mismo, unifica la categoría en el Excel) (3)
+ - LE CHAMEAU ARABIA HAYA: MUJER (fila 130) / UNISEX (fila 203)
+ - DAVIDOFF COOL WATER REBORN: HOMBRE (fila 586) / MUJER (fila 695)
+ - CAROLINA HERRERA 212 HEROES FOREVER YOUNG: HOMBRE (fila 649) / MUJER (fila 774)
+
+## Nombres parecidos de la misma marca (si es el mismo perfume, escríbelos igual en el Excel para que se junten) (4)
+ - LATTAFA: YARA  /  YARA WOMAN
+ - CALVIN KLEIN: CK IN2U HER  /  CKIN2U
+ - GIORGIO ARMANI: ACQUA DI GIO  /  ACQUA DI GIO MAN  /  ACQUA DI GIO MEN
+ - XERJOFF: ERBA PURA  /  ERBA PURA UNISEX
+
+## Foto asignada por parecido de nombre (confirma que sea la correcta) (2)
+ - fila 100 ORIENTICA LE MOTIF WILD NEROLI 85 ML  →  PERFUME LE MOTIF WILD NEROLI ORIENTICA HOMBRE EDP 85 ML.jpg
+ - fila 101 ORIENTICA CUIR 90 ML  →  PERFUME CUIR DE ORIENTICA HOMBRE EDP 90 ML.jpg
+
+## Fotos compartidas por varios perfumes distintos (1)
+ - LATAFFA YARA WOMAN 100ML EDP.jpg: LATTAFA__YARA / LATTAFA__YARA-WOMAN
